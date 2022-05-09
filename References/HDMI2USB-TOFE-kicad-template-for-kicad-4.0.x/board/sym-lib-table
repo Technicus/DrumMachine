@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name "TOFE-Expansion-Board-rescue")(type "Legacy")(uri "${KIPRJMOD}/TOFE-Expansion-Board-rescue.lib")(options "")(descr ""))
+  (lib (name "TOFE")(type "Legacy")(uri "/home/technicus/Projects/Electronics/DrumMachine/Repository/References/HDMI2USB-TOFE-kicad-template-for-kicad-4.0.x/libraries/TOFE.lib")(options "")(descr ""))
+  (lib (name "EEPROM")(type "Legacy")(uri "/home/technicus/Projects/Electronics/DrumMachine/Repository/References/HDMI2USB-TOFE-kicad-template-for-kicad-4.0.x/libraries/EEPROM.lib")(options "")(descr ""))
+)
