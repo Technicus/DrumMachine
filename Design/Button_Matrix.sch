@@ -1,0 +1,1448 @@
+EESchema Schematic File Version 4
+LIBS:Drum_Machine_V00-cache
+EELAYER 26 0
+EELAYER END
+$Descr USLetter 8500 11000 portrait
+encoding utf-8
+Sheet 5 7
+Title "Drum Machine"
+Date "2018-06-15"
+Rev "V00"
+Comp "Prototype Engineering Studio LLC"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Drum_Machine_V00-rescue:74LS165-74xx U6
+U 1 1 611E40A5
+P 6200 7900
+F 0 "U6" V 6650 7300 50  0000 C CNN
+F 1 "74LS165" V 6650 7750 50  0000 C CNN
+F 2 "" H 6200 7900 50  0001 C CNN
+F 3 "" H 6200 7900 50  0001 C CNN
+	1    6200 7900
+	0    -1   1    0   
+$EndComp
+$Comp
+L Drum_Machine_V00-rescue:S_Tac-Drum_Machine_V01 SW5
+U 1 1 611E5D16
+P 1500 5900
+F 0 "SW5" H 1500 5780 39  0000 C CNN
+F 1 "S_Tac" H 1500 6100 39  0000 C CNN
+F 2 "" H 1500 6100 39  0001 C CNN
+F 3 "" H 1500 6100 39  0001 C CNN
+	1    1500 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Drum_Machine_V00-rescue:D_Schottky_ALT-device D61
+U 1 1 611E6C76
+P 1250 6150
+F 0 "D61" V 1250 6229 50  0000 L CNN
+F 1 "Schottky" V 1295 6229 50  0001 L CNN
+F 2 "" H 1250 6150 50  0001 C CNN
+F 3 "" H 1250 6150 50  0001 C CNN
+	1    1250 6150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1300 5950 1250 5950
+Wire Wire Line
+	1250 5950 1250 6000
+$Comp
+L Drum_Machine_V00-rescue:Rotary_Encoder-Drum_Machine_V01 SW8
+U 1 1 611EA081
+P 2900 2850
+F 0 "SW8" H 2850 3100 39  0000 L CNN
+F 1 "Pitch" H 2700 2600 39  0000 L CNN
+F 2 "" H 2900 3100 39  0001 C CNN
+F 3 "" H 2900 3100 39  0001 C CNN
+	1    2900 2850
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Drum_Machine_V00-rescue:Rotary_Encoder-Drum_Machine_V01 SW2
+U 1 1 611EA24C
+P 1400 3900
+F 0 "SW2" H 1350 4150 39  0000 L CNN
+F 1 "Kit" H 1200 3650 39  0000 L CNN
+F 2 "" H 1400 4150 39  0001 C CNN
+F 3 "" H 1400 4150 39  0001 C CNN
+	1    1400 3900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Drum_Machine_V00-rescue:Rotary_Encoder-Drum_Machine_V01 SW1
+U 1 1 611EA27D
+P 1400 2850
+F 0 "SW1" H 1350 3100 39  0000 L CNN
+F 1 "Tempo" H 1200 2600 39  0000 L CNN
+F 2 "" H 1400 3100 39  0001 C CNN
+F 3 "" H 1400 3100 39  0001 C CNN
+	1    1400 2850
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Drum_Machine_V00-rescue:S_Tac-Drum_Machine_V01 SW7
+U 1 1 611EB02D
+P 2250 5900
+F 0 "SW7" H 2250 5780 39  0000 C CNN
+F 1 "S_Tac" H 2250 6100 39  0000 C CNN
+F 2 "" H 2250 6100 39  0001 C CNN
+F 3 "" H 2250 6100 39  0001 C CNN
+	1    2250 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Drum_Machine_V00-rescue:D_Schottky_ALT-device D66
+U 1 1 611EB034
+P 2000 6150
+F 0 "D66" V 2000 6229 50  0000 L CNN
+F 1 "Schottky" V 2045 6229 50  0001 L CNN
+F 2 "" H 2000 6150 50  0001 C CNN
+F 3 "" H 2000 6150 50  0001 C CNN
+	1    2000 6150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2050 5950 2000 5950
+Wire Wire Line
+	2000 5950 2000 6000
+$Comp
+L Drum_Machine_V00-rescue:S_Tac-Drum_Machine_V01 SW11
+U 1 1 611EB116
+P 3000 5900
+F 0 "SW11" H 3000 5780 39  0000 C CNN
+F 1 "S_Tac" H 3000 6100 39  0000 C CNN
+F 2 "" H 3000 6100 39  0001 C CNN
+F 3 "" H 3000 6100 39  0001 C CNN
+	1    3000 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Drum_Machine_V00-rescue:D_Schottky_ALT-device D71
+U 1 1 611EB11D
+P 2750 6150
+F 0 "D71" V 2750 6229 50  0000 L CNN
+F 1 "Schottky" V 2795 6229 50  0001 L CNN
+F 2 "" H 2750 6150 50  0001 C CNN
+F 3 "" H 2750 6150 50  0001 C CNN
+	1    2750 6150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2800 5950 2750 5950
+Wire Wire Line
+	2750 5950 2750 6000
+$Comp
+L Drum_Machine_V00-rescue:S_Tac-Drum_Machine_V01 SW14
+U 1 1 611EB126
+P 3750 5900
+F 0 "SW14" H 3750 5780 39  0000 C CNN
+F 1 "S_Tac" H 3750 6100 39  0000 C CNN
+F 2 "" H 3750 6100 39  0001 C CNN
+F 3 "" H 3750 6100 39  0001 C CNN
+	1    3750 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Drum_Machine_V00-rescue:D_Schottky_ALT-device D76
+U 1 1 611EB12D
+P 3500 6150
+F 0 "D76" V 3500 6229 50  0000 L CNN
+F 1 "Schottky" V 3545 6229 50  0001 L CNN
+F 2 "" H 3500 6150 50  0001 C CNN
+F 3 "" H 3500 6150 50  0001 C CNN
+	1    3500 6150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3550 5950 3500 5950
+Wire Wire Line
+	3500 5950 3500 6000
+$Comp
+L Drum_Machine_V00-rescue:S_Tac-Drum_Machine_V01 SW19
+U 1 1 611EB853
+P 4500 5900
+F 0 "SW19" H 4500 5780 39  0000 C CNN
+F 1 "S_Tac" H 4500 6100 39  0000 C CNN
+F 2 "" H 4500 6100 39  0001 C CNN
+F 3 "" H 4500 6100 39  0001 C CNN
+	1    4500 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Drum_Machine_V00-rescue:D_Schottky_ALT-device D81
+U 1 1 611EB85A
+P 4250 6150
+F 0 "D81" V 4250 6229 50  0000 L CNN
+F 1 "Schottky" V 4295 6229 50  0001 L CNN
+F 2 "" H 4250 6150 50  0001 C CNN
+F 3 "" H 4250 6150 50  0001 C CNN
+	1    4250 6150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4300 5950 4250 5950
+Wire Wire Line
+	4250 5950 4250 6000
+$Comp
+L Drum_Machine_V00-rescue:S_Tac-Drum_Machine_V01 SW24
+U 1 1 611EB863
+P 5250 5900
+F 0 "SW24" H 5250 5780 39  0000 C CNN
+F 1 "S_Tac" H 5250 6100 39  0000 C CNN
+F 2 "" H 5250 6100 39  0001 C CNN
+F 3 "" H 5250 6100 39  0001 C CNN
+	1    5250 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Drum_Machine_V00-rescue:D_Schottky_ALT-device D86
+U 1 1 611EB86A
+P 5000 6150
+F 0 "D86" V 5000 6229 50  0000 L CNN
+F 1 "Schottky" V 5045 6229 50  0001 L CNN
+F 2 "" H 5000 6150 50  0001 C CNN
+F 3 "" H 5000 6150 50  0001 C CNN
+	1    5000 6150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5050 5950 5000 5950
+Wire Wire Line
+	5000 5950 5000 6000
+$Comp
+L Drum_Machine_V00-rescue:S_Tac-Drum_Machine_V01 SW29
+U 1 1 611EB873
+P 6000 5900
+F 0 "SW29" H 6000 5780 39  0000 C CNN
+F 1 "S_Tac" H 6000 6100 39  0000 C CNN
+F 2 "" H 6000 6100 39  0001 C CNN
+F 3 "" H 6000 6100 39  0001 C CNN
+	1    6000 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Drum_Machine_V00-rescue:D_Schottky_ALT-device D91
+U 1 1 611EB87A
+P 5750 6150
+F 0 "D91" V 5750 6229 50  0000 L CNN
+F 1 "Schottky" V 5795 6229 50  0001 L CNN
+F 2 "" H 5750 6150 50  0001 C CNN
+F 3 "" H 5750 6150 50  0001 C CNN
+	1    5750 6150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5800 5950 5750 5950
+Wire Wire Line
+	5750 5950 5750 6000
+$Comp
+L Drum_Machine_V00-rescue:S_Tac-Drum_Machine_V01 SW33
+U 1 1 611EB883
+P 6800 5900
+F 0 "SW33" H 6800 5780 39  0000 C CNN
+F 1 "S_Tac" H 6800 6100 39  0000 C CNN
+F 2 "" H 6800 6100 39  0001 C CNN
+F 3 "" H 6800 6100 39  0001 C CNN
+	1    6800 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Drum_Machine_V00-rescue:D_Schottky_ALT-device D94
+U 1 1 611EB88A
+P 6550 6150
+F 0 "D94" V 6550 6229 50  0000 L CNN
+F 1 "Schottky" V 6595 6229 50  0001 L CNN
+F 2 "" H 6550 6150 50  0001 C CNN
+F 3 "" H 6550 6150 50  0001 C CNN
+	1    6550 6150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6600 5950 6550 5950
+Wire Wire Line
+	6550 5950 6550 6000
+$Comp
+L Drum_Machine_V00-rescue:S_Tac-Drum_Machine_V01 SW4
+U 1 1 611ECB6D
+P 1500 5050
+F 0 "SW4" H 1500 4930 39  0000 C CNN
+F 1 "S_Tac" H 1500 5250 39  0000 C CNN
+F 2 "" H 1500 5250 39  0001 C CNN
+F 3 "" H 1500 5250 39  0001 C CNN
+	1    1500 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Drum_Machine_V00-rescue:D_Schottky_ALT-device D60
+U 1 1 611ECB74
+P 1250 5300
+F 0 "D60" V 1250 5379 50  0000 L CNN
+F 1 "Schottky" V 1295 5379 50  0001 L CNN
+F 2 "" H 1250 5300 50  0001 C CNN
+F 3 "" H 1250 5300 50  0001 C CNN
+	1    1250 5300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1300 5100 1250 5100
+Wire Wire Line
+	1250 5100 1250 5150
+$Comp
+L Drum_Machine_V00-rescue:S_Tac-Drum_Machine_V01 SW6
+U 1 1 611ECB7D
+P 2250 5050
+F 0 "SW6" H 2250 4930 39  0000 C CNN
+F 1 "S_Tac" H 2250 5250 39  0000 C CNN
+F 2 "" H 2250 5250 39  0001 C CNN
+F 3 "" H 2250 5250 39  0001 C CNN
+	1    2250 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Drum_Machine_V00-rescue:D_Schottky_ALT-device D65
+U 1 1 611ECB84
+P 2000 5300
+F 0 "D65" V 2000 5379 50  0000 L CNN
+F 1 "Schottky" V 2045 5379 50  0001 L CNN
+F 2 "" H 2000 5300 50  0001 C CNN
+F 3 "" H 2000 5300 50  0001 C CNN
+	1    2000 5300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2050 5100 2000 5100
+Wire Wire Line
+	2000 5100 2000 5150
+$Comp
+L Drum_Machine_V00-rescue:S_Tac-Drum_Machine_V01 SW10
+U 1 1 611ECB8D
+P 3000 5050
+F 0 "SW10" H 3000 4930 39  0000 C CNN
+F 1 "S_Tac" H 3000 5250 39  0000 C CNN
+F 2 "" H 3000 5250 39  0001 C CNN
+F 3 "" H 3000 5250 39  0001 C CNN
+	1    3000 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Drum_Machine_V00-rescue:D_Schottky_ALT-device D70
+U 1 1 611ECB94
+P 2750 5300
+F 0 "D70" V 2750 5379 50  0000 L CNN
+F 1 "Schottky" V 2795 5379 50  0001 L CNN
+F 2 "" H 2750 5300 50  0001 C CNN
+F 3 "" H 2750 5300 50  0001 C CNN
+	1    2750 5300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2800 5100 2750 5100
+Wire Wire Line
+	2750 5100 2750 5150
+$Comp
+L Drum_Machine_V00-rescue:S_Tac-Drum_Machine_V01 SW13
+U 1 1 611ECB9D
+P 3750 5050
+F 0 "SW13" H 3750 4930 39  0000 C CNN
+F 1 "S_Tac" H 3750 5250 39  0000 C CNN
+F 2 "" H 3750 5250 39  0001 C CNN
+F 3 "" H 3750 5250 39  0001 C CNN
+	1    3750 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Drum_Machine_V00-rescue:D_Schottky_ALT-device D75
+U 1 1 611ECBA4
+P 3500 5300
+F 0 "D75" V 3500 5379 50  0000 L CNN
+F 1 "Schottky" V 3545 5379 50  0001 L CNN
+F 2 "" H 3500 5300 50  0001 C CNN
+F 3 "" H 3500 5300 50  0001 C CNN
+	1    3500 5300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3550 5100 3500 5100
+Wire Wire Line
+	3500 5100 3500 5150
+$Comp
+L Drum_Machine_V00-rescue:S_Tac-Drum_Machine_V01 SW18
+U 1 1 611ECBAD
+P 4500 5050
+F 0 "SW18" H 4500 4930 39  0000 C CNN
+F 1 "S_Tac" H 4500 5250 39  0000 C CNN
+F 2 "" H 4500 5250 39  0001 C CNN
+F 3 "" H 4500 5250 39  0001 C CNN
+	1    4500 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Drum_Machine_V00-rescue:D_Schottky_ALT-device D80
+U 1 1 611ECBB4
+P 4250 5300
+F 0 "D80" V 4250 5379 50  0000 L CNN
+F 1 "Schottky" V 4295 5379 50  0001 L CNN
+F 2 "" H 4250 5300 50  0001 C CNN
+F 3 "" H 4250 5300 50  0001 C CNN
+	1    4250 5300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4300 5100 4250 5100
+Wire Wire Line
+	4250 5100 4250 5150
+$Comp
+L Drum_Machine_V00-rescue:S_Tac-Drum_Machine_V01 SW23
+U 1 1 611ECBBD
+P 5250 5050
+F 0 "SW23" H 5250 4930 39  0000 C CNN
+F 1 "S_Tac" H 5250 5250 39  0000 C CNN
+F 2 "" H 5250 5250 39  0001 C CNN
+F 3 "" H 5250 5250 39  0001 C CNN
+	1    5250 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Drum_Machine_V00-rescue:D_Schottky_ALT-device D85
+U 1 1 611ECBC4
+P 5000 5300
+F 0 "D85" V 5000 5379 50  0000 L CNN
+F 1 "Schottky" V 5045 5379 50  0001 L CNN
+F 2 "" H 5000 5300 50  0001 C CNN
+F 3 "" H 5000 5300 50  0001 C CNN
+	1    5000 5300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5050 5100 5000 5100
+Wire Wire Line
+	5000 5100 5000 5150
+$Comp
+L Drum_Machine_V00-rescue:S_Tac-Drum_Machine_V01 SW28
+U 1 1 611ECBCD
+P 6000 5050
+F 0 "SW28" H 6000 4930 39  0000 C CNN
+F 1 "S_Tac" H 6000 5250 39  0000 C CNN
+F 2 "" H 6000 5250 39  0001 C CNN
+F 3 "" H 6000 5250 39  0001 C CNN
+	1    6000 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Drum_Machine_V00-rescue:D_Schottky_ALT-device D90
+U 1 1 611ECBD4
+P 5750 5300
+F 0 "D90" V 5750 5379 50  0000 L CNN
+F 1 "Schottky" V 5795 5379 50  0001 L CNN
+F 2 "" H 5750 5300 50  0001 C CNN
+F 3 "" H 5750 5300 50  0001 C CNN
+	1    5750 5300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5800 5100 5750 5100
+Wire Wire Line
+	5750 5100 5750 5150
+$Comp
+L Drum_Machine_V00-rescue:S_Tac-Drum_Machine_V01 SW32
+U 1 1 611ECBDD
+P 6800 5050
+F 0 "SW32" H 6800 4930 39  0000 C CNN
+F 1 "S_Tac" H 6800 5250 39  0000 C CNN
+F 2 "" H 6800 5250 39  0001 C CNN
+F 3 "" H 6800 5250 39  0001 C CNN
+	1    6800 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Drum_Machine_V00-rescue:D_Schottky_ALT-device D93
+U 1 1 611ECBE4
+P 6550 5300
+F 0 "D93" V 6550 5379 50  0000 L CNN
+F 1 "Schottky" V 6595 5379 50  0001 L CNN
+F 2 "" H 6550 5300 50  0001 C CNN
+F 3 "" H 6550 5300 50  0001 C CNN
+	1    6550 5300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6600 5100 6550 5100
+Wire Wire Line
+	6550 5100 6550 5150
+$Comp
+L Drum_Machine_V00-rescue:S_Tac-Drum_Machine_V01 SW9
+U 1 1 611ED425
+P 3000 4200
+F 0 "SW9" H 3000 4080 39  0000 C CNN
+F 1 "S_Tac" H 3000 4400 39  0000 C CNN
+F 2 "" H 3000 4400 39  0001 C CNN
+F 3 "" H 3000 4400 39  0001 C CNN
+	1    3000 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Drum_Machine_V00-rescue:D_Schottky_ALT-device D69
+U 1 1 611ED42C
+P 2750 4450
+F 0 "D69" V 2750 4529 50  0000 L CNN
+F 1 "Schottky" V 2795 4529 50  0001 L CNN
+F 2 "" H 2750 4450 50  0001 C CNN
+F 3 "" H 2750 4450 50  0001 C CNN
+	1    2750 4450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2800 4250 2750 4250
+Wire Wire Line
+	2750 4250 2750 4300
+$Comp
+L Drum_Machine_V00-rescue:S_Tac-Drum_Machine_V01 SW12
+U 1 1 611ED435
+P 3750 4200
+F 0 "SW12" H 3750 4080 39  0000 C CNN
+F 1 "S_Tac" H 3750 4400 39  0000 C CNN
+F 2 "" H 3750 4400 39  0001 C CNN
+F 3 "" H 3750 4400 39  0001 C CNN
+	1    3750 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Drum_Machine_V00-rescue:D_Schottky_ALT-device D74
+U 1 1 611ED43C
+P 3500 4450
+F 0 "D74" V 3500 4529 50  0000 L CNN
+F 1 "Schottky" V 3545 4529 50  0001 L CNN
+F 2 "" H 3500 4450 50  0001 C CNN
+F 3 "" H 3500 4450 50  0001 C CNN
+	1    3500 4450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3550 4250 3500 4250
+Wire Wire Line
+	3500 4250 3500 4300
+$Comp
+L Drum_Machine_V00-rescue:S_Tac-Drum_Machine_V01 SW17
+U 1 1 611ED445
+P 4500 4200
+F 0 "SW17" H 4500 4080 39  0000 C CNN
+F 1 "S_Tac" H 4500 4400 39  0000 C CNN
+F 2 "" H 4500 4400 39  0001 C CNN
+F 3 "" H 4500 4400 39  0001 C CNN
+	1    4500 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Drum_Machine_V00-rescue:D_Schottky_ALT-device D79
+U 1 1 611ED44C
+P 4250 4450
+F 0 "D79" V 4250 4529 50  0000 L CNN
+F 1 "Schottky" V 4295 4529 50  0001 L CNN
+F 2 "" H 4250 4450 50  0001 C CNN
+F 3 "" H 4250 4450 50  0001 C CNN
+	1    4250 4450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4300 4250 4250 4250
+Wire Wire Line
+	4250 4250 4250 4300
+$Comp
+L Drum_Machine_V00-rescue:S_Tac-Drum_Machine_V01 SW22
+U 1 1 611ED455
+P 5250 4200
+F 0 "SW22" H 5250 4080 39  0000 C CNN
+F 1 "S_Tac" H 5250 4400 39  0000 C CNN
+F 2 "" H 5250 4400 39  0001 C CNN
+F 3 "" H 5250 4400 39  0001 C CNN
+	1    5250 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Drum_Machine_V00-rescue:D_Schottky_ALT-device D84
+U 1 1 611ED45C
+P 5000 4450
+F 0 "D84" V 5000 4529 50  0000 L CNN
+F 1 "Schottky" V 5045 4529 50  0001 L CNN
+F 2 "" H 5000 4450 50  0001 C CNN
+F 3 "" H 5000 4450 50  0001 C CNN
+	1    5000 4450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5050 4250 5000 4250
+Wire Wire Line
+	5000 4250 5000 4300
+$Comp
+L Drum_Machine_V00-rescue:S_Tac-Drum_Machine_V01 SW27
+U 1 1 611ED465
+P 6000 4200
+F 0 "SW27" H 6000 4080 39  0000 C CNN
+F 1 "S_Tac" H 6000 4400 39  0000 C CNN
+F 2 "" H 6000 4400 39  0001 C CNN
+F 3 "" H 6000 4400 39  0001 C CNN
+	1    6000 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Drum_Machine_V00-rescue:D_Schottky_ALT-device D89
+U 1 1 611ED46C
+P 5750 4450
+F 0 "D89" V 5750 4529 50  0000 L CNN
+F 1 "Schottky" V 5795 4529 50  0001 L CNN
+F 2 "" H 5750 4450 50  0001 C CNN
+F 3 "" H 5750 4450 50  0001 C CNN
+	1    5750 4450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5800 4250 5750 4250
+Wire Wire Line
+	5750 4250 5750 4300
+$Comp
+L Drum_Machine_V00-rescue:S_Tac-Drum_Machine_V01 SW31
+U 1 1 611ED475
+P 6800 4200
+F 0 "SW31" H 6800 4080 39  0000 C CNN
+F 1 "S_Tac" H 6800 4400 39  0000 C CNN
+F 2 "" H 6800 4400 39  0001 C CNN
+F 3 "" H 6800 4400 39  0001 C CNN
+	1    6800 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Drum_Machine_V00-rescue:D_Schottky_ALT-device D92
+U 1 1 611ED47C
+P 6550 4450
+F 0 "D92" V 6550 4529 50  0000 L CNN
+F 1 "Schottky" V 6595 4529 50  0001 L CNN
+F 2 "" H 6550 4450 50  0001 C CNN
+F 3 "" H 6550 4450 50  0001 C CNN
+	1    6550 4450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6600 4250 6550 4250
+Wire Wire Line
+	6550 4250 6550 4300
+$Comp
+L Drum_Machine_V00-rescue:S_Tac-Drum_Machine_V01 SW16
+U 1 1 611EDDBF
+P 4500 3150
+F 0 "SW16" H 4500 3030 39  0000 C CNN
+F 1 "S_Tac" H 4500 3350 39  0000 C CNN
+F 2 "" H 4500 3350 39  0001 C CNN
+F 3 "" H 4500 3350 39  0001 C CNN
+	1    4500 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Drum_Machine_V00-rescue:D_Schottky_ALT-device D78
+U 1 1 611EDDC6
+P 4250 3400
+F 0 "D78" V 4250 3479 50  0000 L CNN
+F 1 "Schottky" V 4295 3479 50  0001 L CNN
+F 2 "" H 4250 3400 50  0001 C CNN
+F 3 "" H 4250 3400 50  0001 C CNN
+	1    4250 3400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4300 3200 4250 3200
+Wire Wire Line
+	4250 3200 4250 3250
+$Comp
+L Drum_Machine_V00-rescue:S_Tac-Drum_Machine_V01 SW21
+U 1 1 611EDDCF
+P 5250 3150
+F 0 "SW21" H 5250 3030 39  0000 C CNN
+F 1 "S_Tac" H 5250 3350 39  0000 C CNN
+F 2 "" H 5250 3350 39  0001 C CNN
+F 3 "" H 5250 3350 39  0001 C CNN
+	1    5250 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Drum_Machine_V00-rescue:D_Schottky_ALT-device D83
+U 1 1 611EDDD6
+P 5000 3400
+F 0 "D83" V 5000 3479 50  0000 L CNN
+F 1 "Schottky" V 5045 3479 50  0001 L CNN
+F 2 "" H 5000 3400 50  0001 C CNN
+F 3 "" H 5000 3400 50  0001 C CNN
+	1    5000 3400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5050 3200 5000 3200
+Wire Wire Line
+	5000 3200 5000 3250
+$Comp
+L Drum_Machine_V00-rescue:S_Tac-Drum_Machine_V01 SW26
+U 1 1 611EDDDF
+P 6000 3150
+F 0 "SW26" H 6000 3030 39  0000 C CNN
+F 1 "S_Tac" H 6000 3350 39  0000 C CNN
+F 2 "" H 6000 3350 39  0001 C CNN
+F 3 "" H 6000 3350 39  0001 C CNN
+	1    6000 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Drum_Machine_V00-rescue:D_Schottky_ALT-device D88
+U 1 1 611EDDE6
+P 5750 3400
+F 0 "D88" V 5750 3479 50  0000 L CNN
+F 1 "Schottky" V 5795 3479 50  0001 L CNN
+F 2 "" H 5750 3400 50  0001 C CNN
+F 3 "" H 5750 3400 50  0001 C CNN
+	1    5750 3400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5800 3200 5750 3200
+Wire Wire Line
+	5750 3200 5750 3250
+$Comp
+L Drum_Machine_V00-rescue:D_Schottky_ALT-device D87
+U 1 1 611F1CED
+P 5750 2250
+F 0 "D87" V 5750 2329 50  0000 L CNN
+F 1 "Schottky" V 5795 2329 50  0001 L CNN
+F 2 "" H 5750 2250 50  0001 C CNN
+F 3 "" H 5750 2250 50  0001 C CNN
+	1    5750 2250
+	0    1    1    0   
+$EndComp
+$Comp
+L Drum_Machine_V00-rescue:D_Schottky_ALT-device D59
+U 1 1 611F2760
+P 1250 4450
+F 0 "D59" V 1250 4529 50  0000 L CNN
+F 1 "Schottky" V 1295 4529 50  0001 L CNN
+F 2 "" H 1250 4450 50  0001 C CNN
+F 3 "" H 1250 4450 50  0001 C CNN
+	1    1250 4450
+	0    1    1    0   
+$EndComp
+$Comp
+L Drum_Machine_V00-rescue:D_Schottky_ALT-device D64
+U 1 1 611F2767
+P 2000 4450
+F 0 "D64" V 2000 4529 50  0000 L CNN
+F 1 "Schottky" V 2045 4529 50  0001 L CNN
+F 2 "" H 2000 4450 50  0001 C CNN
+F 3 "" H 2000 4450 50  0001 C CNN
+	1    2000 4450
+	0    1    1    0   
+$EndComp
+$Comp
+L Drum_Machine_V00-rescue:D_Schottky_ALT-device D68
+U 1 1 611F3226
+P 2750 3400
+F 0 "D68" V 2750 3479 50  0000 L CNN
+F 1 "Schottky" V 2795 3479 50  0001 L CNN
+F 2 "" H 2750 3400 50  0001 C CNN
+F 3 "" H 2750 3400 50  0001 C CNN
+	1    2750 3400
+	0    1    1    0   
+$EndComp
+$Comp
+L Drum_Machine_V00-rescue:D_Schottky_ALT-device D73
+U 1 1 611F322D
+P 3500 3400
+F 0 "D73" V 3500 3479 50  0000 L CNN
+F 1 "Schottky" V 3545 3479 50  0001 L CNN
+F 2 "" H 3500 3400 50  0001 C CNN
+F 3 "" H 3500 3400 50  0001 C CNN
+	1    3500 3400
+	0    1    1    0   
+$EndComp
+$Comp
+L Drum_Machine_V00-rescue:D_Schottky_ALT-device D58
+U 1 1 611F3234
+P 1250 3400
+F 0 "D58" V 1250 3479 50  0000 L CNN
+F 1 "Schottky" V 1295 3479 50  0001 L CNN
+F 2 "" H 1250 3400 50  0001 C CNN
+F 3 "" H 1250 3400 50  0001 C CNN
+	1    1250 3400
+	0    1    1    0   
+$EndComp
+$Comp
+L Drum_Machine_V00-rescue:D_Schottky_ALT-device D63
+U 1 1 611F323B
+P 2000 3400
+F 0 "D63" V 2000 3479 50  0000 L CNN
+F 1 "Schottky" V 2045 3479 50  0001 L CNN
+F 2 "" H 2000 3400 50  0001 C CNN
+F 3 "" H 2000 3400 50  0001 C CNN
+	1    2000 3400
+	0    1    1    0   
+$EndComp
+$Comp
+L Drum_Machine_V00-rescue:SW_SPDT-switches SW30
+U 1 1 611F567D
+P 6050 2000
+F 0 "SW30" H 6200 1750 50  0000 C CNN
+F 1 "A" H 5800 2050 50  0000 C CNN
+F 2 "" H 6050 2000 50  0001 C CNN
+F 3 "" H 6050 2000 50  0001 C CNN
+	1    6050 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Drum_Machine_V00-rescue:D_Schottky_ALT-device D62
+U 1 1 611F4874
+P 2000 2250
+F 0 "D62" V 2000 2329 50  0000 L CNN
+F 1 "Schottky" V 2045 2329 50  0001 L CNN
+F 2 "" H 2000 2250 50  0001 C CNN
+F 3 "" H 2000 2250 50  0001 C CNN
+	1    2000 2250
+	0    1    1    0   
+$EndComp
+$Comp
+L Drum_Machine_V00-rescue:D_Schottky_ALT-device D57
+U 1 1 611F486D
+P 1100 2250
+F 0 "D57" V 1100 2329 50  0000 L CNN
+F 1 "Schottky" V 1145 2329 50  0001 L CNN
+F 2 "" H 1100 2250 50  0001 C CNN
+F 3 "" H 1100 2250 50  0001 C CNN
+	1    1100 2250
+	0    1    1    0   
+$EndComp
+$Comp
+L Drum_Machine_V00-rescue:D_Schottky_ALT-device D72
+U 1 1 611F4866
+P 3500 2250
+F 0 "D72" V 3500 2329 50  0000 L CNN
+F 1 "Schottky" V 3545 2329 50  0001 L CNN
+F 2 "" H 3500 2250 50  0001 C CNN
+F 3 "" H 3500 2250 50  0001 C CNN
+	1    3500 2250
+	0    1    1    0   
+$EndComp
+$Comp
+L Drum_Machine_V00-rescue:D_Schottky_ALT-device D67
+U 1 1 611F485F
+P 2750 2250
+F 0 "D67" V 2750 2329 50  0000 L CNN
+F 1 "Schottky" V 2795 2329 50  0001 L CNN
+F 2 "" H 2750 2250 50  0001 C CNN
+F 3 "" H 2750 2250 50  0001 C CNN
+	1    2750 2250
+	0    1    1    0   
+$EndComp
+$Comp
+L Drum_Machine_V00-rescue:D_Schottky_ALT-device D82
+U 1 1 611F1CE6
+P 5000 2250
+F 0 "D82" V 5000 2329 50  0000 L CNN
+F 1 "Schottky" V 5045 2329 50  0001 L CNN
+F 2 "" H 5000 2250 50  0001 C CNN
+F 3 "" H 5000 2250 50  0001 C CNN
+	1    5000 2250
+	0    1    1    0   
+$EndComp
+$Comp
+L Drum_Machine_V00-rescue:D_Schottky_ALT-device D77
+U 1 1 611F1CDF
+P 4250 2250
+F 0 "D77" V 4250 2329 50  0000 L CNN
+F 1 "Schottky" V 4295 2329 50  0001 L CNN
+F 2 "" H 4250 2250 50  0001 C CNN
+F 3 "" H 4250 2250 50  0001 C CNN
+	1    4250 2250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5850 2000 5750 2000
+Wire Wire Line
+	5750 2000 5750 2100
+NoConn ~ 6250 2100
+$Comp
+L Drum_Machine_V00-rescue:SW_SPDT-switches SW25
+U 1 1 61203E2E
+P 5300 2000
+F 0 "SW25" H 5450 1750 50  0000 C CNN
+F 1 "B" H 5050 2050 50  0000 C CNN
+F 2 "" H 5300 2000 50  0001 C CNN
+F 3 "" H 5300 2000 50  0001 C CNN
+	1    5300 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5100 2000 5000 2000
+Wire Wire Line
+	5000 2000 5000 2100
+$Comp
+L Drum_Machine_V00-rescue:SW_SPDT-switches SW20
+U 1 1 61204AD4
+P 4550 2000
+F 0 "SW20" H 4700 1750 50  0000 C CNN
+F 1 "C" H 4300 2050 50  0000 C CNN
+F 2 "" H 4550 2000 50  0001 C CNN
+F 3 "" H 4550 2000 50  0001 C CNN
+	1    4550 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4350 2000 4250 2000
+Wire Wire Line
+	4250 2000 4250 2100
+$Comp
+L Drum_Machine_V00-rescue:SW_SPDT-switches SW15
+U 1 1 61205BED
+P 3850 2000
+F 0 "SW15" H 4000 1750 50  0000 C CNN
+F 1 "D" H 3600 2050 50  0000 C CNN
+F 2 "" H 3850 2000 50  0001 C CNN
+F 3 "" H 3850 2000 50  0001 C CNN
+	1    3850 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3650 2000 3500 2000
+Wire Wire Line
+	3500 2000 3500 2100
+NoConn ~ 5500 2100
+NoConn ~ 4750 2100
+NoConn ~ 4050 2100
+Wire Wire Line
+	1100 2400 1100 3550
+Wire Wire Line
+	2000 2400 1850 2400
+Wire Wire Line
+	2750 2400 2600 2400
+Wire Wire Line
+	1250 3550 1100 3550
+Connection ~ 1100 3550
+Wire Wire Line
+	1100 3550 1100 4600
+Wire Wire Line
+	1250 4600 1100 4600
+Connection ~ 1100 4600
+Wire Wire Line
+	1100 4600 1100 5450
+Wire Wire Line
+	1250 5450 1100 5450
+Connection ~ 1100 5450
+Wire Wire Line
+	1100 5450 1100 6300
+Wire Wire Line
+	1250 6300 1100 6300
+Connection ~ 1100 6300
+Wire Wire Line
+	1850 2400 1850 3550
+Wire Wire Line
+	2000 3550 1850 3550
+Connection ~ 1850 3550
+Wire Wire Line
+	1850 3550 1850 4600
+Wire Wire Line
+	2000 4600 1850 4600
+Connection ~ 1850 4600
+Wire Wire Line
+	1850 4600 1850 5450
+Wire Wire Line
+	2000 5450 1850 5450
+Connection ~ 1850 5450
+Wire Wire Line
+	1850 5450 1850 6300
+Wire Wire Line
+	2000 6300 1850 6300
+Connection ~ 1850 6300
+Wire Wire Line
+	2600 2400 2600 3550
+Wire Wire Line
+	2750 3550 2600 3550
+Connection ~ 2600 3550
+Wire Wire Line
+	2600 3550 2600 4600
+Wire Wire Line
+	2750 4600 2600 4600
+Connection ~ 2600 4600
+Wire Wire Line
+	2600 4600 2600 5450
+Wire Wire Line
+	2750 5450 2600 5450
+Connection ~ 2600 5450
+Wire Wire Line
+	2600 5450 2600 6300
+Wire Wire Line
+	2750 6300 2600 6300
+Connection ~ 2600 6300
+Wire Wire Line
+	3350 2400 3350 3550
+Wire Wire Line
+	3350 2400 3500 2400
+Wire Wire Line
+	3500 3550 3350 3550
+Connection ~ 3350 3550
+Wire Wire Line
+	3350 3550 3350 4600
+Wire Wire Line
+	3500 4600 3350 4600
+Connection ~ 3350 4600
+Wire Wire Line
+	3350 4600 3350 5450
+Wire Wire Line
+	3500 5450 3350 5450
+Connection ~ 3350 5450
+Wire Wire Line
+	3350 5450 3350 6300
+Wire Wire Line
+	3500 6300 3350 6300
+Connection ~ 3350 6300
+Wire Wire Line
+	4100 2400 4100 3550
+Wire Wire Line
+	4100 2400 4250 2400
+Wire Wire Line
+	4250 3550 4100 3550
+Connection ~ 4100 3550
+Wire Wire Line
+	4100 3550 4100 4600
+Wire Wire Line
+	4250 4600 4100 4600
+Connection ~ 4100 4600
+Wire Wire Line
+	4100 4600 4100 5450
+Wire Wire Line
+	4250 5450 4100 5450
+Connection ~ 4100 5450
+Wire Wire Line
+	4100 5450 4100 6300
+Wire Wire Line
+	4850 2400 4850 3550
+Wire Wire Line
+	4850 2400 5000 2400
+Wire Wire Line
+	5000 3550 4850 3550
+Connection ~ 4850 3550
+Wire Wire Line
+	4850 3550 4850 4600
+Wire Wire Line
+	5000 4600 4850 4600
+Connection ~ 4850 4600
+Wire Wire Line
+	4850 4600 4850 5450
+Wire Wire Line
+	5000 5450 4850 5450
+Connection ~ 4850 5450
+Wire Wire Line
+	4850 5450 4850 6300
+Connection ~ 4850 6300
+Wire Wire Line
+	5600 2400 5600 3550
+Wire Wire Line
+	5600 2400 5750 2400
+Wire Wire Line
+	5750 3550 5600 3550
+Connection ~ 5600 3550
+Wire Wire Line
+	5600 3550 5600 4600
+Wire Wire Line
+	5750 4600 5600 4600
+Connection ~ 5600 4600
+Wire Wire Line
+	5600 4600 5600 5450
+Wire Wire Line
+	5750 5450 5600 5450
+Connection ~ 5600 5450
+Wire Wire Line
+	5600 5450 5600 6300
+Wire Wire Line
+	5750 6300 5600 6300
+Connection ~ 5600 6300
+Wire Wire Line
+	5600 6300 5600 6400
+Wire Wire Line
+	6550 4600 6400 4600
+Wire Wire Line
+	6400 4600 6400 5450
+Wire Wire Line
+	6550 5450 6400 5450
+Connection ~ 6400 5450
+Wire Wire Line
+	6400 5450 6400 6300
+Wire Wire Line
+	6550 6300 6400 6300
+Connection ~ 6400 6300
+Wire Wire Line
+	6400 6300 6400 7200
+Wire Wire Line
+	2450 5850 2500 5850
+Wire Wire Line
+	2500 5850 2500 5600
+Wire Wire Line
+	2500 5600 3250 5600
+Wire Wire Line
+	3200 5850 3250 5850
+Wire Wire Line
+	3250 5850 3250 5600
+Connection ~ 3250 5600
+Wire Wire Line
+	3250 5600 4000 5600
+Wire Wire Line
+	3950 5850 4000 5850
+Wire Wire Line
+	4000 5850 4000 5600
+Wire Wire Line
+	4700 5850 4750 5850
+Wire Wire Line
+	4750 5850 4750 5600
+Wire Wire Line
+	5450 5850 5500 5850
+Wire Wire Line
+	5500 5850 5500 5600
+Wire Wire Line
+	6200 5850 6250 5850
+Wire Wire Line
+	6250 5850 6250 5600
+Wire Wire Line
+	7000 5850 7050 5850
+Wire Wire Line
+	7050 5850 7050 5600
+Connection ~ 7050 5600
+Wire Wire Line
+	7050 5600 7250 5600
+Connection ~ 6250 5600
+Wire Wire Line
+	6250 5600 7050 5600
+Connection ~ 5500 5600
+Wire Wire Line
+	5500 5600 6250 5600
+Connection ~ 4750 5600
+Wire Wire Line
+	4750 5600 5500 5600
+Connection ~ 4000 5600
+Wire Wire Line
+	4000 5600 4750 5600
+Wire Wire Line
+	1700 5850 1750 5850
+Wire Wire Line
+	1750 5850 1750 5600
+Connection ~ 2500 5600
+Wire Wire Line
+	1750 5600 2500 5600
+Connection ~ 4100 6300
+Wire Wire Line
+	5000 6300 4850 6300
+Wire Wire Line
+	4250 6300 4100 6300
+Wire Wire Line
+	1700 5000 1700 4750
+Wire Wire Line
+	1700 4750 3250 4750
+Wire Wire Line
+	3200 4150 3250 4150
+Wire Wire Line
+	3250 4150 3250 3900
+Wire Wire Line
+	3250 3900 4000 3900
+Wire Wire Line
+	4700 3100 4750 3100
+Wire Wire Line
+	4750 3100 4750 2850
+Wire Wire Line
+	4750 2850 5500 2850
+Wire Wire Line
+	5450 3100 5500 3100
+Wire Wire Line
+	5500 3100 5500 2850
+Connection ~ 5500 2850
+Wire Wire Line
+	6200 3100 6250 3100
+Wire Wire Line
+	6250 3100 6250 2850
+Wire Wire Line
+	5500 2850 6250 2850
+Connection ~ 6250 2850
+Wire Wire Line
+	6250 2850 7250 2850
+Wire Wire Line
+	3950 4150 4000 4150
+Wire Wire Line
+	4000 4150 4000 3900
+Connection ~ 4000 3900
+Wire Wire Line
+	4000 3900 4750 3900
+Wire Wire Line
+	4700 4150 4750 4150
+Wire Wire Line
+	4750 4150 4750 3900
+Wire Wire Line
+	5450 4150 5500 4150
+Wire Wire Line
+	5500 4150 5500 3900
+Wire Wire Line
+	6200 4150 6250 4150
+Wire Wire Line
+	6250 4150 6250 3900
+Wire Wire Line
+	7000 4150 7050 4150
+Wire Wire Line
+	7050 4150 7050 3900
+Wire Wire Line
+	3950 5000 4000 5000
+Wire Wire Line
+	4000 5000 4000 4750
+Wire Wire Line
+	3200 5000 3250 5000
+Wire Wire Line
+	3250 5000 3250 4750
+Wire Wire Line
+	4700 5000 4750 5000
+Wire Wire Line
+	4750 5000 4750 4750
+Wire Wire Line
+	5450 5000 5500 5000
+Wire Wire Line
+	5500 5000 5500 4750
+Wire Wire Line
+	6200 5000 6250 5000
+Wire Wire Line
+	6250 5000 6250 4750
+Wire Wire Line
+	7000 5000 7050 5000
+Wire Wire Line
+	7050 5000 7050 4750
+Connection ~ 7050 4750
+Wire Wire Line
+	7050 4750 7250 4750
+Connection ~ 6250 4750
+Wire Wire Line
+	6250 4750 7050 4750
+Connection ~ 5500 4750
+Wire Wire Line
+	5500 4750 6250 4750
+Connection ~ 4750 4750
+Wire Wire Line
+	4750 4750 5500 4750
+Connection ~ 4000 4750
+Wire Wire Line
+	4000 4750 4750 4750
+Connection ~ 3250 4750
+Wire Wire Line
+	3250 4750 4000 4750
+Connection ~ 4750 3900
+Wire Wire Line
+	4750 3900 5500 3900
+Connection ~ 5500 3900
+Wire Wire Line
+	5500 3900 6250 3900
+Connection ~ 6250 3900
+Wire Wire Line
+	6250 3900 7050 3900
+Connection ~ 7050 3900
+Wire Wire Line
+	7050 3900 7250 3900
+Wire Wire Line
+	4050 1800 4050 1900
+Wire Wire Line
+	4050 1800 4750 1800
+Wire Wire Line
+	4750 1800 4750 1900
+Connection ~ 4750 1800
+Wire Wire Line
+	4750 1800 5500 1800
+Wire Wire Line
+	5500 1800 5500 1900
+Connection ~ 5500 1800
+Wire Wire Line
+	6250 1800 6250 1900
+Wire Wire Line
+	5500 1800 6250 1800
+Connection ~ 6250 1800
+Wire Wire Line
+	6250 1800 7250 1800
+Wire Wire Line
+	1725 1800 2050 1800
+Wire Wire Line
+	2050 1800 2050 1450
+Wire Wire Line
+	2050 1800 4050 1800
+Wire Wire Line
+	1725 1700 2750 1700
+Wire Wire Line
+	2750 1700 2750 2100
+Wire Wire Line
+	1725 1900 2000 1900
+Wire Wire Line
+	2000 1900 2000 2100
+Wire Wire Line
+	1700 2850 1750 2850
+Wire Wire Line
+	1750 2850 1750 2500
+Wire Wire Line
+	1700 2950 1750 2950
+Wire Wire Line
+	1750 2950 1750 3200
+Wire Wire Line
+	1750 3200 1250 3200
+Wire Wire Line
+	1250 3200 1250 3250
+Wire Wire Line
+	1700 2750 2000 2750
+Wire Wire Line
+	2000 2750 2000 3250
+Wire Wire Line
+	2750 3250 2750 3200
+Wire Wire Line
+	2750 3200 3250 3200
+Wire Wire Line
+	3250 3200 3250 2950
+Wire Wire Line
+	3250 2950 3200 2950
+Wire Wire Line
+	3200 2750 3500 2750
+Wire Wire Line
+	3500 2750 3500 3250
+Connection ~ 4750 2850
+Wire Wire Line
+	3200 2850 3250 2850
+Wire Wire Line
+	1750 2500 3250 2500
+Wire Wire Line
+	3250 2500 3250 2850
+Connection ~ 3250 2850
+Wire Wire Line
+	3250 2850 4750 2850
+Wire Wire Line
+	1250 4300 1250 4250
+Wire Wire Line
+	1250 4250 1750 4250
+Wire Wire Line
+	1750 4250 1750 4000
+Wire Wire Line
+	1750 4000 1700 4000
+Wire Wire Line
+	1700 3800 2000 3800
+Wire Wire Line
+	2000 3800 2000 4300
+Wire Wire Line
+	3250 3900 1700 3900
+Connection ~ 3250 3900
+Connection ~ 2050 1800
+Connection ~ 4050 1800
+$Comp
+L power:GND #PWR0113
+U 1 1 618B8212
+P 5400 7500
+F 0 "#PWR0113" H 5400 7250 50  0001 C CNN
+F 1 "GND" H 5405 7327 50  0000 C CNN
+F 2 "" H 5400 7500 50  0001 C CNN
+F 3 "" H 5400 7500 50  0001 C CNN
+	1    5400 7500
+	1    0    0    -1  
+$EndComp
+Text GLabel 7000 6900 2    39   Input ~ 0
+Clock
+Text GLabel 7000 6800 2    39   Input ~ 0
+Load
+Text GLabel 5550 8700 0    39   Output ~ 0
+Data_In
+NoConn ~ 5800 8600
+Wire Wire Line
+	5700 8600 5700 8700
+Wire Wire Line
+	6700 6900 7000 6900
+Wire Wire Line
+	6800 7200 6800 7100
+Wire Wire Line
+	6800 7100 5600 7100
+Wire Wire Line
+	5600 7200 5600 7100
+Connection ~ 5600 7100
+Wire Wire Line
+	5600 7100 5400 7100
+Wire Wire Line
+	5400 7100 5400 7500
+Wire Wire Line
+	6700 6900 6700 7200
+Wire Wire Line
+	6550 6800 6550 7200
+Wire Wire Line
+	7000 6800 6550 6800
+Wire Wire Line
+	5700 8700 5550 8700
+Wire Wire Line
+	5600 6400 6300 6400
+Wire Wire Line
+	6300 6400 6300 7200
+Wire Wire Line
+	6200 7200 6200 6500
+Wire Wire Line
+	6200 6500 4850 6500
+Wire Wire Line
+	4850 6300 4850 6500
+Wire Wire Line
+	6100 7200 6100 6600
+Wire Wire Line
+	6100 6600 4100 6600
+Wire Wire Line
+	4100 6300 4100 6600
+Wire Wire Line
+	3350 6700 6000 6700
+Wire Wire Line
+	6000 6700 6000 7200
+Wire Wire Line
+	3350 6300 3350 6700
+Wire Wire Line
+	2600 6800 5900 6800
+Wire Wire Line
+	5900 6800 5900 7200
+Wire Wire Line
+	2600 6300 2600 6800
+Wire Wire Line
+	1850 6900 5800 6900
+Wire Wire Line
+	5800 6900 5800 7200
+Wire Wire Line
+	1850 6300 1850 6900
+Wire Wire Line
+	1100 7000 5700 7000
+Wire Wire Line
+	5700 7000 5700 7200
+Wire Wire Line
+	1100 6300 1100 7000
+Text GLabel 7250 5600 2    39   Input ~ 0
+SM_Row_04
+Text GLabel 7250 4750 2    39   Input ~ 0
+SM_Row_03
+Text GLabel 7250 3900 2    39   Input ~ 0
+SM_Row_02
+Text GLabel 7250 2850 2    39   Input ~ 0
+SM_Row_01
+Text GLabel 7250 1800 2    39   Input ~ 0
+SM_Row_00
+$Comp
+L Drum_Machine_V00-rescue:Rotary_Encoder_Switch-Drum_Machine_V01 SW3
+U 1 1 611EA158
+P 1425 1800
+F 0 "SW3" H 1425 2050 39  0000 C CNN
+F 1 "Accent" H 1325 1550 39  0000 C CNN
+F 2 "" H 1425 2100 39  0001 C CNN
+F 3 "" H 1425 2100 39  0001 C CNN
+	1    1425 1800
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1100 1900 1125 1900
+Wire Wire Line
+	1125 1700 1100 1700
+Wire Wire Line
+	1100 2100 1100 1900
+Wire Wire Line
+	1100 1700 1100 1450
+Wire Wire Line
+	1100 1450 2050 1450
+$EndSCHEMATC

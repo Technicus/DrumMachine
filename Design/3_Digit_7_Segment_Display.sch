@@ -1,0 +1,975 @@
+EESchema Schematic File Version 4
+LIBS:Drum_Machine_V00-cache
+EELAYER 26 0
+EELAYER END
+$Descr USLetter 11000 8500
+encoding utf-8
+Sheet 3 7
+Title "Drum Machine"
+Date "2018-06-15"
+Rev "V00"
+Comp "Prototype Engineering Studio LLC"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Drum_Machine_V00-rescue:TOT-5361BR-TOT-5361BR U1
+U 1 1 5B293960
+P 6250 2050
+F 0 "U1" H 6250 2617 50  0000 C CNN
+F 1 "TOT-5361BR" H 6250 2526 50  0000 C CNN
+F 2 "TOT-5361BR" H 6350 1400 50  0001 C CNN
+F 3 "http://www.kingbright.com/attachments/file/psearch/000/00/00/CA56-12SYKWA(Ver.6A).pdf" H 6020 2080 50  0001 C CNN
+	1    6250 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Drum_Machine_V00-rescue:2N2219-transistors Q4
+U 1 1 5B293D15
+P 1700 3350
+F 0 "Q4" H 1891 3396 50  0000 L CNN
+F 1 "2N4401" H 1891 3305 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-39-3" H 1900 3275 50  0001 L CIN
+F 3 "http://www.onsemi.com/pub_link/Collateral/2N2219-D.PDF" H 1700 3350 50  0001 L CNN
+	1    1700 3350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Drum_Machine_V00-rescue:R-device R27
+U 1 1 5B297766
+P 4900 3900
+F 0 "R27" V 5000 3900 39  0000 C CNN
+F 1 "10KΩ" V 4900 3900 39  0000 C CNN
+F 2 "" V 4830 3900 50  0001 C CNN
+F 3 "" H 4900 3900 50  0001 C CNN
+	1    4900 3900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Drum_Machine_V00-rescue:R-device R26
+U 1 1 5B29776D
+P 4700 3900
+F 0 "R26" V 4800 3900 39  0000 C CNN
+F 1 "1KΩ" V 4700 3900 39  0000 C CNN
+F 2 "" V 4630 3900 50  0001 C CNN
+F 3 "" H 4700 3900 50  0001 C CNN
+	1    4700 3900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Drum_Machine_V00-rescue:74HC595-74xx U3
+U 1 1 5B299DD0
+P 8350 5700
+F 0 "U3" H 8350 6466 50  0000 C CNN
+F 1 "74HC595" H 8350 6375 50  0000 C CNN
+F 2 "" H 8350 5700 50  0001 C CNN
+F 3 "74xx/74HC595.pdf" H 8350 5700 50  0001 C CNN
+	1    8350 5700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Drum_Machine_V00-rescue:2N2219-transistors Q6
+U 1 1 5B29A07E
+P 2300 3350
+F 0 "Q6" H 2491 3396 50  0000 L CNN
+F 1 "2N4401" H 2491 3305 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-39-3" H 2500 3275 50  0001 L CIN
+F 3 "http://www.onsemi.com/pub_link/Collateral/2N2219-D.PDF" H 2300 3350 50  0001 L CNN
+	1    2300 3350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Drum_Machine_V00-rescue:R-device R24
+U 1 1 5B29A085
+P 4300 3900
+F 0 "R24" V 4400 3900 39  0000 C CNN
+F 1 "10KΩ" V 4300 3900 39  0000 C CNN
+F 2 "" V 4230 3900 50  0001 C CNN
+F 3 "" H 4300 3900 50  0001 C CNN
+	1    4300 3900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Drum_Machine_V00-rescue:R-device R23
+U 1 1 5B29A08C
+P 4100 3900
+F 0 "R23" V 4200 3900 39  0000 C CNN
+F 1 "1KΩ" V 4100 3900 39  0000 C CNN
+F 2 "" V 4030 3900 50  0001 C CNN
+F 3 "" H 4100 3900 50  0001 C CNN
+	1    4100 3900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Drum_Machine_V00-rescue:2N2219-transistors Q7
+U 1 1 5B29A16E
+P 2900 3350
+F 0 "Q7" H 3091 3396 50  0000 L CNN
+F 1 "2N4401" H 3091 3305 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-39-3" H 3100 3275 50  0001 L CIN
+F 3 "http://www.onsemi.com/pub_link/Collateral/2N2219-D.PDF" H 2900 3350 50  0001 L CNN
+	1    2900 3350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Drum_Machine_V00-rescue:R-device R22
+U 1 1 5B29A175
+P 3700 3900
+F 0 "R22" V 3800 3900 39  0000 C CNN
+F 1 "10KΩ" V 3700 3900 39  0000 C CNN
+F 2 "" V 3630 3900 50  0001 C CNN
+F 3 "" H 3700 3900 50  0001 C CNN
+	1    3700 3900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Drum_Machine_V00-rescue:R-device R21
+U 1 1 5B29A17C
+P 3500 3900
+F 0 "R21" V 3600 3900 39  0000 C CNN
+F 1 "1KΩ" V 3500 3900 39  0000 C CNN
+F 2 "" V 3430 3900 50  0001 C CNN
+F 3 "" H 3500 3900 50  0001 C CNN
+	1    3500 3900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Drum_Machine_V00-rescue:2N2219-transistors Q8
+U 1 1 5B29A3EE
+P 3500 3350
+F 0 "Q8" H 3691 3396 50  0000 L CNN
+F 1 "2N4401" H 3691 3305 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-39-3" H 3700 3275 50  0001 L CIN
+F 3 "http://www.onsemi.com/pub_link/Collateral/2N2219-D.PDF" H 3500 3350 50  0001 L CNN
+	1    3500 3350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Drum_Machine_V00-rescue:R-device R20
+U 1 1 5B29A3F5
+P 3100 3900
+F 0 "R20" V 3200 3900 39  0000 C CNN
+F 1 "10KΩ" V 3100 3900 39  0000 C CNN
+F 2 "" V 3030 3900 50  0001 C CNN
+F 3 "" H 3100 3900 50  0001 C CNN
+	1    3100 3900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Drum_Machine_V00-rescue:R-device R19
+U 1 1 5B29A3FC
+P 2900 3900
+F 0 "R19" V 3000 3900 39  0000 C CNN
+F 1 "1KΩ" V 2900 3900 39  0000 C CNN
+F 2 "" V 2830 3900 50  0001 C CNN
+F 3 "" H 2900 3900 50  0001 C CNN
+	1    2900 3900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Drum_Machine_V00-rescue:2N2219-transistors Q9
+U 1 1 5B29A4CE
+P 4100 3350
+F 0 "Q9" H 4291 3396 50  0000 L CNN
+F 1 "2N4401" H 4291 3305 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-39-3" H 4300 3275 50  0001 L CIN
+F 3 "http://www.onsemi.com/pub_link/Collateral/2N2219-D.PDF" H 4100 3350 50  0001 L CNN
+	1    4100 3350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Drum_Machine_V00-rescue:R-device R18
+U 1 1 5B29A4D5
+P 2500 3900
+F 0 "R18" V 2600 3900 39  0000 C CNN
+F 1 "10KΩ" V 2500 3900 39  0000 C CNN
+F 2 "" V 2430 3900 50  0001 C CNN
+F 3 "" H 2500 3900 50  0001 C CNN
+	1    2500 3900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Drum_Machine_V00-rescue:R-device R17
+U 1 1 5B29A4DC
+P 2300 3900
+F 0 "R17" V 2400 3900 39  0000 C CNN
+F 1 "1KΩ" V 2300 3900 39  0000 C CNN
+F 2 "" V 2230 3900 50  0001 C CNN
+F 3 "" H 2300 3900 50  0001 C CNN
+	1    2300 3900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Drum_Machine_V00-rescue:2N2219-transistors Q10
+U 1 1 5B29A5BE
+P 4700 3350
+F 0 "Q10" H 4891 3396 50  0000 L CNN
+F 1 "2N4401" H 4891 3305 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-39-3" H 4900 3275 50  0001 L CIN
+F 3 "http://www.onsemi.com/pub_link/Collateral/2N2219-D.PDF" H 4700 3350 50  0001 L CNN
+	1    4700 3350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Drum_Machine_V00-rescue:R-device R16
+U 1 1 5B29A5C5
+P 1900 3900
+F 0 "R16" V 2000 3900 39  0000 C CNN
+F 1 "10KΩ" V 1900 3900 39  0000 C CNN
+F 2 "" V 1830 3900 50  0001 C CNN
+F 3 "" H 1900 3900 50  0001 C CNN
+	1    1900 3900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Drum_Machine_V00-rescue:R-device R15
+U 1 1 5B29A5CC
+P 1700 3900
+F 0 "R15" V 1800 3900 39  0000 C CNN
+F 1 "1KΩ" V 1700 3900 39  0000 C CNN
+F 2 "" V 1630 3900 50  0001 C CNN
+F 3 "" H 1700 3900 50  0001 C CNN
+	1    1700 3900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Drum_Machine_V00-rescue:2N2219-transistors Q5
+U 1 1 5B29A936
+P 1100 3350
+F 0 "Q5" H 1291 3396 50  0000 L CNN
+F 1 "2N4401" H 1291 3305 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-39-3" H 1300 3275 50  0001 L CIN
+F 3 "http://www.onsemi.com/pub_link/Collateral/2N2219-D.PDF" H 1100 3350 50  0001 L CNN
+	1    1100 3350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Drum_Machine_V00-rescue:R-device R30
+U 1 1 5B29A93D
+P 5500 3900
+F 0 "R30" V 5600 3900 39  0000 C CNN
+F 1 "10KΩ" V 5500 3900 39  0000 C CNN
+F 2 "" V 5430 3900 50  0001 C CNN
+F 3 "" H 5500 3900 50  0001 C CNN
+	1    5500 3900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Drum_Machine_V00-rescue:R-device R29
+U 1 1 5B29A944
+P 5300 3900
+F 0 "R29" V 5400 3900 39  0000 C CNN
+F 1 "1KΩ" V 5300 3900 39  0000 C CNN
+F 2 "" V 5230 3900 50  0001 C CNN
+F 3 "" H 5300 3900 50  0001 C CNN
+	1    5300 3900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Drum_Machine_V00-rescue:R-device R7
+U 1 1 5B29A94B
+P 900 2800
+F 0 "R7" V 1000 2800 39  0000 C CNN
+F 1 "300Ω" V 900 2800 39  0000 C CNN
+F 2 "" V 830 2800 50  0001 C CNN
+F 3 "" H 900 2800 50  0001 C CNN
+	1    900  2800
+	1    0    0    1   
+$EndComp
+$Comp
+L Drum_Machine_V00-rescue:2N2219-transistors Q11
+U 1 1 5B29B3AE
+P 5300 3350
+F 0 "Q11" H 5491 3396 50  0000 L CNN
+F 1 "2N4401" H 5491 3305 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-39-3" H 5500 3275 50  0001 L CIN
+F 3 "http://www.onsemi.com/pub_link/Collateral/2N2219-D.PDF" H 5300 3350 50  0001 L CNN
+	1    5300 3350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Drum_Machine_V00-rescue:R-device R14
+U 1 1 5B29B3B5
+P 1300 3900
+F 0 "R14" V 1400 3900 39  0000 C CNN
+F 1 "10KΩ" V 1300 3900 39  0000 C CNN
+F 2 "" V 1230 3900 50  0001 C CNN
+F 3 "" H 1300 3900 50  0001 C CNN
+	1    1300 3900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Drum_Machine_V00-rescue:R-device R13
+U 1 1 5B29B3BC
+P 1100 3900
+F 0 "R13" V 1200 3900 39  0000 C CNN
+F 1 "1KΩ" V 1100 3900 39  0000 C CNN
+F 2 "" V 1030 3900 50  0001 C CNN
+F 3 "" H 1100 3900 50  0001 C CNN
+	1    1100 3900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7450 2950 7950 2950
+Wire Wire Line
+	7200 2350 7950 2350
+Wire Wire Line
+	7450 2450 7450 2950
+Wire Wire Line
+	7450 1750 7950 1750
+Wire Wire Line
+	7450 2250 7450 1750
+Wire Wire Line
+	7200 2250 7450 2250
+Wire Wire Line
+	7200 2450 7450 2450
+Wire Wire Line
+	7950 2450 7950 2550
+Wire Wire Line
+	8300 1850 8300 2450
+Wire Wire Line
+	7950 1850 7950 1950
+Wire Wire Line
+	8300 1850 7950 1850
+Wire Wire Line
+	8300 1250 9000 1250
+Wire Wire Line
+	8300 2450 7950 2450
+Connection ~ 8300 1850
+Wire Wire Line
+	8300 1250 8300 1850
+Connection ~ 9000 1250
+Wire Wire Line
+	9000 1250 9000 1150
+Connection ~ 8300 1250
+Wire Wire Line
+	7950 1250 8300 1250
+Wire Wire Line
+	7950 1350 7950 1250
+Wire Wire Line
+	8550 2550 8400 2550
+Wire Wire Line
+	9000 1350 9000 1250
+Connection ~ 9000 1350
+Wire Wire Line
+	8850 1350 9000 1350
+Wire Wire Line
+	9000 1950 9000 2550
+Wire Wire Line
+	9000 1350 9000 1950
+Connection ~ 9000 1950
+Wire Wire Line
+	8850 1950 9000 1950
+Wire Wire Line
+	8850 2550 9000 2550
+Wire Wire Line
+	8400 1350 8550 1350
+Wire Wire Line
+	8250 2150 8400 2150
+Wire Wire Line
+	8400 2150 8550 2150
+Connection ~ 8400 2150
+Wire Wire Line
+	8400 1950 8400 2150
+Wire Wire Line
+	8550 1950 8400 1950
+Wire Wire Line
+	8250 1550 8400 1550
+Wire Wire Line
+	8400 1550 8550 1550
+Connection ~ 8400 1550
+Wire Wire Line
+	8400 1350 8400 1550
+Wire Wire Line
+	8250 2750 8400 2750
+Wire Wire Line
+	8550 2750 8400 2750
+Connection ~ 8400 2750
+Wire Wire Line
+	8400 2550 8400 2750
+$Comp
+L Drum_Machine_V00-rescue:2N3906-transistors Q2
+U 1 1 5B294991
+P 8050 2150
+F 0 "Q2" H 8241 2196 50  0000 L CNN
+F 1 "2N3906" H 8241 2105 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-92_Molded_Narrow" H 8250 2075 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3906.pdf" H 8050 2150 50  0001 L CNN
+	1    8050 2150
+	-1   0    0    1   
+$EndComp
+$Comp
+L Drum_Machine_V00-rescue:R-device R2
+U 1 1 5B2982FC
+P 8700 1550
+F 0 "R2" V 8800 1550 39  0000 C CNN
+F 1 "1KΩ" V 8700 1550 39  0000 C CNN
+F 2 "" V 8630 1550 50  0001 C CNN
+F 3 "" H 8700 1550 50  0001 C CNN
+	1    8700 1550
+	0    -1   1    0   
+$EndComp
+$Comp
+L Drum_Machine_V00-rescue:R-device R1
+U 1 1 5B2982F5
+P 8700 1350
+F 0 "R1" V 8800 1350 39  0000 C CNN
+F 1 "10KΩ" V 8700 1350 39  0000 C CNN
+F 2 "" V 8630 1350 50  0001 C CNN
+F 3 "" H 8700 1350 50  0001 C CNN
+	1    8700 1350
+	0    -1   1    0   
+$EndComp
+$Comp
+L Drum_Machine_V00-rescue:R-device R4
+U 1 1 5B298278
+P 8700 2150
+F 0 "R4" V 8800 2150 39  0000 C CNN
+F 1 "1KΩ" V 8700 2150 39  0000 C CNN
+F 2 "" V 8630 2150 50  0001 C CNN
+F 3 "" H 8700 2150 50  0001 C CNN
+	1    8700 2150
+	0    -1   1    0   
+$EndComp
+$Comp
+L Drum_Machine_V00-rescue:R-device R3
+U 1 1 5B298271
+P 8700 1950
+F 0 "R3" V 8800 1950 39  0000 C CNN
+F 1 "10KΩ" V 8700 1950 39  0000 C CNN
+F 2 "" V 8630 1950 50  0001 C CNN
+F 3 "" H 8700 1950 50  0001 C CNN
+	1    8700 1950
+	0    -1   1    0   
+$EndComp
+$Comp
+L Drum_Machine_V00-rescue:R-device R6
+U 1 1 5B297AD3
+P 8700 2750
+F 0 "R6" V 8800 2750 39  0000 C CNN
+F 1 "1KΩ" V 8700 2750 39  0000 C CNN
+F 2 "" V 8630 2750 50  0001 C CNN
+F 3 "" H 8700 2750 50  0001 C CNN
+	1    8700 2750
+	0    -1   1    0   
+$EndComp
+$Comp
+L Drum_Machine_V00-rescue:R-device R5
+U 1 1 5B297ACC
+P 8700 2550
+F 0 "R5" V 8800 2550 39  0000 C CNN
+F 1 "10KΩ" V 8700 2550 39  0000 C CNN
+F 2 "" V 8630 2550 50  0001 C CNN
+F 3 "" H 8700 2550 50  0001 C CNN
+	1    8700 2550
+	0    -1   1    0   
+$EndComp
+$Comp
+L Drum_Machine_V00-rescue:2N3906-transistors Q3
+U 1 1 5B2949C9
+P 8050 2750
+F 0 "Q3" H 8241 2796 50  0000 L CNN
+F 1 "2N3906" H 8241 2705 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-92_Molded_Narrow" H 8250 2675 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3906.pdf" H 8050 2750 50  0001 L CNN
+	1    8050 2750
+	-1   0    0    1   
+$EndComp
+$Comp
+L Drum_Machine_V00-rescue:2N3906-transistors Q1
+U 1 1 5B293B02
+P 8050 1550
+F 0 "Q1" H 8241 1596 50  0000 L CNN
+F 1 "2N3906" H 8241 1505 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-92_Molded_Narrow" H 8250 1475 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3906.pdf" H 8050 1550 50  0001 L CNN
+	1    8050 1550
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1100 3550 1100 3650
+Wire Wire Line
+	1100 3650 1300 3650
+Wire Wire Line
+	1300 3650 1300 3750
+Connection ~ 1100 3650
+Wire Wire Line
+	1100 3650 1100 3750
+Wire Wire Line
+	1700 3550 1700 3650
+Wire Wire Line
+	1700 3650 1900 3650
+Wire Wire Line
+	1900 3650 1900 3750
+Connection ~ 1700 3650
+Wire Wire Line
+	1700 3650 1700 3750
+Wire Wire Line
+	2300 3550 2300 3650
+Wire Wire Line
+	2300 3650 2500 3650
+Wire Wire Line
+	2500 3650 2500 3750
+Connection ~ 2300 3650
+Wire Wire Line
+	2300 3650 2300 3750
+Wire Wire Line
+	2900 3550 2900 3650
+Wire Wire Line
+	2900 3650 3100 3650
+Wire Wire Line
+	3100 3650 3100 3750
+Connection ~ 2900 3650
+Wire Wire Line
+	2900 3650 2900 3750
+Wire Wire Line
+	3500 3550 3500 3650
+Wire Wire Line
+	3500 3650 3700 3650
+Wire Wire Line
+	3700 3650 3700 3750
+Connection ~ 3500 3650
+Wire Wire Line
+	3500 3650 3500 3750
+Wire Wire Line
+	4100 3550 4100 3650
+Wire Wire Line
+	4100 3650 4300 3650
+Wire Wire Line
+	4300 3650 4300 3750
+Connection ~ 4100 3650
+Wire Wire Line
+	4100 3650 4100 3750
+Wire Wire Line
+	4700 3550 4700 3650
+Wire Wire Line
+	4700 3650 4900 3650
+Wire Wire Line
+	4900 3650 4900 3750
+Connection ~ 4700 3650
+Wire Wire Line
+	4700 3650 4700 3750
+Wire Wire Line
+	5300 3550 5300 3650
+Wire Wire Line
+	5300 3650 5500 3650
+Wire Wire Line
+	5500 3650 5500 3750
+Connection ~ 5300 3650
+Wire Wire Line
+	5300 3650 5300 3750
+Wire Wire Line
+	900  2950 900  3250
+$Comp
+L Drum_Machine_V00-rescue:R-device R8
+U 1 1 5B2CC009
+P 1500 2800
+F 0 "R8" V 1600 2800 39  0000 C CNN
+F 1 "300Ω" V 1500 2800 39  0000 C CNN
+F 2 "" V 1430 2800 50  0001 C CNN
+F 3 "" H 1500 2800 50  0001 C CNN
+	1    1500 2800
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	1500 2950 1500 3250
+$Comp
+L Drum_Machine_V00-rescue:R-device R9
+U 1 1 5B2CD7A8
+P 2100 2800
+F 0 "R9" V 2200 2800 39  0000 C CNN
+F 1 "300Ω" V 2100 2800 39  0000 C CNN
+F 2 "" V 2030 2800 50  0001 C CNN
+F 3 "" H 2100 2800 50  0001 C CNN
+	1    2100 2800
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	2100 2950 2100 3250
+$Comp
+L Drum_Machine_V00-rescue:R-device R10
+U 1 1 5B2CF025
+P 2700 2800
+F 0 "R10" V 2800 2800 39  0000 C CNN
+F 1 "300Ω" V 2700 2800 39  0000 C CNN
+F 2 "" V 2630 2800 50  0001 C CNN
+F 3 "" H 2700 2800 50  0001 C CNN
+	1    2700 2800
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	2700 2950 2700 3250
+$Comp
+L Drum_Machine_V00-rescue:R-device R11
+U 1 1 5B2D2315
+P 3300 2800
+F 0 "R11" V 3400 2800 39  0000 C CNN
+F 1 "300Ω" V 3300 2800 39  0000 C CNN
+F 2 "" V 3230 2800 50  0001 C CNN
+F 3 "" H 3300 2800 50  0001 C CNN
+	1    3300 2800
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	3300 2950 3300 3250
+$Comp
+L Drum_Machine_V00-rescue:R-device R12
+U 1 1 5B2D3D2A
+P 3900 2800
+F 0 "R12" V 4000 2800 39  0000 C CNN
+F 1 "300Ω" V 3900 2800 39  0000 C CNN
+F 2 "" V 3830 2800 50  0001 C CNN
+F 3 "" H 3900 2800 50  0001 C CNN
+	1    3900 2800
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	3900 2950 3900 3250
+$Comp
+L Drum_Machine_V00-rescue:R-device R25
+U 1 1 5B2D580D
+P 4500 2800
+F 0 "R25" V 4600 2800 39  0000 C CNN
+F 1 "300Ω" V 4500 2800 39  0000 C CNN
+F 2 "" V 4430 2800 50  0001 C CNN
+F 3 "" H 4500 2800 50  0001 C CNN
+	1    4500 2800
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	4500 2950 4500 3250
+$Comp
+L Drum_Machine_V00-rescue:R-device R28
+U 1 1 5B2D73B2
+P 5100 2800
+F 0 "R28" V 5200 2800 39  0000 C CNN
+F 1 "300Ω" V 5100 2800 39  0000 C CNN
+F 2 "" V 5030 2800 50  0001 C CNN
+F 3 "" H 5100 2800 50  0001 C CNN
+	1    5100 2800
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	5100 2950 5100 3250
+Wire Wire Line
+	1300 4050 1300 4250
+Wire Wire Line
+	1300 4250 1400 4250
+Wire Wire Line
+	5500 4250 5500 4050
+Wire Wire Line
+	1900 4050 1900 4250
+Connection ~ 1900 4250
+Wire Wire Line
+	1900 4250 2000 4250
+Wire Wire Line
+	2500 4050 2500 4250
+Connection ~ 2500 4250
+Wire Wire Line
+	2500 4250 2600 4250
+Wire Wire Line
+	3100 4050 3100 4250
+Connection ~ 3100 4250
+Wire Wire Line
+	3100 4250 3200 4250
+Wire Wire Line
+	3700 4050 3700 4250
+Connection ~ 3700 4250
+Wire Wire Line
+	3700 4250 3800 4250
+Wire Wire Line
+	4300 4050 4300 4250
+Connection ~ 4300 4250
+Wire Wire Line
+	4300 4250 4400 4250
+Wire Wire Line
+	4900 4050 4900 4250
+Connection ~ 4900 4250
+Wire Wire Line
+	4900 4250 5000 4250
+$Comp
+L power:GND #PWR0101
+U 1 1 5B2EF527
+P 5500 4500
+F 0 "#PWR0101" H 5500 4250 50  0001 C CNN
+F 1 "GND" H 5505 4327 50  0000 C CNN
+F 2 "" H 5500 4500 50  0001 C CNN
+F 3 "" H 5500 4500 50  0001 C CNN
+	1    5500 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0102
+U 1 1 5B2EFC72
+P 9000 1150
+F 0 "#PWR0102" H 9000 1000 50  0001 C CNN
+F 1 "+5V" H 9015 1323 50  0000 C CNN
+F 2 "" H 9000 1150 50  0001 C CNN
+F 3 "" H 9000 1150 50  0001 C CNN
+	1    9000 1150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 4250 5500 4500
+Connection ~ 5500 4250
+Wire Wire Line
+	5100 2650 5100 2450
+Wire Wire Line
+	5100 2450 5300 2450
+Wire Wire Line
+	4500 2650 4500 2350
+Wire Wire Line
+	4500 2350 5300 2350
+Wire Wire Line
+	5300 2250 3900 2250
+Wire Wire Line
+	3900 2250 3900 2650
+Wire Wire Line
+	5300 2150 3300 2150
+Wire Wire Line
+	3300 2150 3300 2650
+Wire Wire Line
+	2700 2650 2700 2050
+Wire Wire Line
+	2700 2050 5300 2050
+Wire Wire Line
+	5300 1950 2100 1950
+Wire Wire Line
+	2100 1950 2100 2650
+Wire Wire Line
+	1500 2650 1500 1850
+Wire Wire Line
+	1500 1850 5300 1850
+Wire Wire Line
+	5300 1750 900  1750
+Wire Wire Line
+	900  1750 900  2650
+Wire Wire Line
+	9000 3050 9000 2750
+Wire Wire Line
+	8850 2750 9000 2750
+Wire Wire Line
+	9100 3150 9100 2150
+Wire Wire Line
+	8850 2150 9100 2150
+Wire Wire Line
+	9200 3250 9200 1550
+Wire Wire Line
+	8850 1550 9200 1550
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 5B32A654
+P 9800 3850
+F 0 "#FLG0101" H 9800 3925 50  0001 C CNN
+F 1 "PWR_FLAG" H 9800 4024 50  0000 C CNN
+F 2 "" H 9800 3850 50  0001 C CNN
+F 3 "" H 9800 3850 50  0001 C CNN
+	1    9800 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7600 3250 7600 3650
+Wire Wire Line
+	7600 3250 9200 3250
+Wire Wire Line
+	9100 3150 7500 3150
+Wire Wire Line
+	7500 3150 7500 3750
+Wire Wire Line
+	7600 3750 7500 3750
+Wire Wire Line
+	9000 3050 7400 3050
+Wire Wire Line
+	7400 3050 7400 3850
+Wire Wire Line
+	7400 3850 7600 3850
+Wire Wire Line
+	9000 3950 9800 3950
+Wire Wire Line
+	10150 3950 10150 3850
+Wire Wire Line
+	9800 3850 9800 3950
+Connection ~ 9800 3950
+Wire Wire Line
+	9800 3950 10150 3950
+$Comp
+L power:+3V3 #PWR0103
+U 1 1 5B387572
+P 10150 3850
+F 0 "#PWR0103" H 10150 3700 50  0001 C CNN
+F 1 "+3V3" H 10165 4023 50  0000 C CNN
+F 2 "" H 10150 3850 50  0001 C CNN
+F 3 "" H 10150 3850 50  0001 C CNN
+	1    10150 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9050 5550 10150 5550
+Wire Wire Line
+	10150 5550 10150 3950
+Connection ~ 10150 3950
+NoConn ~ 7600 3950
+NoConn ~ 7600 4050
+NoConn ~ 7600 4150
+NoConn ~ 7600 4250
+NoConn ~ 7600 4350
+Wire Wire Line
+	7600 4550 7600 4800
+Wire Wire Line
+	7600 4800 9050 4800
+Wire Wire Line
+	9050 4800 9050 5250
+Wire Wire Line
+	9000 3650 9200 3650
+Text GLabel 9200 3650 2    39   Input ~ 0
+Data_Out
+Text GLabel 9200 3850 2    39   Input ~ 0
+Clock
+Text GLabel 9200 4150 2    39   Input ~ 0
+Latch
+$Comp
+L power:GND #PWR0104
+U 1 1 5B3BA619
+P 9000 4350
+F 0 "#PWR0104" H 9000 4100 50  0001 C CNN
+F 1 "GND" H 9005 4177 50  0000 C CNN
+F 2 "" H 9000 4350 50  0001 C CNN
+F 3 "" H 9000 4350 50  0001 C CNN
+	1    9000 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Drum_Machine_V00-rescue:74HC595-74xx U2
+U 1 1 5B299AFD
+P 8300 4100
+F 0 "U2" H 8300 4866 50  0000 C CNN
+F 1 "74HC595" H 8300 4775 50  0000 C CNN
+F 2 "" H 8300 4100 50  0001 C CNN
+F 3 "74xx/74HC595.pdf" H 8300 4100 50  0001 C CNN
+F 4 "V" H 8300 4100 50  0001 C CNN "Spice_Primitive"
+F 5 "dc 3.3" H 8300 4100 50  0001 C CNN "Spice_Model"
+F 6 "N" H 8300 4100 50  0001 C CNN "Spice_Netlist_Enabled"
+	1    8300 4100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0105
+U 1 1 5B3C9252
+P 9050 6100
+F 0 "#PWR0105" H 9050 5850 50  0001 C CNN
+F 1 "GND" H 9055 5927 50  0000 C CNN
+F 2 "" H 9050 6100 50  0001 C CNN
+F 3 "" H 9050 6100 50  0001 C CNN
+	1    9050 6100
+	1    0    0    -1  
+$EndComp
+Text GLabel 9250 5450 2    39   Input ~ 0
+Clock
+Text GLabel 9250 5750 2    39   Input ~ 0
+Latch
+Wire Wire Line
+	9050 5450 9250 5450
+Wire Wire Line
+	9050 5750 9250 5750
+Wire Wire Line
+	9200 4150 9000 4150
+Wire Wire Line
+	9200 3850 9000 3850
+Text GLabel 7500 6150 0    39   Output ~ 0
+Data_LED_Matrix
+Wire Wire Line
+	7650 6150 7500 6150
+Wire Wire Line
+	7650 5250 5300 5250
+Wire Wire Line
+	5300 5250 5300 4050
+Wire Wire Line
+	7650 5350 4700 5350
+Wire Wire Line
+	4700 5350 4700 4050
+Wire Wire Line
+	7650 5450 4100 5450
+Wire Wire Line
+	4100 5450 4100 4050
+Wire Wire Line
+	7650 5550 3500 5550
+Wire Wire Line
+	3500 5550 3500 4050
+Wire Wire Line
+	7650 5650 2900 5650
+Wire Wire Line
+	2900 5650 2900 4050
+Wire Wire Line
+	7650 5750 2300 5750
+Wire Wire Line
+	2300 5750 2300 4050
+Wire Wire Line
+	7650 5850 1700 5850
+Wire Wire Line
+	1700 5850 1700 4050
+Wire Wire Line
+	7650 5950 1100 5950
+Wire Wire Line
+	1100 5950 1100 4050
+Wire Wire Line
+	9000 4250 9000 4350
+Wire Wire Line
+	9050 5850 9050 6100
+Wire Wire Line
+	1300 3250 1400 3250
+Wire Wire Line
+	1400 3250 1400 4250
+Connection ~ 1400 4250
+Wire Wire Line
+	1400 4250 1900 4250
+Wire Wire Line
+	1900 3250 2000 3250
+Wire Wire Line
+	2000 3250 2000 4250
+Wire Wire Line
+	2500 3250 2600 3250
+Wire Wire Line
+	2600 3250 2600 4250
+Wire Wire Line
+	3100 3250 3200 3250
+Wire Wire Line
+	3200 3250 3200 4250
+Wire Wire Line
+	3700 3250 3800 3250
+Wire Wire Line
+	3800 3250 3800 4250
+Wire Wire Line
+	4300 3250 4400 3250
+Wire Wire Line
+	4400 3250 4400 4250
+Wire Wire Line
+	4900 3250 5000 3250
+Wire Wire Line
+	5000 3250 5000 4250
+Wire Wire Line
+	5500 3250 5600 3250
+Wire Wire Line
+	5600 3250 5600 4250
+Wire Wire Line
+	5600 4250 5500 4250
+Connection ~ 5000 4250
+Wire Wire Line
+	5000 4250 5500 4250
+Connection ~ 4400 4250
+Wire Wire Line
+	4400 4250 4900 4250
+Connection ~ 3800 4250
+Wire Wire Line
+	3800 4250 4300 4250
+Connection ~ 3200 4250
+Wire Wire Line
+	3200 4250 3700 4250
+Connection ~ 2600 4250
+Wire Wire Line
+	2600 4250 3100 4250
+Connection ~ 2000 4250
+Wire Wire Line
+	2000 4250 2500 4250
+$EndSCHEMATC

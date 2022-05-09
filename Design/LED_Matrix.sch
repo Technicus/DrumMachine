@@ -1,0 +1,3422 @@
+EESchema Schematic File Version 4
+LIBS:Drum_Machine_V00-cache
+EELAYER 26 0
+EELAYER END
+$Descr USLetter 8500 11000 portrait
+encoding utf-8
+Sheet 4 7
+Title "Drum Machine"
+Date "2018-06-15"
+Rev "V00"
+Comp "Prototype Engineering Studio LLC"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Drum_Machine_V00-rescue:R-device R42
+U 1 1 5B4B3890
+P 1225 7675
+F 0 "R42" V 1325 7675 39  0000 C CNN
+F 1 "10KΩ" V 1225 7675 39  0000 C CNN
+F 2 "" V 1155 7675 50  0001 C CNN
+F 3 "" H 1225 7675 50  0001 C CNN
+	1    1225 7675
+	1    0    0    1   
+$EndComp
+$Comp
+L Drum_Machine_V00-rescue:R-device R50
+U 1 1 5B4B3897
+P 1425 7675
+F 0 "R50" V 1525 7675 39  0000 C CNN
+F 1 "1KΩ" V 1425 7675 39  0000 C CNN
+F 2 "" V 1355 7675 50  0001 C CNN
+F 3 "" H 1425 7675 50  0001 C CNN
+	1    1425 7675
+	1    0    0    1   
+$EndComp
+$Comp
+L Drum_Machine_V00-rescue:74HC595-74xx U5
+U 1 1 5B4B389E
+P 6825 6875
+F 0 "U5" H 6825 7641 50  0000 C CNN
+F 1 "74HC595" H 6825 7550 50  0000 C CNN
+F 2 "" H 6825 6875 50  0001 C CNN
+F 3 "74xx/74HC595.pdf" H 6825 6875 50  0001 C CNN
+	1    6825 6875
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Drum_Machine_V00-rescue:R-device R52
+U 1 1 5B4B38AC
+P 1725 7675
+F 0 "R52" V 1825 7675 39  0000 C CNN
+F 1 "10KΩ" V 1725 7675 39  0000 C CNN
+F 2 "" V 1655 7675 50  0001 C CNN
+F 3 "" H 1725 7675 50  0001 C CNN
+	1    1725 7675
+	1    0    0    1   
+$EndComp
+$Comp
+L Drum_Machine_V00-rescue:R-device R60
+U 1 1 5B4B38B3
+P 1925 7675
+F 0 "R60" V 2025 7675 39  0000 C CNN
+F 1 "1KΩ" V 1925 7675 39  0000 C CNN
+F 2 "" V 1855 7675 50  0001 C CNN
+F 3 "" H 1925 7675 50  0001 C CNN
+	1    1925 7675
+	1    0    0    1   
+$EndComp
+$Comp
+L Drum_Machine_V00-rescue:R-device R62
+U 1 1 5B4B38C1
+P 2225 7675
+F 0 "R62" V 2325 7675 39  0000 C CNN
+F 1 "10KΩ" V 2225 7675 39  0000 C CNN
+F 2 "" V 2155 7675 50  0001 C CNN
+F 3 "" H 2225 7675 50  0001 C CNN
+	1    2225 7675
+	1    0    0    1   
+$EndComp
+$Comp
+L Drum_Machine_V00-rescue:R-device R70
+U 1 1 5B4B38C8
+P 2425 7675
+F 0 "R70" V 2525 7675 39  0000 C CNN
+F 1 "1KΩ" V 2425 7675 39  0000 C CNN
+F 2 "" V 2355 7675 50  0001 C CNN
+F 3 "" H 2425 7675 50  0001 C CNN
+	1    2425 7675
+	1    0    0    1   
+$EndComp
+$Comp
+L Drum_Machine_V00-rescue:R-device R72
+U 1 1 5B4B38D6
+P 2725 7675
+F 0 "R72" V 2825 7675 39  0000 C CNN
+F 1 "10KΩ" V 2725 7675 39  0000 C CNN
+F 2 "" V 2655 7675 50  0001 C CNN
+F 3 "" H 2725 7675 50  0001 C CNN
+	1    2725 7675
+	1    0    0    1   
+$EndComp
+$Comp
+L Drum_Machine_V00-rescue:R-device R80
+U 1 1 5B4B38DD
+P 2925 7675
+F 0 "R80" V 3025 7675 39  0000 C CNN
+F 1 "1KΩ" V 2925 7675 39  0000 C CNN
+F 2 "" V 2855 7675 50  0001 C CNN
+F 3 "" H 2925 7675 50  0001 C CNN
+	1    2925 7675
+	1    0    0    1   
+$EndComp
+$Comp
+L Drum_Machine_V00-rescue:R-device R82
+U 1 1 5B4B38EB
+P 3225 7675
+F 0 "R82" V 3325 7675 39  0000 C CNN
+F 1 "10KΩ" V 3225 7675 39  0000 C CNN
+F 2 "" V 3155 7675 50  0001 C CNN
+F 3 "" H 3225 7675 50  0001 C CNN
+	1    3225 7675
+	1    0    0    1   
+$EndComp
+$Comp
+L Drum_Machine_V00-rescue:R-device R90
+U 1 1 5B4B38F2
+P 3425 7675
+F 0 "R90" V 3525 7675 39  0000 C CNN
+F 1 "1KΩ" V 3425 7675 39  0000 C CNN
+F 2 "" V 3355 7675 50  0001 C CNN
+F 3 "" H 3425 7675 50  0001 C CNN
+	1    3425 7675
+	1    0    0    1   
+$EndComp
+$Comp
+L Drum_Machine_V00-rescue:R-device R92
+U 1 1 5B4B3900
+P 3725 7675
+F 0 "R92" V 3825 7675 39  0000 C CNN
+F 1 "10KΩ" V 3725 7675 39  0000 C CNN
+F 2 "" V 3655 7675 50  0001 C CNN
+F 3 "" H 3725 7675 50  0001 C CNN
+	1    3725 7675
+	1    0    0    1   
+$EndComp
+$Comp
+L Drum_Machine_V00-rescue:R-device R100
+U 1 1 5B4B3907
+P 3925 7675
+F 0 "R100" V 4025 7675 39  0000 C CNN
+F 1 "1KΩ" V 3925 7675 39  0000 C CNN
+F 2 "" V 3855 7675 50  0001 C CNN
+F 3 "" H 3925 7675 50  0001 C CNN
+	1    3925 7675
+	1    0    0    1   
+$EndComp
+$Comp
+L Drum_Machine_V00-rescue:R-device R32
+U 1 1 5B4B3915
+P 725 7675
+F 0 "R32" V 825 7675 39  0000 C CNN
+F 1 "10KΩ" V 725 7675 39  0000 C CNN
+F 2 "" V 655 7675 50  0001 C CNN
+F 3 "" H 725 7675 50  0001 C CNN
+	1    725  7675
+	1    0    0    1   
+$EndComp
+$Comp
+L Drum_Machine_V00-rescue:R-device R40
+U 1 1 5B4B391C
+P 925 7675
+F 0 "R40" V 1025 7675 39  0000 C CNN
+F 1 "1KΩ" V 925 7675 39  0000 C CNN
+F 2 "" V 855 7675 50  0001 C CNN
+F 3 "" H 925 7675 50  0001 C CNN
+	1    925  7675
+	1    0    0    1   
+$EndComp
+$Comp
+L Drum_Machine_V00-rescue:R-device R102
+U 1 1 5B4B3931
+P 4225 7675
+F 0 "R102" V 4325 7675 39  0000 C CNN
+F 1 "10KΩ" V 4225 7675 39  0000 C CNN
+F 2 "" V 4155 7675 50  0001 C CNN
+F 3 "" H 4225 7675 50  0001 C CNN
+	1    4225 7675
+	1    0    0    1   
+$EndComp
+$Comp
+L Drum_Machine_V00-rescue:R-device R110
+U 1 1 5B4B3938
+P 4425 7675
+F 0 "R110" V 4525 7675 39  0000 C CNN
+F 1 "1KΩ" V 4425 7675 39  0000 C CNN
+F 2 "" V 4355 7675 50  0001 C CNN
+F 3 "" H 4425 7675 50  0001 C CNN
+	1    4425 7675
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	4750 2875 4750 2925
+Wire Wire Line
+	4975 2275 4975 2875
+Wire Wire Line
+	4750 2275 4750 2325
+Wire Wire Line
+	4975 2275 4750 2275
+Wire Wire Line
+	4975 1500 5475 1500
+Wire Wire Line
+	4975 2875 4750 2875
+Connection ~ 4975 2275
+Wire Wire Line
+	4975 1500 4975 2275
+Connection ~ 4975 1500
+Wire Wire Line
+	4750 1500 4975 1500
+Wire Wire Line
+	4750 1575 4750 1500
+Wire Wire Line
+	5100 2925 5075 2925
+Wire Wire Line
+	5475 1575 5475 1500
+Connection ~ 5475 1575
+Wire Wire Line
+	5400 1575 5475 1575
+Wire Wire Line
+	5475 2325 5475 2925
+Wire Wire Line
+	5475 1575 5475 2325
+Connection ~ 5475 2325
+Wire Wire Line
+	5400 2325 5475 2325
+Wire Wire Line
+	5400 2925 5475 2925
+Wire Wire Line
+	5075 1575 5100 1575
+Wire Wire Line
+	5050 2525 5075 2525
+Wire Wire Line
+	5075 2525 5100 2525
+Connection ~ 5075 2525
+Wire Wire Line
+	5075 2325 5075 2525
+Wire Wire Line
+	5100 2325 5075 2325
+Wire Wire Line
+	5050 1775 5075 1775
+Wire Wire Line
+	5075 1775 5100 1775
+Connection ~ 5075 1775
+Wire Wire Line
+	5075 1575 5075 1775
+Wire Wire Line
+	5050 3125 5075 3125
+Wire Wire Line
+	5100 3125 5075 3125
+Connection ~ 5075 3125
+Wire Wire Line
+	5075 2925 5075 3125
+$Comp
+L Drum_Machine_V00-rescue:R-device R112
+U 1 1 5B4B3971
+P 5250 1775
+F 0 "R112" V 5350 1775 39  0000 C CNN
+F 1 "1KΩ" V 5250 1775 39  0000 C CNN
+F 2 "" V 5180 1775 50  0001 C CNN
+F 3 "" H 5250 1775 50  0001 C CNN
+	1    5250 1775
+	0    -1   1    0   
+$EndComp
+$Comp
+L Drum_Machine_V00-rescue:R-device R111
+U 1 1 5B4B3978
+P 5250 1575
+F 0 "R111" V 5350 1575 39  0000 C CNN
+F 1 "10KΩ" V 5250 1575 39  0000 C CNN
+F 2 "" V 5180 1575 50  0001 C CNN
+F 3 "" H 5250 1575 50  0001 C CNN
+	1    5250 1575
+	0    -1   1    0   
+$EndComp
+$Comp
+L Drum_Machine_V00-rescue:R-device R114
+U 1 1 5B4B397F
+P 5250 2525
+F 0 "R114" V 5350 2525 39  0000 C CNN
+F 1 "1KΩ" V 5250 2525 39  0000 C CNN
+F 2 "" V 5180 2525 50  0001 C CNN
+F 3 "" H 5250 2525 50  0001 C CNN
+	1    5250 2525
+	0    -1   1    0   
+$EndComp
+$Comp
+L Drum_Machine_V00-rescue:R-device R113
+U 1 1 5B4B3986
+P 5250 2325
+F 0 "R113" V 5350 2325 39  0000 C CNN
+F 1 "10KΩ" V 5250 2325 39  0000 C CNN
+F 2 "" V 5180 2325 50  0001 C CNN
+F 3 "" H 5250 2325 50  0001 C CNN
+	1    5250 2325
+	0    -1   1    0   
+$EndComp
+$Comp
+L Drum_Machine_V00-rescue:R-device R116
+U 1 1 5B4B398D
+P 5250 3125
+F 0 "R116" V 5350 3125 39  0000 C CNN
+F 1 "1KΩ" V 5250 3125 39  0000 C CNN
+F 2 "" V 5180 3125 50  0001 C CNN
+F 3 "" H 5250 3125 50  0001 C CNN
+	1    5250 3125
+	0    -1   1    0   
+$EndComp
+$Comp
+L Drum_Machine_V00-rescue:R-device R115
+U 1 1 5B4B3994
+P 5250 2925
+F 0 "R115" V 5350 2925 39  0000 C CNN
+F 1 "10KΩ" V 5250 2925 39  0000 C CNN
+F 2 "" V 5180 2925 50  0001 C CNN
+F 3 "" H 5250 2925 50  0001 C CNN
+	1    5250 2925
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	725  7475 925  7475
+Wire Wire Line
+	925  7475 925  7525
+Wire Wire Line
+	725  7475 725  7525
+Wire Wire Line
+	1225 7475 1425 7475
+Wire Wire Line
+	1425 7475 1425 7525
+Wire Wire Line
+	1225 7475 1225 7525
+Wire Wire Line
+	1725 7475 1925 7475
+Wire Wire Line
+	1925 7475 1925 7525
+Wire Wire Line
+	1725 7475 1725 7525
+Wire Wire Line
+	2225 7475 2425 7475
+Wire Wire Line
+	2425 7475 2425 7525
+Wire Wire Line
+	2225 7475 2225 7525
+Wire Wire Line
+	2725 7475 2925 7475
+Wire Wire Line
+	2925 7475 2925 7525
+Wire Wire Line
+	2725 7475 2725 7525
+Wire Wire Line
+	3225 7475 3425 7475
+Wire Wire Line
+	3425 7475 3425 7525
+Wire Wire Line
+	3225 7475 3225 7525
+Wire Wire Line
+	3725 7475 3925 7475
+Wire Wire Line
+	3925 7475 3925 7525
+Wire Wire Line
+	3725 7475 3725 7525
+Wire Wire Line
+	4225 7475 4425 7475
+Wire Wire Line
+	4425 7475 4425 7525
+Wire Wire Line
+	4225 7475 4225 7525
+Wire Wire Line
+	725  7825 725  7875
+Wire Wire Line
+	725  7875 1125 7875
+Wire Wire Line
+	4225 7875 4225 7825
+Wire Wire Line
+	1225 7825 1225 7875
+Connection ~ 1225 7875
+Wire Wire Line
+	1225 7875 1625 7875
+Wire Wire Line
+	1725 7825 1725 7875
+Connection ~ 1725 7875
+Wire Wire Line
+	1725 7875 2125 7875
+Wire Wire Line
+	2225 7825 2225 7875
+Connection ~ 2225 7875
+Wire Wire Line
+	2225 7875 2625 7875
+Wire Wire Line
+	2725 7825 2725 7875
+Connection ~ 2725 7875
+Wire Wire Line
+	2725 7875 3125 7875
+Wire Wire Line
+	3225 7825 3225 7875
+Connection ~ 3225 7875
+Wire Wire Line
+	3225 7875 3625 7875
+Wire Wire Line
+	3725 7825 3725 7875
+Connection ~ 3725 7875
+Wire Wire Line
+	3725 7875 4125 7875
+$Comp
+L power:GND #PWR0107
+U 1 1 5B4B3A1F
+P 725 8075
+F 0 "#PWR0107" H 725 7825 50  0001 C CNN
+F 1 "GND" H 730 7902 50  0000 C CNN
+F 2 "" H 725 8075 50  0001 C CNN
+F 3 "" H 725 8075 50  0001 C CNN
+	1    725  8075
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0108
+U 1 1 5B4B3A25
+P 5475 1400
+F 0 "#PWR0108" H 5475 1250 50  0001 C CNN
+F 1 "+5V" H 5490 1573 50  0000 C CNN
+F 2 "" H 5475 1400 50  0001 C CNN
+F 3 "" H 5475 1400 50  0001 C CNN
+	1    5475 1400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	725  7875 725  8075
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 5B4B3A43
+P 7700 4425
+F 0 "#FLG0102" H 7700 4500 50  0001 C CNN
+F 1 "PWR_FLAG" H 7700 4599 50  0000 C CNN
+F 2 "" H 7700 4425 50  0001 C CNN
+F 3 "" H 7700 4425 50  0001 C CNN
+	1    7700 4425
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7700 4425 7700 4925
+$Comp
+L power:+3V3 #PWR0109
+U 1 1 5B4B3A56
+P 7850 4700
+F 0 "#PWR0109" H 7850 4550 50  0001 C CNN
+F 1 "+3V3" H 7865 4873 50  0000 C CNN
+F 2 "" H 7850 4700 50  0001 C CNN
+F 3 "" H 7850 4700 50  0001 C CNN
+	1    7850 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7525 6725 7850 6725
+Wire Wire Line
+	6075 5825 6075 6025
+Wire Wire Line
+	6075 6025 7525 6025
+Wire Wire Line
+	7525 6025 7525 6425
+Wire Wire Line
+	7475 4500 7125 4500
+Text GLabel 7125 4500 0    39   Input ~ 0
+Data_LED_Matrix
+Text GLabel 7525 5125 2    39   Input ~ 0
+Clock
+Text GLabel 7525 5425 2    39   Input ~ 0
+Latch
+$Comp
+L power:GND #PWR0110
+U 1 1 5B4B3A6B
+P 7475 5625
+F 0 "#PWR0110" H 7475 5375 50  0001 C CNN
+F 1 "GND" H 7480 5452 50  0000 C CNN
+F 2 "" H 7475 5625 50  0001 C CNN
+F 3 "" H 7475 5625 50  0001 C CNN
+	1    7475 5625
+	1    0    0    -1  
+$EndComp
+$Comp
+L Drum_Machine_V00-rescue:74HC595-74xx U4
+U 1 1 5B4B3A74
+P 6775 5375
+F 0 "U4" H 6775 6141 50  0000 C CNN
+F 1 "74HC595" H 6775 6050 50  0000 C CNN
+F 2 "" H 6775 5375 50  0001 C CNN
+F 3 "74xx/74HC595.pdf" H 6775 5375 50  0001 C CNN
+F 4 "V" H 6775 5375 50  0001 C CNN "Spice_Primitive"
+F 5 "dc 3.3" H 6775 5375 50  0001 C CNN "Spice_Model"
+F 6 "N" H 6775 5375 50  0001 C CNN "Spice_Netlist_Enabled"
+	1    6775 5375
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0111
+U 1 1 5B4B3A7B
+P 7525 7725
+F 0 "#PWR0111" H 7525 7475 50  0001 C CNN
+F 1 "GND" H 7530 7552 50  0000 C CNN
+F 2 "" H 7525 7725 50  0001 C CNN
+F 3 "" H 7525 7725 50  0001 C CNN
+	1    7525 7725
+	1    0    0    -1  
+$EndComp
+$Comp
+L Drum_Machine_V00-rescue:GNDPWR-power #PWR0112
+U 1 1 5B4B3A81
+P 7300 7725
+F 0 "#PWR0112" H 7300 7525 50  0001 C CNN
+F 1 "GNDPWR" H 7304 7799 50  0000 C CNN
+F 2 "" H 7300 7675 50  0001 C CNN
+F 3 "" H 7300 7675 50  0001 C CNN
+	1    7300 7725
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7300 7725 7300 7500
+Wire Wire Line
+	7300 7500 7525 7500
+Wire Wire Line
+	7525 6625 7575 6625
+Wire Wire Line
+	7525 5425 7475 5425
+Wire Wire Line
+	7525 5125 7475 5125
+Wire Wire Line
+	7475 5525 7475 5625
+Connection ~ 725  7875
+Wire Wire Line
+	6125 7125 6060 7125
+Wire Wire Line
+	6060 7125 6060 8575
+Wire Wire Line
+	6060 8575 925  8575
+Wire Wire Line
+	6125 7025 5960 7025
+Wire Wire Line
+	5960 8475 1425 8475
+Wire Wire Line
+	1925 8375 5860 8375
+Wire Wire Line
+	5860 8375 5860 6925
+Wire Wire Line
+	5860 6925 6125 6925
+Wire Wire Line
+	6125 6825 5760 6825
+Wire Wire Line
+	5760 6825 5760 8275
+Wire Wire Line
+	5760 8275 2425 8275
+Wire Wire Line
+	2925 8175 5660 8175
+Wire Wire Line
+	5660 8175 5660 6725
+Wire Wire Line
+	5660 6725 6125 6725
+Wire Wire Line
+	6125 6625 5560 6625
+Wire Wire Line
+	5560 6625 5560 8075
+Wire Wire Line
+	5560 8075 3425 8075
+Wire Wire Line
+	3925 7975 5460 7975
+Wire Wire Line
+	5460 7975 5460 6525
+Wire Wire Line
+	5460 6525 6125 6525
+Wire Wire Line
+	6125 6425 5360 6425
+Wire Wire Line
+	5360 6425 5360 7875
+Wire Wire Line
+	5360 7875 4425 7875
+Wire Wire Line
+	4750 4075 4750 4125
+Wire Wire Line
+	4975 3475 4975 4075
+Wire Wire Line
+	4750 3475 4750 3525
+Wire Wire Line
+	4975 3475 4750 3475
+Wire Wire Line
+	4975 4075 4750 4075
+Connection ~ 4975 3475
+Wire Wire Line
+	4975 2875 4975 3475
+Wire Wire Line
+	5100 4125 5075 4125
+Wire Wire Line
+	5400 3525 5475 3525
+Wire Wire Line
+	5400 4125 5475 4125
+Wire Wire Line
+	5050 3725 5075 3725
+Wire Wire Line
+	5075 3725 5100 3725
+Connection ~ 5075 3725
+Wire Wire Line
+	5075 3525 5075 3725
+Wire Wire Line
+	5100 3525 5075 3525
+Wire Wire Line
+	5050 4325 5075 4325
+Wire Wire Line
+	5100 4325 5075 4325
+Connection ~ 5075 4325
+Wire Wire Line
+	5075 4125 5075 4325
+$Comp
+L Drum_Machine_V00-rescue:R-device R118
+U 1 1 5B6053C5
+P 5250 3725
+F 0 "R118" V 5350 3725 39  0000 C CNN
+F 1 "1KΩ" V 5250 3725 39  0000 C CNN
+F 2 "" V 5180 3725 50  0001 C CNN
+F 3 "" H 5250 3725 50  0001 C CNN
+	1    5250 3725
+	0    -1   1    0   
+$EndComp
+$Comp
+L Drum_Machine_V00-rescue:R-device R117
+U 1 1 5B6053CC
+P 5250 3525
+F 0 "R117" V 5350 3525 39  0000 C CNN
+F 1 "10KΩ" V 5250 3525 39  0000 C CNN
+F 2 "" V 5180 3525 50  0001 C CNN
+F 3 "" H 5250 3525 50  0001 C CNN
+	1    5250 3525
+	0    -1   1    0   
+$EndComp
+$Comp
+L Drum_Machine_V00-rescue:R-device R120
+U 1 1 5B6053D3
+P 5250 4325
+F 0 "R120" V 5350 4325 39  0000 C CNN
+F 1 "1KΩ" V 5250 4325 39  0000 C CNN
+F 2 "" V 5180 4325 50  0001 C CNN
+F 3 "" H 5250 4325 50  0001 C CNN
+	1    5250 4325
+	0    -1   1    0   
+$EndComp
+$Comp
+L Drum_Machine_V00-rescue:R-device R119
+U 1 1 5B6053DA
+P 5250 4125
+F 0 "R119" V 5350 4125 39  0000 C CNN
+F 1 "10KΩ" V 5250 4125 39  0000 C CNN
+F 2 "" V 5180 4125 50  0001 C CNN
+F 3 "" H 5250 4125 50  0001 C CNN
+	1    5250 4125
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	4750 5275 4750 5325
+Wire Wire Line
+	4975 4675 4975 5275
+Wire Wire Line
+	4750 4675 4750 4725
+Wire Wire Line
+	4975 4675 4750 4675
+Wire Wire Line
+	4975 5275 4750 5275
+Wire Wire Line
+	5100 5325 5075 5325
+Wire Wire Line
+	5400 4725 5475 4725
+Wire Wire Line
+	5400 5325 5475 5325
+Wire Wire Line
+	5050 4925 5075 4925
+Wire Wire Line
+	5075 4925 5100 4925
+Connection ~ 5075 4925
+Wire Wire Line
+	5075 4725 5075 4925
+Wire Wire Line
+	5100 4725 5075 4725
+Wire Wire Line
+	5050 5525 5075 5525
+Wire Wire Line
+	5100 5525 5075 5525
+Connection ~ 5075 5525
+Wire Wire Line
+	5075 5325 5075 5525
+$Comp
+L Drum_Machine_V00-rescue:R-device R122
+U 1 1 5B627D02
+P 5250 4925
+F 0 "R122" V 5350 4925 39  0000 C CNN
+F 1 "1KΩ" V 5250 4925 39  0000 C CNN
+F 2 "" V 5180 4925 50  0001 C CNN
+F 3 "" H 5250 4925 50  0001 C CNN
+	1    5250 4925
+	0    -1   1    0   
+$EndComp
+$Comp
+L Drum_Machine_V00-rescue:R-device R121
+U 1 1 5B627D09
+P 5250 4725
+F 0 "R121" V 5350 4725 39  0000 C CNN
+F 1 "10KΩ" V 5250 4725 39  0000 C CNN
+F 2 "" V 5180 4725 50  0001 C CNN
+F 3 "" H 5250 4725 50  0001 C CNN
+	1    5250 4725
+	0    -1   1    0   
+$EndComp
+$Comp
+L Drum_Machine_V00-rescue:R-device R124
+U 1 1 5B627D10
+P 5250 5525
+F 0 "R124" V 5350 5525 39  0000 C CNN
+F 1 "1KΩ" V 5250 5525 39  0000 C CNN
+F 2 "" V 5180 5525 50  0001 C CNN
+F 3 "" H 5250 5525 50  0001 C CNN
+	1    5250 5525
+	0    -1   1    0   
+$EndComp
+$Comp
+L Drum_Machine_V00-rescue:R-device R123
+U 1 1 5B627D17
+P 5250 5325
+F 0 "R123" V 5350 5325 39  0000 C CNN
+F 1 "10KΩ" V 5250 5325 39  0000 C CNN
+F 2 "" V 5180 5325 50  0001 C CNN
+F 3 "" H 5250 5325 50  0001 C CNN
+	1    5250 5325
+	0    -1   1    0   
+$EndComp
+Connection ~ 4975 2875
+Wire Wire Line
+	5475 2925 5475 3525
+Wire Wire Line
+	4750 5875 4750 5925
+Wire Wire Line
+	4975 5275 4975 5875
+Wire Wire Line
+	4975 5875 4750 5875
+Wire Wire Line
+	5100 5925 5075 5925
+Wire Wire Line
+	5400 5925 5475 5925
+Wire Wire Line
+	5050 6125 5075 6125
+Wire Wire Line
+	5100 6125 5075 6125
+Connection ~ 5075 6125
+Wire Wire Line
+	5075 5925 5075 6125
+$Comp
+L Drum_Machine_V00-rescue:R-device R126
+U 1 1 5B6963DC
+P 5250 6125
+F 0 "R126" V 5350 6125 39  0000 C CNN
+F 1 "1KΩ" V 5250 6125 39  0000 C CNN
+F 2 "" V 5180 6125 50  0001 C CNN
+F 3 "" H 5250 6125 50  0001 C CNN
+	1    5250 6125
+	0    -1   1    0   
+$EndComp
+$Comp
+L Drum_Machine_V00-rescue:R-device R125
+U 1 1 5B6963E3
+P 5250 5925
+F 0 "R125" V 5350 5925 39  0000 C CNN
+F 1 "10KΩ" V 5250 5925 39  0000 C CNN
+F 2 "" V 5180 5925 50  0001 C CNN
+F 3 "" H 5250 5925 50  0001 C CNN
+	1    5250 5925
+	0    -1   1    0   
+$EndComp
+Connection ~ 4975 5275
+Connection ~ 5475 2925
+Connection ~ 5475 3525
+Wire Wire Line
+	5475 3525 5475 4125
+Connection ~ 5475 4125
+Wire Wire Line
+	5475 4125 5475 4725
+Connection ~ 5475 4725
+Wire Wire Line
+	5475 4725 5475 5325
+Connection ~ 5475 5325
+Wire Wire Line
+	5475 5325 5475 5925
+Wire Wire Line
+	7475 4925 7475 4500
+Wire Wire Line
+	5400 3725 5775 3725
+$Comp
+L Drum_Machine_V00-rescue:2N3906-transistors Q13
+U 1 1 5B842CC9
+P 825 2175
+F 0 "Q13" H 625 2125 39  0000 L CNN
+F 1 "2N3906" H 625 2025 39  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-92_Molded_Narrow" H 1025 2100 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3906.pdf" H 825 2175 50  0001 L CNN
+	1    825  2175
+	1    0    0    1   
+$EndComp
+$Comp
+L Drum_Machine_V00-rescue:R-device R33
+U 1 1 5B98E675
+P 825 3125
+F 0 "R33" V 725 3125 39  0000 C CNN
+F 1 "300Ω" V 825 3125 39  0000 C CNN
+F 2 "" V 755 3125 50  0001 C CNN
+F 3 "" H 825 3125 50  0001 C CNN
+	1    825  3125
+	0    -1   1    0   
+$EndComp
+$Comp
+L led_alt:LED_ALT D1
+U 1 1 5B9F9F3D
+P 1025 2925
+F 0 "D1" V 1175 2675 50  0000 L CNN
+F 1 "Green" V 1075 2625 39  0000 L CNN
+F 2 "" H 1025 2925 50  0001 C CNN
+F 3 "" H 1025 2925 50  0001 C CNN
+	1    1025 2925
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	1025 3075 1025 3125
+Wire Wire Line
+	1025 3125 975  3125
+Wire Wire Line
+	675  3125 625  3125
+Wire Wire Line
+	1025 2775 1025 2725
+$Comp
+L Drum_Machine_V00-rescue:R-device R101
+U 1 1 5BA6CFDA
+P 4125 2375
+F 0 "R101" V 4225 2375 39  0000 C CNN
+F 1 "1KΩ" V 4125 2375 39  0000 C CNN
+F 2 "" V 4055 2375 50  0001 C CNN
+F 3 "" H 4125 2375 50  0001 C CNN
+	1    4125 2375
+	1    0    0    1   
+$EndComp
+$Comp
+L Drum_Machine_V00-rescue:R-device R91
+U 1 1 5BA78B9A
+P 3625 2375
+F 0 "R91" V 3725 2375 39  0000 C CNN
+F 1 "1KΩ" V 3625 2375 39  0000 C CNN
+F 2 "" V 3555 2375 50  0001 C CNN
+F 3 "" H 3625 2375 50  0001 C CNN
+	1    3625 2375
+	1    0    0    1   
+$EndComp
+$Comp
+L Drum_Machine_V00-rescue:R-device R81
+U 1 1 5BA83AFC
+P 3125 2375
+F 0 "R81" V 3225 2375 39  0000 C CNN
+F 1 "1KΩ" V 3125 2375 39  0000 C CNN
+F 2 "" V 3055 2375 50  0001 C CNN
+F 3 "" H 3125 2375 50  0001 C CNN
+	1    3125 2375
+	1    0    0    1   
+$EndComp
+$Comp
+L Drum_Machine_V00-rescue:R-device R71
+U 1 1 5BA8EA64
+P 2625 2375
+F 0 "R71" V 2725 2375 39  0000 C CNN
+F 1 "1KΩ" V 2625 2375 39  0000 C CNN
+F 2 "" V 2555 2375 50  0001 C CNN
+F 3 "" H 2625 2375 50  0001 C CNN
+	1    2625 2375
+	1    0    0    1   
+$EndComp
+$Comp
+L Drum_Machine_V00-rescue:R-device R61
+U 1 1 5BA999C0
+P 2125 2375
+F 0 "R61" V 2225 2375 39  0000 C CNN
+F 1 "1KΩ" V 2125 2375 39  0000 C CNN
+F 2 "" V 2055 2375 50  0001 C CNN
+F 3 "" H 2125 2375 50  0001 C CNN
+	1    2125 2375
+	1    0    0    1   
+$EndComp
+$Comp
+L Drum_Machine_V00-rescue:R-device R51
+U 1 1 5BAA4928
+P 1625 2375
+F 0 "R51" V 1725 2375 39  0000 C CNN
+F 1 "1KΩ" V 1625 2375 39  0000 C CNN
+F 2 "" V 1555 2375 50  0001 C CNN
+F 3 "" H 1625 2375 50  0001 C CNN
+	1    1625 2375
+	1    0    0    1   
+$EndComp
+$Comp
+L Drum_Machine_V00-rescue:R-device R41
+U 1 1 5BAAFC8C
+P 1125 2375
+F 0 "R41" V 1225 2375 39  0000 C CNN
+F 1 "1KΩ" V 1125 2375 39  0000 C CNN
+F 2 "" V 1055 2375 50  0001 C CNN
+F 3 "" H 1125 2375 50  0001 C CNN
+	1    1125 2375
+	1    0    0    1   
+$EndComp
+$Comp
+L Drum_Machine_V00-rescue:R-device R31
+U 1 1 5BABABE4
+P 625 2375
+F 0 "R31" V 725 2375 39  0000 C CNN
+F 1 "1KΩ" V 625 2375 39  0000 C CNN
+F 2 "" V 555 2375 50  0001 C CNN
+F 3 "" H 625 2375 50  0001 C CNN
+	1    625  2375
+	1    0    0    1   
+$EndComp
+$Comp
+L Drum_Machine_V00-rescue:2N3906-transistors Q15
+U 1 1 5BAFEFE7
+P 1325 2175
+F 0 "Q15" H 1125 2125 39  0000 L CNN
+F 1 "2N3906" H 1125 2025 39  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-92_Molded_Narrow" H 1525 2100 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3906.pdf" H 1325 2175 50  0001 L CNN
+	1    1325 2175
+	1    0    0    1   
+$EndComp
+$Comp
+L Drum_Machine_V00-rescue:2N3906-transistors Q17
+U 1 1 5BB0A012
+P 1825 2175
+F 0 "Q17" H 1625 2125 39  0000 L CNN
+F 1 "2N3906" H 1625 2025 39  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-92_Molded_Narrow" H 2025 2100 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3906.pdf" H 1825 2175 50  0001 L CNN
+	1    1825 2175
+	1    0    0    1   
+$EndComp
+$Comp
+L Drum_Machine_V00-rescue:2N3906-transistors Q19
+U 1 1 5BB15041
+P 2325 2175
+F 0 "Q19" H 2125 2125 39  0000 L CNN
+F 1 "2N3906" H 2125 2025 39  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-92_Molded_Narrow" H 2525 2100 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3906.pdf" H 2325 2175 50  0001 L CNN
+	1    2325 2175
+	1    0    0    1   
+$EndComp
+$Comp
+L Drum_Machine_V00-rescue:2N3906-transistors Q21
+U 1 1 5BB2006E
+P 2825 2175
+F 0 "Q21" H 2625 2125 39  0000 L CNN
+F 1 "2N3906" H 2625 2025 39  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-92_Molded_Narrow" H 3025 2100 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3906.pdf" H 2825 2175 50  0001 L CNN
+	1    2825 2175
+	1    0    0    1   
+$EndComp
+$Comp
+L Drum_Machine_V00-rescue:2N3906-transistors Q23
+U 1 1 5BB2B09D
+P 3325 2175
+F 0 "Q23" H 3125 2125 39  0000 L CNN
+F 1 "2N3906" H 3125 2025 39  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-92_Molded_Narrow" H 3525 2100 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3906.pdf" H 3325 2175 50  0001 L CNN
+	1    3325 2175
+	1    0    0    1   
+$EndComp
+$Comp
+L Drum_Machine_V00-rescue:2N3906-transistors Q25
+U 1 1 5BB360D8
+P 3825 2175
+F 0 "Q25" H 3625 2125 39  0000 L CNN
+F 1 "2N3906" H 3625 2025 39  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-92_Molded_Narrow" H 4025 2100 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3906.pdf" H 3825 2175 50  0001 L CNN
+	1    3825 2175
+	1    0    0    1   
+$EndComp
+$Comp
+L Drum_Machine_V00-rescue:2N3906-transistors Q27
+U 1 1 5BB41117
+P 4325 2175
+F 0 "Q27" H 4125 2125 39  0000 L CNN
+F 1 "2N3906" H 4125 2025 39  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-92_Molded_Narrow" H 4525 2100 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3906.pdf" H 4325 2175 50  0001 L CNN
+	1    4325 2175
+	1    0    0    1   
+$EndComp
+$Comp
+L Drum_Machine_V00-rescue:R-device R43
+U 1 1 5BB571E3
+P 1325 3125
+F 0 "R43" V 1225 3125 39  0000 C CNN
+F 1 "300Ω" V 1325 3125 39  0000 C CNN
+F 2 "" V 1255 3125 50  0001 C CNN
+F 3 "" H 1325 3125 50  0001 C CNN
+	1    1325 3125
+	0    -1   1    0   
+$EndComp
+$Comp
+L led_alt:LED_ALT D8
+U 1 1 5BB571EA
+P 1525 2925
+F 0 "D8" V 1675 2675 50  0000 L CNN
+F 1 "Green" V 1575 2625 39  0000 L CNN
+F 2 "" H 1525 2925 50  0001 C CNN
+F 3 "" H 1525 2925 50  0001 C CNN
+	1    1525 2925
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	1525 3075 1525 3125
+Wire Wire Line
+	1525 3125 1475 3125
+Wire Wire Line
+	1175 3125 1125 3125
+Wire Wire Line
+	1525 2775 1525 2725
+$Comp
+L Drum_Machine_V00-rescue:R-device R53
+U 1 1 5BB62E0E
+P 1825 3125
+F 0 "R53" V 1725 3125 39  0000 C CNN
+F 1 "300Ω" V 1825 3125 39  0000 C CNN
+F 2 "" V 1755 3125 50  0001 C CNN
+F 3 "" H 1825 3125 50  0001 C CNN
+	1    1825 3125
+	0    -1   1    0   
+$EndComp
+$Comp
+L led_alt:LED_ALT D15
+U 1 1 5BB62E15
+P 2025 2925
+F 0 "D15" V 2175 2675 50  0000 L CNN
+F 1 "Green" V 2075 2625 39  0000 L CNN
+F 2 "" H 2025 2925 50  0001 C CNN
+F 3 "" H 2025 2925 50  0001 C CNN
+	1    2025 2925
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	2025 3075 2025 3125
+Wire Wire Line
+	2025 3125 1975 3125
+Wire Wire Line
+	1675 3125 1625 3125
+Wire Wire Line
+	2025 2775 2025 2725
+$Comp
+L Drum_Machine_V00-rescue:R-device R63
+U 1 1 5BB6F5E0
+P 2325 3125
+F 0 "R63" V 2225 3125 39  0000 C CNN
+F 1 "300Ω" V 2325 3125 39  0000 C CNN
+F 2 "" V 2255 3125 50  0001 C CNN
+F 3 "" H 2325 3125 50  0001 C CNN
+	1    2325 3125
+	0    -1   1    0   
+$EndComp
+$Comp
+L led_alt:LED_ALT D22
+U 1 1 5BB6F5E7
+P 2525 2925
+F 0 "D22" V 2675 2675 50  0000 L CNN
+F 1 "Green" V 2575 2625 39  0000 L CNN
+F 2 "" H 2525 2925 50  0001 C CNN
+F 3 "" H 2525 2925 50  0001 C CNN
+	1    2525 2925
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	2525 3075 2525 3125
+Wire Wire Line
+	2525 3125 2475 3125
+Wire Wire Line
+	2175 3125 2125 3125
+Wire Wire Line
+	2525 2775 2525 2725
+$Comp
+L Drum_Machine_V00-rescue:R-device R73
+U 1 1 5BBA44B5
+P 2825 3125
+F 0 "R73" V 2725 3125 39  0000 C CNN
+F 1 "300Ω" V 2825 3125 39  0000 C CNN
+F 2 "" V 2755 3125 50  0001 C CNN
+F 3 "" H 2825 3125 50  0001 C CNN
+	1    2825 3125
+	0    -1   1    0   
+$EndComp
+$Comp
+L led_alt:LED_ALT D29
+U 1 1 5BBA44BC
+P 3025 2925
+F 0 "D29" V 3175 2675 50  0000 L CNN
+F 1 "Green" V 3075 2625 39  0000 L CNN
+F 2 "" H 3025 2925 50  0001 C CNN
+F 3 "" H 3025 2925 50  0001 C CNN
+	1    3025 2925
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	3025 3075 3025 3125
+Wire Wire Line
+	3025 3125 2975 3125
+Wire Wire Line
+	2675 3125 2625 3125
+Wire Wire Line
+	3025 2775 3025 2725
+$Comp
+L Drum_Machine_V00-rescue:R-device R83
+U 1 1 5BBA44C8
+P 3325 3125
+F 0 "R83" V 3225 3125 39  0000 C CNN
+F 1 "300Ω" V 3325 3125 39  0000 C CNN
+F 2 "" V 3255 3125 50  0001 C CNN
+F 3 "" H 3325 3125 50  0001 C CNN
+	1    3325 3125
+	0    -1   1    0   
+$EndComp
+$Comp
+L led_alt:LED_ALT D36
+U 1 1 5BBA44CF
+P 3525 2925
+F 0 "D36" V 3675 2675 50  0000 L CNN
+F 1 "Green" V 3575 2625 39  0000 L CNN
+F 2 "" H 3525 2925 50  0001 C CNN
+F 3 "" H 3525 2925 50  0001 C CNN
+	1    3525 2925
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	3525 3075 3525 3125
+Wire Wire Line
+	3525 3125 3475 3125
+Wire Wire Line
+	3175 3125 3125 3125
+Wire Wire Line
+	3525 2775 3525 2725
+$Comp
+L Drum_Machine_V00-rescue:R-device R93
+U 1 1 5BBEDA5C
+P 3825 3125
+F 0 "R93" V 3725 3125 39  0000 C CNN
+F 1 "300Ω" V 3825 3125 39  0000 C CNN
+F 2 "" V 3755 3125 50  0001 C CNN
+F 3 "" H 3825 3125 50  0001 C CNN
+	1    3825 3125
+	0    -1   1    0   
+$EndComp
+$Comp
+L led_alt:LED_ALT D43
+U 1 1 5BBEDA63
+P 4025 2925
+F 0 "D43" V 4175 2675 50  0000 L CNN
+F 1 "Red" V 4075 2625 39  0000 L CNN
+F 2 "" H 4025 2925 50  0001 C CNN
+F 3 "" H 4025 2925 50  0001 C CNN
+	1    4025 2925
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	4025 3075 4025 3125
+Wire Wire Line
+	4025 3125 3975 3125
+Wire Wire Line
+	3675 3125 3625 3125
+Wire Wire Line
+	4025 2775 4025 2725
+$Comp
+L Drum_Machine_V00-rescue:R-device R103
+U 1 1 5BBFD3D0
+P 4325 3125
+F 0 "R103" V 4225 3125 39  0000 C CNN
+F 1 "300Ω" V 4325 3125 39  0000 C CNN
+F 2 "" V 4255 3125 50  0001 C CNN
+F 3 "" H 4325 3125 50  0001 C CNN
+	1    4325 3125
+	0    -1   1    0   
+$EndComp
+$Comp
+L led_alt:LED_ALT D50
+U 1 1 5BBFD3D7
+P 4525 2975
+F 0 "D50" V 4675 2725 50  0000 L CNN
+F 1 "Blue" V 4575 2675 39  0000 L CNN
+F 2 "" H 4525 2975 50  0001 C CNN
+F 3 "" H 4525 2975 50  0001 C CNN
+	1    4525 2975
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	4525 3125 4475 3125
+Wire Wire Line
+	4175 3125 4125 3125
+Wire Wire Line
+	4525 2825 4525 2725
+$Comp
+L Drum_Machine_V00-rescue:R-device R35
+U 1 1 5BC0E18A
+P 825 4325
+F 0 "R35" V 725 4325 39  0000 C CNN
+F 1 "300Ω" V 825 4325 39  0000 C CNN
+F 2 "" V 755 4325 50  0001 C CNN
+F 3 "" H 825 4325 50  0001 C CNN
+	1    825  4325
+	0    -1   1    0   
+$EndComp
+$Comp
+L led_alt:LED_ALT D3
+U 1 1 5BC0E191
+P 1025 4125
+F 0 "D3" V 1175 3875 50  0000 L CNN
+F 1 "Green" V 1075 3825 39  0000 L CNN
+F 2 "" H 1025 4125 50  0001 C CNN
+F 3 "" H 1025 4125 50  0001 C CNN
+	1    1025 4125
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	1025 4275 1025 4325
+Wire Wire Line
+	1025 4325 975  4325
+Wire Wire Line
+	675  4325 625  4325
+Wire Wire Line
+	1025 3975 1025 3925
+$Comp
+L Drum_Machine_V00-rescue:R-device R45
+U 1 1 5BC0E19D
+P 1325 4325
+F 0 "R45" V 1225 4325 39  0000 C CNN
+F 1 "300Ω" V 1325 4325 39  0000 C CNN
+F 2 "" V 1255 4325 50  0001 C CNN
+F 3 "" H 1325 4325 50  0001 C CNN
+	1    1325 4325
+	0    -1   1    0   
+$EndComp
+$Comp
+L led_alt:LED_ALT D10
+U 1 1 5BC0E1A4
+P 1525 4125
+F 0 "D10" V 1675 3875 50  0000 L CNN
+F 1 "Green" V 1575 3825 39  0000 L CNN
+F 2 "" H 1525 4125 50  0001 C CNN
+F 3 "" H 1525 4125 50  0001 C CNN
+	1    1525 4125
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	1525 4275 1525 4325
+Wire Wire Line
+	1525 4325 1475 4325
+Wire Wire Line
+	1175 4325 1125 4325
+Wire Wire Line
+	1525 3975 1525 3925
+$Comp
+L Drum_Machine_V00-rescue:R-device R55
+U 1 1 5BC0E1B0
+P 1825 4325
+F 0 "R55" V 1725 4325 39  0000 C CNN
+F 1 "300Ω" V 1825 4325 39  0000 C CNN
+F 2 "" V 1755 4325 50  0001 C CNN
+F 3 "" H 1825 4325 50  0001 C CNN
+	1    1825 4325
+	0    -1   1    0   
+$EndComp
+$Comp
+L led_alt:LED_ALT D17
+U 1 1 5BC0E1B7
+P 2025 4125
+F 0 "D17" V 2175 3875 50  0000 L CNN
+F 1 "Green" V 2075 3825 39  0000 L CNN
+F 2 "" H 2025 4125 50  0001 C CNN
+F 3 "" H 2025 4125 50  0001 C CNN
+	1    2025 4125
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	2025 4275 2025 4325
+Wire Wire Line
+	2025 4325 1975 4325
+Wire Wire Line
+	1675 4325 1625 4325
+Wire Wire Line
+	2025 3975 2025 3925
+$Comp
+L Drum_Machine_V00-rescue:R-device R65
+U 1 1 5BC0E1C3
+P 2325 4325
+F 0 "R65" V 2225 4325 39  0000 C CNN
+F 1 "300Ω" V 2325 4325 39  0000 C CNN
+F 2 "" V 2255 4325 50  0001 C CNN
+F 3 "" H 2325 4325 50  0001 C CNN
+	1    2325 4325
+	0    -1   1    0   
+$EndComp
+$Comp
+L led_alt:LED_ALT D24
+U 1 1 5BC0E1CA
+P 2525 4125
+F 0 "D24" V 2675 3875 50  0000 L CNN
+F 1 "Green" V 2575 3825 39  0000 L CNN
+F 2 "" H 2525 4125 50  0001 C CNN
+F 3 "" H 2525 4125 50  0001 C CNN
+	1    2525 4125
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	2525 4275 2525 4325
+Wire Wire Line
+	2525 4325 2475 4325
+Wire Wire Line
+	2175 4325 2125 4325
+Wire Wire Line
+	2525 3975 2525 3925
+$Comp
+L Drum_Machine_V00-rescue:R-device R75
+U 1 1 5BC0E1D6
+P 2825 4325
+F 0 "R75" V 2725 4325 39  0000 C CNN
+F 1 "300Ω" V 2825 4325 39  0000 C CNN
+F 2 "" V 2755 4325 50  0001 C CNN
+F 3 "" H 2825 4325 50  0001 C CNN
+	1    2825 4325
+	0    -1   1    0   
+$EndComp
+$Comp
+L led_alt:LED_ALT D31
+U 1 1 5BC0E1DD
+P 3025 4125
+F 0 "D31" V 3175 3875 50  0000 L CNN
+F 1 "Green" V 3075 3825 39  0000 L CNN
+F 2 "" H 3025 4125 50  0001 C CNN
+F 3 "" H 3025 4125 50  0001 C CNN
+	1    3025 4125
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	3025 4275 3025 4325
+Wire Wire Line
+	3025 4325 2975 4325
+Wire Wire Line
+	2675 4325 2625 4325
+Wire Wire Line
+	3025 3975 3025 3925
+$Comp
+L Drum_Machine_V00-rescue:R-device R85
+U 1 1 5BC0E1E9
+P 3325 4325
+F 0 "R85" V 3225 4325 39  0000 C CNN
+F 1 "300Ω" V 3325 4325 39  0000 C CNN
+F 2 "" V 3255 4325 50  0001 C CNN
+F 3 "" H 3325 4325 50  0001 C CNN
+	1    3325 4325
+	0    -1   1    0   
+$EndComp
+$Comp
+L led_alt:LED_ALT D38
+U 1 1 5BC0E1F0
+P 3525 4125
+F 0 "D38" V 3675 3875 50  0000 L CNN
+F 1 "Green" V 3575 3825 39  0000 L CNN
+F 2 "" H 3525 4125 50  0001 C CNN
+F 3 "" H 3525 4125 50  0001 C CNN
+	1    3525 4125
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	3525 4275 3525 4325
+Wire Wire Line
+	3525 4325 3475 4325
+Wire Wire Line
+	3175 4325 3125 4325
+Wire Wire Line
+	3525 3975 3525 3925
+$Comp
+L Drum_Machine_V00-rescue:R-device R34
+U 1 1 5BC23CB4
+P 825 3725
+F 0 "R34" V 725 3725 39  0000 C CNN
+F 1 "300Ω" V 825 3725 39  0000 C CNN
+F 2 "" V 755 3725 50  0001 C CNN
+F 3 "" H 825 3725 50  0001 C CNN
+	1    825  3725
+	0    -1   1    0   
+$EndComp
+$Comp
+L led_alt:LED_ALT D2
+U 1 1 5BC23CBB
+P 1025 3525
+F 0 "D2" V 1175 3275 50  0000 L CNN
+F 1 "Red" V 1075 3225 39  0000 L CNN
+F 2 "" H 1025 3525 50  0001 C CNN
+F 3 "" H 1025 3525 50  0001 C CNN
+	1    1025 3525
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	1025 3675 1025 3725
+Wire Wire Line
+	1025 3725 975  3725
+Wire Wire Line
+	675  3725 625  3725
+Wire Wire Line
+	1025 3375 1025 3325
+$Comp
+L Drum_Machine_V00-rescue:R-device R44
+U 1 1 5BC3A0AD
+P 1325 3725
+F 0 "R44" V 1225 3725 39  0000 C CNN
+F 1 "300Ω" V 1325 3725 39  0000 C CNN
+F 2 "" V 1255 3725 50  0001 C CNN
+F 3 "" H 1325 3725 50  0001 C CNN
+	1    1325 3725
+	0    -1   1    0   
+$EndComp
+$Comp
+L led_alt:LED_ALT D9
+U 1 1 5BC3A0B4
+P 1525 3525
+F 0 "D9" V 1675 3275 50  0000 L CNN
+F 1 "Red" V 1575 3225 39  0000 L CNN
+F 2 "" H 1525 3525 50  0001 C CNN
+F 3 "" H 1525 3525 50  0001 C CNN
+	1    1525 3525
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	1525 3675 1525 3725
+Wire Wire Line
+	1525 3725 1475 3725
+Wire Wire Line
+	1175 3725 1125 3725
+Wire Wire Line
+	1525 3375 1525 3325
+$Comp
+L Drum_Machine_V00-rescue:R-device R54
+U 1 1 5BC5142C
+P 1825 3725
+F 0 "R54" V 1725 3725 39  0000 C CNN
+F 1 "300Ω" V 1825 3725 39  0000 C CNN
+F 2 "" V 1755 3725 50  0001 C CNN
+F 3 "" H 1825 3725 50  0001 C CNN
+	1    1825 3725
+	0    -1   1    0   
+$EndComp
+$Comp
+L led_alt:LED_ALT D16
+U 1 1 5BC51433
+P 2025 3525
+F 0 "D16" V 2175 3275 50  0000 L CNN
+F 1 "Red" V 2075 3225 39  0000 L CNN
+F 2 "" H 2025 3525 50  0001 C CNN
+F 3 "" H 2025 3525 50  0001 C CNN
+	1    2025 3525
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	2025 3675 2025 3725
+Wire Wire Line
+	2025 3725 1975 3725
+Wire Wire Line
+	1675 3725 1625 3725
+Wire Wire Line
+	2025 3375 2025 3325
+$Comp
+L Drum_Machine_V00-rescue:R-device R64
+U 1 1 5BC696D7
+P 2325 3725
+F 0 "R64" V 2225 3725 39  0000 C CNN
+F 1 "300Ω" V 2325 3725 39  0000 C CNN
+F 2 "" V 2255 3725 50  0001 C CNN
+F 3 "" H 2325 3725 50  0001 C CNN
+	1    2325 3725
+	0    -1   1    0   
+$EndComp
+$Comp
+L led_alt:LED_ALT D23
+U 1 1 5BC696DE
+P 2525 3525
+F 0 "D23" V 2675 3275 50  0000 L CNN
+F 1 "Red" V 2575 3225 39  0000 L CNN
+F 2 "" H 2525 3525 50  0001 C CNN
+F 3 "" H 2525 3525 50  0001 C CNN
+	1    2525 3525
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	2525 3675 2525 3725
+Wire Wire Line
+	2525 3725 2475 3725
+Wire Wire Line
+	2175 3725 2125 3725
+Wire Wire Line
+	2525 3375 2525 3325
+$Comp
+L Drum_Machine_V00-rescue:R-device R74
+U 1 1 5BC9BCD1
+P 2825 3725
+F 0 "R74" V 2725 3725 39  0000 C CNN
+F 1 "300Ω" V 2825 3725 39  0000 C CNN
+F 2 "" V 2755 3725 50  0001 C CNN
+F 3 "" H 2825 3725 50  0001 C CNN
+	1    2825 3725
+	0    -1   1    0   
+$EndComp
+$Comp
+L led_alt:LED_ALT D30
+U 1 1 5BC9BCD8
+P 3025 3525
+F 0 "D30" V 3175 3275 50  0000 L CNN
+F 1 "Red" V 3075 3225 39  0000 L CNN
+F 2 "" H 3025 3525 50  0001 C CNN
+F 3 "" H 3025 3525 50  0001 C CNN
+	1    3025 3525
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	3025 3675 3025 3725
+Wire Wire Line
+	3025 3725 2975 3725
+Wire Wire Line
+	2675 3725 2625 3725
+Wire Wire Line
+	3025 3375 3025 3325
+$Comp
+L Drum_Machine_V00-rescue:R-device R84
+U 1 1 5BCD0E7A
+P 3325 3725
+F 0 "R84" V 3225 3725 39  0000 C CNN
+F 1 "300Ω" V 3325 3725 39  0000 C CNN
+F 2 "" V 3255 3725 50  0001 C CNN
+F 3 "" H 3325 3725 50  0001 C CNN
+	1    3325 3725
+	0    -1   1    0   
+$EndComp
+$Comp
+L led_alt:LED_ALT D37
+U 1 1 5BCD0E81
+P 3525 3525
+F 0 "D37" V 3675 3275 50  0000 L CNN
+F 1 "Red" V 3575 3225 39  0000 L CNN
+F 2 "" H 3525 3525 50  0001 C CNN
+F 3 "" H 3525 3525 50  0001 C CNN
+	1    3525 3525
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	3525 3675 3525 3725
+Wire Wire Line
+	3525 3725 3475 3725
+Wire Wire Line
+	3175 3725 3125 3725
+Wire Wire Line
+	3525 3375 3525 3325
+$Comp
+L Drum_Machine_V00-rescue:R-device R94
+U 1 1 5BCEC1B2
+P 3825 3725
+F 0 "R94" V 3725 3725 39  0000 C CNN
+F 1 "300Ω" V 3825 3725 39  0000 C CNN
+F 2 "" V 3755 3725 50  0001 C CNN
+F 3 "" H 3825 3725 50  0001 C CNN
+	1    3825 3725
+	0    -1   1    0   
+$EndComp
+$Comp
+L led_alt:LED_ALT D44
+U 1 1 5BCEC1B9
+P 4025 3525
+F 0 "D44" V 4175 3275 50  0000 L CNN
+F 1 "Blue" V 4075 3225 39  0000 L CNN
+F 2 "" H 4025 3525 50  0001 C CNN
+F 3 "" H 4025 3525 50  0001 C CNN
+	1    4025 3525
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	4025 3675 4025 3725
+Wire Wire Line
+	4025 3725 3975 3725
+Wire Wire Line
+	3675 3725 3625 3725
+Wire Wire Line
+	4025 3375 4025 3325
+$Comp
+L Drum_Machine_V00-rescue:R-device R104
+U 1 1 5BD07D8E
+P 4325 3725
+F 0 "R104" V 4225 3725 39  0000 C CNN
+F 1 "300Ω" V 4325 3725 39  0000 C CNN
+F 2 "" V 4255 3725 50  0001 C CNN
+F 3 "" H 4325 3725 50  0001 C CNN
+	1    4325 3725
+	0    -1   1    0   
+$EndComp
+$Comp
+L led_alt:LED_ALT D51
+U 1 1 5BD07D95
+P 4525 3575
+F 0 "D51" V 4675 3325 50  0000 L CNN
+F 1 "Blue" V 4575 3275 39  0000 L CNN
+F 2 "" H 4525 3575 50  0001 C CNN
+F 3 "" H 4525 3575 50  0001 C CNN
+	1    4525 3575
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	4525 3725 4475 3725
+Wire Wire Line
+	4175 3725 4125 3725
+Wire Wire Line
+	4525 3425 4525 3325
+$Comp
+L Drum_Machine_V00-rescue:R-device R95
+U 1 1 5BD24805
+P 3825 4325
+F 0 "R95" V 3725 4325 39  0000 C CNN
+F 1 "300Ω" V 3825 4325 39  0000 C CNN
+F 2 "" V 3755 4325 50  0001 C CNN
+F 3 "" H 3825 4325 50  0001 C CNN
+	1    3825 4325
+	0    -1   1    0   
+$EndComp
+$Comp
+L led_alt:LED_ALT D45
+U 1 1 5BD2480C
+P 4025 4125
+F 0 "D45" V 4175 3875 50  0000 L CNN
+F 1 "Blue" V 4075 3825 39  0000 L CNN
+F 2 "" H 4025 4125 50  0001 C CNN
+F 3 "" H 4025 4125 50  0001 C CNN
+	1    4025 4125
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	4025 4275 4025 4325
+Wire Wire Line
+	4025 4325 3975 4325
+Wire Wire Line
+	3675 4325 3625 4325
+Wire Wire Line
+	4025 3975 4025 3925
+$Comp
+L Drum_Machine_V00-rescue:R-device R105
+U 1 1 5BD24818
+P 4325 4325
+F 0 "R105" V 4225 4325 39  0000 C CNN
+F 1 "300Ω" V 4325 4325 39  0000 C CNN
+F 2 "" V 4255 4325 50  0001 C CNN
+F 3 "" H 4325 4325 50  0001 C CNN
+	1    4325 4325
+	0    -1   1    0   
+$EndComp
+$Comp
+L led_alt:LED_ALT D52
+U 1 1 5BD2481F
+P 4525 4175
+F 0 "D52" V 4675 3925 50  0000 L CNN
+F 1 "Blue" V 4575 3875 39  0000 L CNN
+F 2 "" H 4525 4175 50  0001 C CNN
+F 3 "" H 4525 4175 50  0001 C CNN
+	1    4525 4175
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	4525 4325 4475 4325
+Wire Wire Line
+	4175 4325 4125 4325
+Wire Wire Line
+	4525 4025 4525 3925
+$Comp
+L Drum_Machine_V00-rescue:R-device R36
+U 1 1 5BD4365C
+P 825 4925
+F 0 "R36" V 725 4925 39  0000 C CNN
+F 1 "300Ω" V 825 4925 39  0000 C CNN
+F 2 "" V 755 4925 50  0001 C CNN
+F 3 "" H 825 4925 50  0001 C CNN
+	1    825  4925
+	0    -1   1    0   
+$EndComp
+$Comp
+L led_alt:LED_ALT D4
+U 1 1 5BD43663
+P 1025 4725
+F 0 "D4" V 1175 4475 50  0000 L CNN
+F 1 "Red" V 1075 4425 39  0000 L CNN
+F 2 "" H 1025 4725 50  0001 C CNN
+F 3 "" H 1025 4725 50  0001 C CNN
+	1    1025 4725
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	1025 4875 1025 4925
+Wire Wire Line
+	1025 4925 975  4925
+Wire Wire Line
+	675  4925 625  4925
+Wire Wire Line
+	1025 4575 1025 4525
+$Comp
+L Drum_Machine_V00-rescue:R-device R46
+U 1 1 5BD4366F
+P 1325 4925
+F 0 "R46" V 1225 4925 39  0000 C CNN
+F 1 "300Ω" V 1325 4925 39  0000 C CNN
+F 2 "" V 1255 4925 50  0001 C CNN
+F 3 "" H 1325 4925 50  0001 C CNN
+	1    1325 4925
+	0    -1   1    0   
+$EndComp
+$Comp
+L led_alt:LED_ALT D11
+U 1 1 5BD43676
+P 1525 4725
+F 0 "D11" V 1675 4475 50  0000 L CNN
+F 1 "Red" V 1575 4425 39  0000 L CNN
+F 2 "" H 1525 4725 50  0001 C CNN
+F 3 "" H 1525 4725 50  0001 C CNN
+	1    1525 4725
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	1525 4875 1525 4925
+Wire Wire Line
+	1525 4925 1475 4925
+Wire Wire Line
+	1175 4925 1125 4925
+Wire Wire Line
+	1525 4575 1525 4525
+$Comp
+L Drum_Machine_V00-rescue:R-device R56
+U 1 1 5BD43682
+P 1825 4925
+F 0 "R56" V 1725 4925 39  0000 C CNN
+F 1 "300Ω" V 1825 4925 39  0000 C CNN
+F 2 "" V 1755 4925 50  0001 C CNN
+F 3 "" H 1825 4925 50  0001 C CNN
+	1    1825 4925
+	0    -1   1    0   
+$EndComp
+$Comp
+L led_alt:LED_ALT D18
+U 1 1 5BD43689
+P 2025 4725
+F 0 "D18" V 2175 4475 50  0000 L CNN
+F 1 "Red" V 2075 4425 39  0000 L CNN
+F 2 "" H 2025 4725 50  0001 C CNN
+F 3 "" H 2025 4725 50  0001 C CNN
+	1    2025 4725
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	2025 4875 2025 4925
+Wire Wire Line
+	2025 4925 1975 4925
+Wire Wire Line
+	1675 4925 1625 4925
+Wire Wire Line
+	2025 4575 2025 4525
+$Comp
+L Drum_Machine_V00-rescue:R-device R66
+U 1 1 5BD43695
+P 2325 4925
+F 0 "R66" V 2225 4925 39  0000 C CNN
+F 1 "300Ω" V 2325 4925 39  0000 C CNN
+F 2 "" V 2255 4925 50  0001 C CNN
+F 3 "" H 2325 4925 50  0001 C CNN
+	1    2325 4925
+	0    -1   1    0   
+$EndComp
+$Comp
+L led_alt:LED_ALT D25
+U 1 1 5BD4369C
+P 2525 4725
+F 0 "D25" V 2675 4475 50  0000 L CNN
+F 1 "Red" V 2575 4425 39  0000 L CNN
+F 2 "" H 2525 4725 50  0001 C CNN
+F 3 "" H 2525 4725 50  0001 C CNN
+	1    2525 4725
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	2525 4875 2525 4925
+Wire Wire Line
+	2525 4925 2475 4925
+Wire Wire Line
+	2175 4925 2125 4925
+Wire Wire Line
+	2525 4575 2525 4525
+$Comp
+L Drum_Machine_V00-rescue:R-device R76
+U 1 1 5BD436A8
+P 2825 4925
+F 0 "R76" V 2725 4925 39  0000 C CNN
+F 1 "300Ω" V 2825 4925 39  0000 C CNN
+F 2 "" V 2755 4925 50  0001 C CNN
+F 3 "" H 2825 4925 50  0001 C CNN
+	1    2825 4925
+	0    -1   1    0   
+$EndComp
+$Comp
+L led_alt:LED_ALT D32
+U 1 1 5BD436AF
+P 3025 4725
+F 0 "D32" V 3175 4475 50  0000 L CNN
+F 1 "Red" V 3075 4425 39  0000 L CNN
+F 2 "" H 3025 4725 50  0001 C CNN
+F 3 "" H 3025 4725 50  0001 C CNN
+	1    3025 4725
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	3025 4875 3025 4925
+Wire Wire Line
+	3025 4925 2975 4925
+Wire Wire Line
+	2675 4925 2625 4925
+Wire Wire Line
+	3025 4575 3025 4525
+$Comp
+L Drum_Machine_V00-rescue:R-device R86
+U 1 1 5BD436BB
+P 3325 4925
+F 0 "R86" V 3225 4925 39  0000 C CNN
+F 1 "300Ω" V 3325 4925 39  0000 C CNN
+F 2 "" V 3255 4925 50  0001 C CNN
+F 3 "" H 3325 4925 50  0001 C CNN
+	1    3325 4925
+	0    -1   1    0   
+$EndComp
+$Comp
+L led_alt:LED_ALT D39
+U 1 1 5BD436C2
+P 3525 4725
+F 0 "D39" V 3675 4475 50  0000 L CNN
+F 1 "Red" V 3575 4425 39  0000 L CNN
+F 2 "" H 3525 4725 50  0001 C CNN
+F 3 "" H 3525 4725 50  0001 C CNN
+	1    3525 4725
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	3525 4875 3525 4925
+Wire Wire Line
+	3525 4925 3475 4925
+Wire Wire Line
+	3175 4925 3125 4925
+Wire Wire Line
+	3525 4575 3525 4525
+$Comp
+L Drum_Machine_V00-rescue:R-device R96
+U 1 1 5BD68AB1
+P 3825 4925
+F 0 "R96" V 3725 4925 39  0000 C CNN
+F 1 "300Ω" V 3825 4925 39  0000 C CNN
+F 2 "" V 3755 4925 50  0001 C CNN
+F 3 "" H 3825 4925 50  0001 C CNN
+	1    3825 4925
+	0    -1   1    0   
+$EndComp
+$Comp
+L led_alt:LED_ALT D46
+U 1 1 5BD68AB8
+P 4025 4725
+F 0 "D46" V 4175 4475 50  0000 L CNN
+F 1 "Red" V 4075 4425 39  0000 L CNN
+F 2 "" H 4025 4725 50  0001 C CNN
+F 3 "" H 4025 4725 50  0001 C CNN
+	1    4025 4725
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	4025 4875 4025 4925
+Wire Wire Line
+	4025 4925 3975 4925
+Wire Wire Line
+	3675 4925 3625 4925
+Wire Wire Line
+	4025 4575 4025 4525
+$Comp
+L Drum_Machine_V00-rescue:R-device R106
+U 1 1 5BD68AC4
+P 4325 4925
+F 0 "R106" V 4225 4925 39  0000 C CNN
+F 1 "300Ω" V 4325 4925 39  0000 C CNN
+F 2 "" V 4255 4925 50  0001 C CNN
+F 3 "" H 4325 4925 50  0001 C CNN
+	1    4325 4925
+	0    -1   1    0   
+$EndComp
+$Comp
+L led_alt:LED_ALT D53
+U 1 1 5BD68ACB
+P 4525 4775
+F 0 "D53" V 4675 4525 50  0000 L CNN
+F 1 "Red" V 4575 4475 39  0000 L CNN
+F 2 "" H 4525 4775 50  0001 C CNN
+F 3 "" H 4525 4775 50  0001 C CNN
+	1    4525 4775
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	4525 4925 4475 4925
+Wire Wire Line
+	4175 4925 4125 4925
+Wire Wire Line
+	4525 4625 4525 4525
+$Comp
+L Drum_Machine_V00-rescue:R-device R38
+U 1 1 5BD8FBFE
+P 825 6125
+F 0 "R38" V 725 6125 39  0000 C CNN
+F 1 "300Ω" V 825 6125 39  0000 C CNN
+F 2 "" V 755 6125 50  0001 C CNN
+F 3 "" H 825 6125 50  0001 C CNN
+	1    825  6125
+	0    -1   1    0   
+$EndComp
+$Comp
+L led_alt:LED_ALT D6
+U 1 1 5BD8FC05
+P 1025 5925
+F 0 "D6" V 1175 5675 50  0000 L CNN
+F 1 "Red" V 1075 5625 39  0000 L CNN
+F 2 "" H 1025 5925 50  0001 C CNN
+F 3 "" H 1025 5925 50  0001 C CNN
+	1    1025 5925
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	1025 6075 1025 6125
+Wire Wire Line
+	1025 6125 975  6125
+Wire Wire Line
+	675  6125 625  6125
+Wire Wire Line
+	1025 5775 1025 5725
+$Comp
+L Drum_Machine_V00-rescue:R-device R48
+U 1 1 5BD8FC11
+P 1325 6125
+F 0 "R48" V 1225 6125 39  0000 C CNN
+F 1 "300Ω" V 1325 6125 39  0000 C CNN
+F 2 "" V 1255 6125 50  0001 C CNN
+F 3 "" H 1325 6125 50  0001 C CNN
+	1    1325 6125
+	0    -1   1    0   
+$EndComp
+$Comp
+L led_alt:LED_ALT D13
+U 1 1 5BD8FC18
+P 1525 5925
+F 0 "D13" V 1675 5675 50  0000 L CNN
+F 1 "Red" V 1575 5625 39  0000 L CNN
+F 2 "" H 1525 5925 50  0001 C CNN
+F 3 "" H 1525 5925 50  0001 C CNN
+	1    1525 5925
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	1525 6075 1525 6125
+Wire Wire Line
+	1525 6125 1475 6125
+Wire Wire Line
+	1175 6125 1125 6125
+Wire Wire Line
+	1525 5775 1525 5725
+$Comp
+L Drum_Machine_V00-rescue:R-device R58
+U 1 1 5BD8FC24
+P 1825 6125
+F 0 "R58" V 1725 6125 39  0000 C CNN
+F 1 "300Ω" V 1825 6125 39  0000 C CNN
+F 2 "" V 1755 6125 50  0001 C CNN
+F 3 "" H 1825 6125 50  0001 C CNN
+	1    1825 6125
+	0    -1   1    0   
+$EndComp
+$Comp
+L led_alt:LED_ALT D20
+U 1 1 5BD8FC2B
+P 2025 5925
+F 0 "D20" V 2175 5675 50  0000 L CNN
+F 1 "Red" V 2075 5625 39  0000 L CNN
+F 2 "" H 2025 5925 50  0001 C CNN
+F 3 "" H 2025 5925 50  0001 C CNN
+	1    2025 5925
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	2025 6075 2025 6125
+Wire Wire Line
+	2025 6125 1975 6125
+Wire Wire Line
+	1675 6125 1625 6125
+Wire Wire Line
+	2025 5775 2025 5725
+$Comp
+L Drum_Machine_V00-rescue:R-device R68
+U 1 1 5BD8FC37
+P 2325 6125
+F 0 "R68" V 2225 6125 39  0000 C CNN
+F 1 "300Ω" V 2325 6125 39  0000 C CNN
+F 2 "" V 2255 6125 50  0001 C CNN
+F 3 "" H 2325 6125 50  0001 C CNN
+	1    2325 6125
+	0    -1   1    0   
+$EndComp
+$Comp
+L led_alt:LED_ALT D27
+U 1 1 5BD8FC3E
+P 2525 5925
+F 0 "D27" V 2675 5675 50  0000 L CNN
+F 1 "Red" V 2575 5625 39  0000 L CNN
+F 2 "" H 2525 5925 50  0001 C CNN
+F 3 "" H 2525 5925 50  0001 C CNN
+	1    2525 5925
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	2525 6075 2525 6125
+Wire Wire Line
+	2525 6125 2475 6125
+Wire Wire Line
+	2175 6125 2125 6125
+Wire Wire Line
+	2525 5775 2525 5725
+$Comp
+L Drum_Machine_V00-rescue:R-device R78
+U 1 1 5BD8FC4A
+P 2825 6125
+F 0 "R78" V 2725 6125 39  0000 C CNN
+F 1 "300Ω" V 2825 6125 39  0000 C CNN
+F 2 "" V 2755 6125 50  0001 C CNN
+F 3 "" H 2825 6125 50  0001 C CNN
+	1    2825 6125
+	0    -1   1    0   
+$EndComp
+$Comp
+L led_alt:LED_ALT D34
+U 1 1 5BD8FC51
+P 3025 5925
+F 0 "D34" V 3175 5675 50  0000 L CNN
+F 1 "Red" V 3075 5625 39  0000 L CNN
+F 2 "" H 3025 5925 50  0001 C CNN
+F 3 "" H 3025 5925 50  0001 C CNN
+	1    3025 5925
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	3025 6075 3025 6125
+Wire Wire Line
+	3025 6125 2975 6125
+Wire Wire Line
+	2675 6125 2625 6125
+Wire Wire Line
+	3025 5775 3025 5725
+$Comp
+L Drum_Machine_V00-rescue:R-device R88
+U 1 1 5BD8FC5D
+P 3325 6125
+F 0 "R88" V 3225 6125 39  0000 C CNN
+F 1 "300Ω" V 3325 6125 39  0000 C CNN
+F 2 "" V 3255 6125 50  0001 C CNN
+F 3 "" H 3325 6125 50  0001 C CNN
+	1    3325 6125
+	0    -1   1    0   
+$EndComp
+$Comp
+L led_alt:LED_ALT D41
+U 1 1 5BD8FC64
+P 3525 5925
+F 0 "D41" V 3675 5675 50  0000 L CNN
+F 1 "Red" V 3575 5625 39  0000 L CNN
+F 2 "" H 3525 5925 50  0001 C CNN
+F 3 "" H 3525 5925 50  0001 C CNN
+	1    3525 5925
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	3525 6075 3525 6125
+Wire Wire Line
+	3525 6125 3475 6125
+Wire Wire Line
+	3175 6125 3125 6125
+Wire Wire Line
+	3525 5775 3525 5725
+$Comp
+L Drum_Machine_V00-rescue:R-device R98
+U 1 1 5BD8FC70
+P 3825 6125
+F 0 "R98" V 3725 6125 39  0000 C CNN
+F 1 "300Ω" V 3825 6125 39  0000 C CNN
+F 2 "" V 3755 6125 50  0001 C CNN
+F 3 "" H 3825 6125 50  0001 C CNN
+	1    3825 6125
+	0    -1   1    0   
+$EndComp
+$Comp
+L led_alt:LED_ALT D48
+U 1 1 5BD8FC77
+P 4025 5925
+F 0 "D48" V 4175 5675 50  0000 L CNN
+F 1 "Red" V 4075 5625 39  0000 L CNN
+F 2 "" H 4025 5925 50  0001 C CNN
+F 3 "" H 4025 5925 50  0001 C CNN
+	1    4025 5925
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	4025 6075 4025 6125
+Wire Wire Line
+	4025 6125 3975 6125
+Wire Wire Line
+	3675 6125 3625 6125
+Wire Wire Line
+	4025 5775 4025 5725
+$Comp
+L Drum_Machine_V00-rescue:R-device R108
+U 1 1 5BD8FC83
+P 4325 6125
+F 0 "R108" V 4225 6125 39  0000 C CNN
+F 1 "300Ω" V 4325 6125 39  0000 C CNN
+F 2 "" V 4255 6125 50  0001 C CNN
+F 3 "" H 4325 6125 50  0001 C CNN
+	1    4325 6125
+	0    -1   1    0   
+$EndComp
+$Comp
+L led_alt:LED_ALT D55
+U 1 1 5BD8FC8A
+P 4525 5975
+F 0 "D55" V 4675 5725 50  0000 L CNN
+F 1 "Red" V 4575 5675 39  0000 L CNN
+F 2 "" H 4525 5975 50  0001 C CNN
+F 3 "" H 4525 5975 50  0001 C CNN
+	1    4525 5975
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	4525 6125 4475 6125
+Wire Wire Line
+	4175 6125 4125 6125
+Wire Wire Line
+	4525 5825 4525 5725
+$Comp
+L Drum_Machine_V00-rescue:R-device R37
+U 1 1 5BE53EF5
+P 825 5525
+F 0 "R37" V 725 5525 39  0000 C CNN
+F 1 "300Ω" V 825 5525 39  0000 C CNN
+F 2 "" V 755 5525 50  0001 C CNN
+F 3 "" H 825 5525 50  0001 C CNN
+	1    825  5525
+	0    -1   1    0   
+$EndComp
+$Comp
+L led_alt:LED_ALT D5
+U 1 1 5BE53EFC
+P 1025 5325
+F 0 "D5" V 1175 5075 50  0000 L CNN
+F 1 "Blue" V 1075 5025 39  0000 L CNN
+F 2 "" H 1025 5325 50  0001 C CNN
+F 3 "" H 1025 5325 50  0001 C CNN
+	1    1025 5325
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	1025 5475 1025 5525
+Wire Wire Line
+	1025 5525 975  5525
+Wire Wire Line
+	675  5525 625  5525
+Wire Wire Line
+	1025 5175 1025 5125
+$Comp
+L Drum_Machine_V00-rescue:R-device R47
+U 1 1 5BE53F08
+P 1325 5525
+F 0 "R47" V 1225 5525 39  0000 C CNN
+F 1 "300Ω" V 1325 5525 39  0000 C CNN
+F 2 "" V 1255 5525 50  0001 C CNN
+F 3 "" H 1325 5525 50  0001 C CNN
+	1    1325 5525
+	0    -1   1    0   
+$EndComp
+$Comp
+L led_alt:LED_ALT D12
+U 1 1 5BE53F0F
+P 1525 5325
+F 0 "D12" V 1675 5075 50  0000 L CNN
+F 1 "Blue" V 1575 5025 39  0000 L CNN
+F 2 "" H 1525 5325 50  0001 C CNN
+F 3 "" H 1525 5325 50  0001 C CNN
+	1    1525 5325
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	1525 5475 1525 5525
+Wire Wire Line
+	1525 5525 1475 5525
+Wire Wire Line
+	1175 5525 1125 5525
+Wire Wire Line
+	1525 5175 1525 5125
+$Comp
+L Drum_Machine_V00-rescue:R-device R57
+U 1 1 5BE873B8
+P 1825 5525
+F 0 "R57" V 1725 5525 39  0000 C CNN
+F 1 "300Ω" V 1825 5525 39  0000 C CNN
+F 2 "" V 1755 5525 50  0001 C CNN
+F 3 "" H 1825 5525 50  0001 C CNN
+	1    1825 5525
+	0    -1   1    0   
+$EndComp
+$Comp
+L led_alt:LED_ALT D19
+U 1 1 5BE873BF
+P 2025 5325
+F 0 "D19" V 2175 5075 50  0000 L CNN
+F 1 "Blue" V 2075 5025 39  0000 L CNN
+F 2 "" H 2025 5325 50  0001 C CNN
+F 3 "" H 2025 5325 50  0001 C CNN
+	1    2025 5325
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	2025 5475 2025 5525
+Wire Wire Line
+	2025 5525 1975 5525
+Wire Wire Line
+	1675 5525 1625 5525
+Wire Wire Line
+	2025 5175 2025 5125
+$Comp
+L Drum_Machine_V00-rescue:R-device R67
+U 1 1 5BE873CB
+P 2325 5525
+F 0 "R67" V 2225 5525 39  0000 C CNN
+F 1 "300Ω" V 2325 5525 39  0000 C CNN
+F 2 "" V 2255 5525 50  0001 C CNN
+F 3 "" H 2325 5525 50  0001 C CNN
+	1    2325 5525
+	0    -1   1    0   
+$EndComp
+$Comp
+L led_alt:LED_ALT D26
+U 1 1 5BE873D2
+P 2525 5325
+F 0 "D26" V 2675 5075 50  0000 L CNN
+F 1 "Blue" V 2575 5025 39  0000 L CNN
+F 2 "" H 2525 5325 50  0001 C CNN
+F 3 "" H 2525 5325 50  0001 C CNN
+	1    2525 5325
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	2525 5475 2525 5525
+Wire Wire Line
+	2525 5525 2475 5525
+Wire Wire Line
+	2175 5525 2125 5525
+Wire Wire Line
+	2525 5175 2525 5125
+$Comp
+L Drum_Machine_V00-rescue:R-device R77
+U 1 1 5BEBD2F9
+P 2825 5525
+F 0 "R77" V 2725 5525 39  0000 C CNN
+F 1 "300Ω" V 2825 5525 39  0000 C CNN
+F 2 "" V 2755 5525 50  0001 C CNN
+F 3 "" H 2825 5525 50  0001 C CNN
+	1    2825 5525
+	0    -1   1    0   
+$EndComp
+$Comp
+L led_alt:LED_ALT D33
+U 1 1 5BEBD300
+P 3025 5325
+F 0 "D33" V 3175 5075 50  0000 L CNN
+F 1 "Blue" V 3075 5025 39  0000 L CNN
+F 2 "" H 3025 5325 50  0001 C CNN
+F 3 "" H 3025 5325 50  0001 C CNN
+	1    3025 5325
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	3025 5475 3025 5525
+Wire Wire Line
+	3025 5525 2975 5525
+Wire Wire Line
+	2675 5525 2625 5525
+Wire Wire Line
+	3025 5175 3025 5125
+$Comp
+L Drum_Machine_V00-rescue:R-device R87
+U 1 1 5BEBD30C
+P 3325 5525
+F 0 "R87" V 3225 5525 39  0000 C CNN
+F 1 "300Ω" V 3325 5525 39  0000 C CNN
+F 2 "" V 3255 5525 50  0001 C CNN
+F 3 "" H 3325 5525 50  0001 C CNN
+	1    3325 5525
+	0    -1   1    0   
+$EndComp
+$Comp
+L led_alt:LED_ALT D40
+U 1 1 5BEBD313
+P 3525 5325
+F 0 "D40" V 3675 5075 50  0000 L CNN
+F 1 "Blue" V 3575 5025 39  0000 L CNN
+F 2 "" H 3525 5325 50  0001 C CNN
+F 3 "" H 3525 5325 50  0001 C CNN
+	1    3525 5325
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	3525 5475 3525 5525
+Wire Wire Line
+	3525 5525 3475 5525
+Wire Wire Line
+	3175 5525 3125 5525
+Wire Wire Line
+	3525 5175 3525 5125
+$Comp
+L Drum_Machine_V00-rescue:R-device R97
+U 1 1 5BEF5A4E
+P 3825 5525
+F 0 "R97" V 3725 5525 39  0000 C CNN
+F 1 "300Ω" V 3825 5525 39  0000 C CNN
+F 2 "" V 3755 5525 50  0001 C CNN
+F 3 "" H 3825 5525 50  0001 C CNN
+	1    3825 5525
+	0    -1   1    0   
+$EndComp
+$Comp
+L led_alt:LED_ALT D47
+U 1 1 5BEF5A55
+P 4025 5325
+F 0 "D47" V 4175 5075 50  0000 L CNN
+F 1 "Blue" V 4075 5025 39  0000 L CNN
+F 2 "" H 4025 5325 50  0001 C CNN
+F 3 "" H 4025 5325 50  0001 C CNN
+	1    4025 5325
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	4025 5475 4025 5525
+Wire Wire Line
+	4025 5525 3975 5525
+Wire Wire Line
+	3675 5525 3625 5525
+Wire Wire Line
+	4025 5175 4025 5125
+$Comp
+L Drum_Machine_V00-rescue:R-device R107
+U 1 1 5BEF5A61
+P 4325 5525
+F 0 "R107" V 4225 5525 39  0000 C CNN
+F 1 "300Ω" V 4325 5525 39  0000 C CNN
+F 2 "" V 4255 5525 50  0001 C CNN
+F 3 "" H 4325 5525 50  0001 C CNN
+	1    4325 5525
+	0    -1   1    0   
+$EndComp
+$Comp
+L led_alt:LED_ALT D54
+U 1 1 5BEF5A68
+P 4525 5375
+F 0 "D54" V 4675 5125 50  0000 L CNN
+F 1 "Blue" V 4575 5075 39  0000 L CNN
+F 2 "" H 4525 5375 50  0001 C CNN
+F 3 "" H 4525 5375 50  0001 C CNN
+	1    4525 5375
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	4525 5525 4475 5525
+Wire Wire Line
+	4175 5525 4125 5525
+$Comp
+L Drum_Machine_V00-rescue:R-device R39
+U 1 1 5C1BBF59
+P 825 6725
+F 0 "R39" V 725 6725 39  0000 C CNN
+F 1 "300Ω" V 825 6725 39  0000 C CNN
+F 2 "" V 755 6725 50  0001 C CNN
+F 3 "" H 825 6725 50  0001 C CNN
+	1    825  6725
+	0    -1   1    0   
+$EndComp
+$Comp
+L led_alt:LED_ALT D7
+U 1 1 5C1BBF60
+P 1025 6525
+F 0 "D7" V 1175 6275 50  0000 L CNN
+F 1 "Blue" V 1075 6225 39  0000 L CNN
+F 2 "" H 1025 6525 50  0001 C CNN
+F 3 "" H 1025 6525 50  0001 C CNN
+	1    1025 6525
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	1025 6675 1025 6725
+Wire Wire Line
+	1025 6725 975  6725
+Wire Wire Line
+	675  6725 625  6725
+Wire Wire Line
+	625  6725 625  6875
+Wire Wire Line
+	1025 6375 1025 6325
+$Comp
+L Drum_Machine_V00-rescue:R-device R49
+U 1 1 5C1BBF6C
+P 1325 6725
+F 0 "R49" V 1225 6725 39  0000 C CNN
+F 1 "300Ω" V 1325 6725 39  0000 C CNN
+F 2 "" V 1255 6725 50  0001 C CNN
+F 3 "" H 1325 6725 50  0001 C CNN
+	1    1325 6725
+	0    -1   1    0   
+$EndComp
+$Comp
+L led_alt:LED_ALT D14
+U 1 1 5C1BBF73
+P 1525 6525
+F 0 "D14" V 1675 6275 50  0000 L CNN
+F 1 "Blue" V 1575 6225 39  0000 L CNN
+F 2 "" H 1525 6525 50  0001 C CNN
+F 3 "" H 1525 6525 50  0001 C CNN
+	1    1525 6525
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	1525 6675 1525 6725
+Wire Wire Line
+	1525 6725 1475 6725
+Wire Wire Line
+	1175 6725 1125 6725
+Wire Wire Line
+	1525 6375 1525 6325
+$Comp
+L Drum_Machine_V00-rescue:R-device R59
+U 1 1 5C1BBF7F
+P 1825 6725
+F 0 "R59" V 1725 6725 39  0000 C CNN
+F 1 "300Ω" V 1825 6725 39  0000 C CNN
+F 2 "" V 1755 6725 50  0001 C CNN
+F 3 "" H 1825 6725 50  0001 C CNN
+	1    1825 6725
+	0    -1   1    0   
+$EndComp
+$Comp
+L led_alt:LED_ALT D21
+U 1 1 5C1BBF86
+P 2025 6525
+F 0 "D21" V 2175 6275 50  0000 L CNN
+F 1 "Blue" V 2075 6225 39  0000 L CNN
+F 2 "" H 2025 6525 50  0001 C CNN
+F 3 "" H 2025 6525 50  0001 C CNN
+	1    2025 6525
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	2025 6675 2025 6725
+Wire Wire Line
+	2025 6725 1975 6725
+Wire Wire Line
+	1675 6725 1625 6725
+Wire Wire Line
+	1625 6725 1625 6875
+Wire Wire Line
+	2025 6375 2025 6325
+$Comp
+L Drum_Machine_V00-rescue:R-device R69
+U 1 1 5C1BBF92
+P 2325 6725
+F 0 "R69" V 2225 6725 39  0000 C CNN
+F 1 "300Ω" V 2325 6725 39  0000 C CNN
+F 2 "" V 2255 6725 50  0001 C CNN
+F 3 "" H 2325 6725 50  0001 C CNN
+	1    2325 6725
+	0    -1   1    0   
+$EndComp
+$Comp
+L led_alt:LED_ALT D28
+U 1 1 5C1BBF99
+P 2525 6525
+F 0 "D28" V 2675 6275 50  0000 L CNN
+F 1 "Blue" V 2575 6225 39  0000 L CNN
+F 2 "" H 2525 6525 50  0001 C CNN
+F 3 "" H 2525 6525 50  0001 C CNN
+	1    2525 6525
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	2525 6675 2525 6725
+Wire Wire Line
+	2525 6725 2475 6725
+Wire Wire Line
+	2175 6725 2125 6725
+Wire Wire Line
+	2125 6725 2125 6875
+Wire Wire Line
+	2525 6375 2525 6325
+$Comp
+L Drum_Machine_V00-rescue:R-device R79
+U 1 1 5C1BBFA5
+P 2825 6725
+F 0 "R79" V 2725 6725 39  0000 C CNN
+F 1 "300Ω" V 2825 6725 39  0000 C CNN
+F 2 "" V 2755 6725 50  0001 C CNN
+F 3 "" H 2825 6725 50  0001 C CNN
+	1    2825 6725
+	0    -1   1    0   
+$EndComp
+$Comp
+L led_alt:LED_ALT D35
+U 1 1 5C1BBFAC
+P 3025 6525
+F 0 "D35" V 3175 6275 50  0000 L CNN
+F 1 "Blue" V 3075 6225 39  0000 L CNN
+F 2 "" H 3025 6525 50  0001 C CNN
+F 3 "" H 3025 6525 50  0001 C CNN
+	1    3025 6525
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	3025 6675 3025 6725
+Wire Wire Line
+	3025 6725 2975 6725
+Wire Wire Line
+	2675 6725 2625 6725
+Wire Wire Line
+	2625 6725 2625 6875
+Wire Wire Line
+	3025 6375 3025 6325
+$Comp
+L Drum_Machine_V00-rescue:R-device R89
+U 1 1 5C1BBFB8
+P 3325 6725
+F 0 "R89" V 3225 6725 39  0000 C CNN
+F 1 "300Ω" V 3325 6725 39  0000 C CNN
+F 2 "" V 3255 6725 50  0001 C CNN
+F 3 "" H 3325 6725 50  0001 C CNN
+	1    3325 6725
+	0    -1   1    0   
+$EndComp
+$Comp
+L led_alt:LED_ALT D42
+U 1 1 5C1BBFBF
+P 3525 6525
+F 0 "D42" V 3675 6275 50  0000 L CNN
+F 1 "Blue" V 3575 6225 39  0000 L CNN
+F 2 "" H 3525 6525 50  0001 C CNN
+F 3 "" H 3525 6525 50  0001 C CNN
+	1    3525 6525
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	3525 6675 3525 6725
+Wire Wire Line
+	3525 6725 3475 6725
+Wire Wire Line
+	3175 6725 3125 6725
+Wire Wire Line
+	3125 6725 3125 6875
+Wire Wire Line
+	3525 6375 3525 6325
+$Comp
+L Drum_Machine_V00-rescue:R-device R99
+U 1 1 5C1BBFCB
+P 3825 6725
+F 0 "R99" V 3725 6725 39  0000 C CNN
+F 1 "300Ω" V 3825 6725 39  0000 C CNN
+F 2 "" V 3755 6725 50  0001 C CNN
+F 3 "" H 3825 6725 50  0001 C CNN
+	1    3825 6725
+	0    -1   1    0   
+$EndComp
+$Comp
+L led_alt:LED_ALT D49
+U 1 1 5C1BBFD2
+P 4025 6525
+F 0 "D49" V 4175 6275 50  0000 L CNN
+F 1 "Blue" V 4075 6225 39  0000 L CNN
+F 2 "" H 4025 6525 50  0001 C CNN
+F 3 "" H 4025 6525 50  0001 C CNN
+	1    4025 6525
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	4025 6675 4025 6725
+Wire Wire Line
+	4025 6725 3975 6725
+Wire Wire Line
+	3675 6725 3625 6725
+Wire Wire Line
+	4025 6375 4025 6325
+$Comp
+L Drum_Machine_V00-rescue:R-device R109
+U 1 1 5C1BBFDE
+P 4325 6725
+F 0 "R109" V 4225 6725 39  0000 C CNN
+F 1 "300Ω" V 4325 6725 39  0000 C CNN
+F 2 "" V 4255 6725 50  0001 C CNN
+F 3 "" H 4325 6725 50  0001 C CNN
+	1    4325 6725
+	0    -1   1    0   
+$EndComp
+$Comp
+L led_alt:LED_ALT D56
+U 1 1 5C1BBFE5
+P 4525 6575
+F 0 "D56" V 4675 6325 50  0000 L CNN
+F 1 "Blue" V 4575 6275 39  0000 L CNN
+F 2 "" H 4525 6575 50  0001 C CNN
+F 3 "" H 4525 6575 50  0001 C CNN
+	1    4525 6575
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	4525 6725 4475 6725
+Wire Wire Line
+	4175 6725 4125 6725
+Wire Wire Line
+	4525 6425 4525 6325
+$Comp
+L Drum_Machine_V00-rescue:2N3906-transistors Q35
+U 1 1 5C43C340
+P 4850 6125
+F 0 "Q35" H 4700 6025 39  0000 L CNN
+F 1 "2N3906" H 4825 5825 39  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-92_Molded_Narrow" H 5050 6050 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3906.pdf" H 4850 6125 50  0001 L CNN
+	1    4850 6125
+	-1   0    0    1   
+$EndComp
+Connection ~ 1425 1975
+Wire Wire Line
+	1425 1975 925  1975
+Connection ~ 1925 1975
+Wire Wire Line
+	1925 1975 1425 1975
+Connection ~ 2425 1975
+Wire Wire Line
+	2425 1975 1925 1975
+Connection ~ 2925 1975
+Wire Wire Line
+	2925 1975 2425 1975
+Connection ~ 3425 1975
+Wire Wire Line
+	3425 1975 2925 1975
+Connection ~ 3925 1975
+Wire Wire Line
+	3925 1975 3425 1975
+Wire Wire Line
+	4425 1975 3925 1975
+Wire Wire Line
+	1025 2725 1525 2725
+Connection ~ 1525 2725
+Wire Wire Line
+	1525 2725 2025 2725
+Connection ~ 2025 2725
+Wire Wire Line
+	2025 2725 2525 2725
+Connection ~ 2525 2725
+Wire Wire Line
+	2525 2725 3025 2725
+Connection ~ 3025 2725
+Wire Wire Line
+	3025 2725 3525 2725
+Connection ~ 3525 2725
+Wire Wire Line
+	3525 2725 4025 2725
+Connection ~ 4025 2725
+Wire Wire Line
+	4025 2725 4525 2725
+Wire Wire Line
+	1025 3325 1525 3325
+Connection ~ 1525 3325
+Wire Wire Line
+	1525 3325 2025 3325
+Connection ~ 2025 3325
+Wire Wire Line
+	2025 3325 2525 3325
+Connection ~ 2525 3325
+Wire Wire Line
+	2525 3325 3025 3325
+Connection ~ 3025 3325
+Wire Wire Line
+	3025 3325 3525 3325
+Connection ~ 3525 3325
+Wire Wire Line
+	3525 3325 4025 3325
+Connection ~ 4025 3325
+Wire Wire Line
+	4025 3325 4525 3325
+Wire Wire Line
+	1025 3925 1525 3925
+Connection ~ 1525 3925
+Wire Wire Line
+	1525 3925 2025 3925
+Connection ~ 2025 3925
+Wire Wire Line
+	2025 3925 2525 3925
+Connection ~ 2525 3925
+Wire Wire Line
+	2525 3925 3025 3925
+Connection ~ 3025 3925
+Connection ~ 3525 3925
+Connection ~ 4025 3925
+Wire Wire Line
+	4025 3925 4525 3925
+Wire Wire Line
+	1025 4525 1525 4525
+Connection ~ 1525 4525
+Wire Wire Line
+	1525 4525 2025 4525
+Connection ~ 2025 4525
+Wire Wire Line
+	2025 4525 2525 4525
+Connection ~ 2525 4525
+Wire Wire Line
+	2525 4525 3025 4525
+Connection ~ 3025 4525
+Connection ~ 3525 4525
+Connection ~ 4025 4525
+Wire Wire Line
+	4025 4525 4525 4525
+Wire Wire Line
+	1025 5125 1525 5125
+Connection ~ 1525 5125
+Wire Wire Line
+	1525 5125 2025 5125
+Connection ~ 2025 5125
+Wire Wire Line
+	2025 5125 2525 5125
+Connection ~ 2525 5125
+Wire Wire Line
+	2525 5125 3025 5125
+Connection ~ 3025 5125
+Connection ~ 3525 5125
+Connection ~ 4025 5125
+Wire Wire Line
+	4025 5125 4525 5125
+Wire Wire Line
+	1025 5725 1525 5725
+Connection ~ 1525 5725
+Wire Wire Line
+	1525 5725 2025 5725
+Connection ~ 2025 5725
+Wire Wire Line
+	2025 5725 2525 5725
+Connection ~ 2525 5725
+Wire Wire Line
+	2525 5725 3025 5725
+Connection ~ 3025 5725
+Connection ~ 3525 5725
+Connection ~ 4025 5725
+Wire Wire Line
+	4025 5725 4525 5725
+Wire Wire Line
+	1025 6325 1525 6325
+Connection ~ 1525 6325
+Wire Wire Line
+	1525 6325 2025 6325
+Connection ~ 2025 6325
+Wire Wire Line
+	2025 6325 2525 6325
+Connection ~ 2525 6325
+Wire Wire Line
+	2525 6325 3025 6325
+Connection ~ 3025 6325
+Connection ~ 3525 6325
+Connection ~ 4025 6325
+Wire Wire Line
+	4025 6325 4525 6325
+Wire Wire Line
+	625  2175 625  2225
+Wire Wire Line
+	1125 2175 1125 2225
+Wire Wire Line
+	1625 2175 1625 2225
+Wire Wire Line
+	2125 2175 2125 2225
+Wire Wire Line
+	2625 2175 2625 2225
+Wire Wire Line
+	3125 2225 3125 2175
+Wire Wire Line
+	3625 2225 3625 2175
+Wire Wire Line
+	4125 2225 4125 2175
+Wire Wire Line
+	625  2525 625  3125
+Connection ~ 625  3125
+Wire Wire Line
+	625  3125 625  3725
+Connection ~ 625  3725
+Connection ~ 625  4325
+Wire Wire Line
+	625  4325 625  4925
+Connection ~ 625  4925
+Wire Wire Line
+	625  4925 625  5525
+Connection ~ 625  5525
+Wire Wire Line
+	625  3725 625  4325
+Wire Wire Line
+	625  5525 625  6125
+Connection ~ 625  6725
+Connection ~ 625  6125
+Wire Wire Line
+	625  6125 625  6725
+Wire Wire Line
+	1125 2525 1125 3125
+Connection ~ 1125 3125
+Wire Wire Line
+	1125 3125 1125 3725
+Connection ~ 1125 3725
+Wire Wire Line
+	1125 3725 1125 4325
+Connection ~ 1125 4325
+Wire Wire Line
+	1125 4325 1125 4925
+Connection ~ 1125 4925
+Wire Wire Line
+	1125 4925 1125 5525
+Connection ~ 1125 5525
+Wire Wire Line
+	1125 5525 1125 6125
+Connection ~ 1125 6125
+Wire Wire Line
+	1125 6125 1125 6725
+Connection ~ 1125 6725
+Wire Wire Line
+	1125 6725 1125 6875
+Wire Wire Line
+	1625 2525 1625 3125
+Connection ~ 1625 6725
+Connection ~ 1625 3125
+Wire Wire Line
+	1625 3125 1625 3725
+Connection ~ 1625 3725
+Wire Wire Line
+	1625 3725 1625 4325
+Connection ~ 1625 4325
+Wire Wire Line
+	1625 4325 1625 4925
+Connection ~ 1625 4925
+Wire Wire Line
+	1625 4925 1625 5525
+Connection ~ 1625 5525
+Wire Wire Line
+	1625 5525 1625 6125
+Connection ~ 1625 6125
+Wire Wire Line
+	1625 6125 1625 6725
+Wire Wire Line
+	2125 2525 2125 3125
+Connection ~ 2125 6725
+Connection ~ 2125 3125
+Wire Wire Line
+	2125 3125 2125 3725
+Connection ~ 2125 3725
+Wire Wire Line
+	2125 3725 2125 4325
+Connection ~ 2125 4325
+Wire Wire Line
+	2125 4325 2125 4925
+Connection ~ 2125 4925
+Wire Wire Line
+	2125 4925 2125 5525
+Connection ~ 2125 5525
+Wire Wire Line
+	2125 5525 2125 6125
+Connection ~ 2125 6125
+Wire Wire Line
+	2125 6125 2125 6725
+Wire Wire Line
+	2625 2525 2625 3125
+Connection ~ 2625 6725
+Connection ~ 2625 3125
+Wire Wire Line
+	2625 3125 2625 3725
+Connection ~ 2625 3725
+Wire Wire Line
+	2625 3725 2625 4325
+Connection ~ 2625 4325
+Wire Wire Line
+	2625 4325 2625 4925
+Connection ~ 2625 4925
+Wire Wire Line
+	2625 4925 2625 5525
+Connection ~ 2625 5525
+Wire Wire Line
+	2625 5525 2625 6125
+Connection ~ 2625 6125
+Wire Wire Line
+	2625 6125 2625 6725
+Wire Wire Line
+	3125 2525 3125 3125
+Connection ~ 3125 3125
+Wire Wire Line
+	3125 3125 3125 3725
+Connection ~ 3125 3725
+Wire Wire Line
+	3125 3725 3125 4325
+Connection ~ 3125 4325
+Wire Wire Line
+	3125 4325 3125 4925
+Connection ~ 3125 4925
+Wire Wire Line
+	3125 4925 3125 5525
+Connection ~ 3125 5525
+Wire Wire Line
+	3125 5525 3125 6125
+Connection ~ 3125 6125
+Wire Wire Line
+	3125 6125 3125 6725
+Connection ~ 3125 6725
+Wire Wire Line
+	3525 6325 4025 6325
+Wire Wire Line
+	3025 6325 3525 6325
+Wire Wire Line
+	3525 5725 4025 5725
+Wire Wire Line
+	3025 5725 3525 5725
+Wire Wire Line
+	3525 5125 4025 5125
+Wire Wire Line
+	3025 5125 3525 5125
+Wire Wire Line
+	3525 4525 4025 4525
+Wire Wire Line
+	3025 4525 3525 4525
+Wire Wire Line
+	3525 3925 4025 3925
+Wire Wire Line
+	3025 3925 3525 3925
+Wire Wire Line
+	3625 2525 3625 3125
+Connection ~ 3625 3125
+Wire Wire Line
+	3625 3125 3625 3725
+Connection ~ 3625 3725
+Wire Wire Line
+	3625 3725 3625 4325
+Connection ~ 3625 4325
+Wire Wire Line
+	3625 4325 3625 4925
+Connection ~ 3625 4925
+Wire Wire Line
+	3625 4925 3625 5525
+Connection ~ 3625 5525
+Wire Wire Line
+	3625 5525 3625 6125
+Connection ~ 3625 6125
+Wire Wire Line
+	3625 6125 3625 6725
+Connection ~ 3625 6725
+Wire Wire Line
+	3625 6725 3625 6875
+Wire Wire Line
+	4125 2525 4125 3125
+Connection ~ 4125 3125
+Wire Wire Line
+	4125 3125 4125 3725
+Connection ~ 4125 3725
+Wire Wire Line
+	4125 3725 4125 4325
+Connection ~ 4125 4325
+Wire Wire Line
+	4125 4325 4125 4925
+Connection ~ 4125 4925
+Wire Wire Line
+	4125 4925 4125 5525
+Connection ~ 4125 5525
+Wire Wire Line
+	4125 5525 4125 6125
+Connection ~ 4125 6125
+Wire Wire Line
+	4125 6125 4125 6725
+Connection ~ 4125 6725
+Wire Wire Line
+	4125 6725 4125 6875
+$Comp
+L Drum_Machine_V00-rescue:2N2219-transistors Q12
+U 1 1 5B4B390E
+P 725 7075
+F 0 "Q12" H 625 7225 39  0000 L CNN
+F 1 "2N4401" H 525 6875 39  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-39-3" H 925 7000 50  0001 L CIN
+F 3 "http://www.onsemi.com/pub_link/Collateral/2N2219-D.PDF" H 725 7075 50  0001 L CNN
+	1    725  7075
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Drum_Machine_V00-rescue:2N2219-transistors Q14
+U 1 1 5D356D10
+P 1225 7075
+F 0 "Q14" H 1125 7225 39  0000 L CNN
+F 1 "2N4401" H 1025 6875 39  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-39-3" H 1425 7000 50  0001 L CIN
+F 3 "http://www.onsemi.com/pub_link/Collateral/2N2219-D.PDF" H 1225 7075 50  0001 L CNN
+	1    1225 7075
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Drum_Machine_V00-rescue:2N2219-transistors Q16
+U 1 1 5D3B373C
+P 1725 7075
+F 0 "Q16" H 1625 7225 39  0000 L CNN
+F 1 "2N4401" H 1525 6875 39  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-39-3" H 1925 7000 50  0001 L CIN
+F 3 "http://www.onsemi.com/pub_link/Collateral/2N2219-D.PDF" H 1725 7075 50  0001 L CNN
+	1    1725 7075
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Drum_Machine_V00-rescue:2N2219-transistors Q18
+U 1 1 5D410164
+P 2225 7075
+F 0 "Q18" H 2125 7225 39  0000 L CNN
+F 1 "2N4401" H 2025 6875 39  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-39-3" H 2425 7000 50  0001 L CIN
+F 3 "http://www.onsemi.com/pub_link/Collateral/2N2219-D.PDF" H 2225 7075 50  0001 L CNN
+	1    2225 7075
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Drum_Machine_V00-rescue:2N2219-transistors Q20
+U 1 1 5D46CD1E
+P 2725 7075
+F 0 "Q20" H 2625 7225 39  0000 L CNN
+F 1 "2N4401" H 2525 6875 39  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-39-3" H 2925 7000 50  0001 L CIN
+F 3 "http://www.onsemi.com/pub_link/Collateral/2N2219-D.PDF" H 2725 7075 50  0001 L CNN
+	1    2725 7075
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Drum_Machine_V00-rescue:2N2219-transistors Q22
+U 1 1 5D46CD25
+P 3225 7075
+F 0 "Q22" H 3125 7225 39  0000 L CNN
+F 1 "2N4401" H 3025 6875 39  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-39-3" H 3425 7000 50  0001 L CIN
+F 3 "http://www.onsemi.com/pub_link/Collateral/2N2219-D.PDF" H 3225 7075 50  0001 L CNN
+	1    3225 7075
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Drum_Machine_V00-rescue:2N2219-transistors Q24
+U 1 1 5D46CD2C
+P 3725 7075
+F 0 "Q24" H 3625 7225 39  0000 L CNN
+F 1 "2N4401" H 3525 6875 39  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-39-3" H 3925 7000 50  0001 L CIN
+F 3 "http://www.onsemi.com/pub_link/Collateral/2N2219-D.PDF" H 3725 7075 50  0001 L CNN
+	1    3725 7075
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Drum_Machine_V00-rescue:2N2219-transistors Q26
+U 1 1 5D46CD33
+P 4225 7075
+F 0 "Q26" H 4125 7225 39  0000 L CNN
+F 1 "2N4401" H 4025 6875 39  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-39-3" H 4425 7000 50  0001 L CIN
+F 3 "http://www.onsemi.com/pub_link/Collateral/2N2219-D.PDF" H 4225 7075 50  0001 L CNN
+	1    4225 7075
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	625  7875 725  7875
+Wire Wire Line
+	925  7075 925  7475
+Connection ~ 925  7475
+Wire Wire Line
+	1425 7075 1425 7475
+Connection ~ 1425 7475
+Wire Wire Line
+	1925 7075 1925 7475
+Connection ~ 1925 7475
+Wire Wire Line
+	2425 7075 2425 7475
+Connection ~ 2425 7475
+Wire Wire Line
+	2925 7075 2925 7475
+Connection ~ 2925 7475
+Wire Wire Line
+	3425 7075 3425 7475
+Connection ~ 3425 7475
+Wire Wire Line
+	3925 7075 3925 7475
+Connection ~ 3925 7475
+Wire Wire Line
+	4425 7075 4425 7475
+Connection ~ 4425 7475
+Wire Wire Line
+	4425 7825 4425 7875
+Wire Wire Line
+	3925 7825 3925 7975
+Wire Wire Line
+	3425 7825 3425 8075
+Wire Wire Line
+	2925 7825 2925 8175
+Wire Wire Line
+	2425 8275 2425 7825
+Wire Wire Line
+	1925 8375 1925 7825
+Wire Wire Line
+	1425 8475 1425 7825
+Wire Wire Line
+	925  7825 925  8575
+Text GLabel 2500 2525 0    35   Output ~ 0
+SW_Row_04
+Text GLabel 3000 2525 0    35   Output ~ 0
+SW_Row_03
+Text GLabel 3500 2525 0    35   Output ~ 0
+SW_Row_02
+Text GLabel 4000 2525 0    35   Output ~ 0
+SW_Row_01
+Text GLabel 4500 2525 0    35   Output ~ 0
+SM_Row_00
+Text GLabel 925  2525 0    35   Output ~ 0
+Aux_02
+Text GLabel 1425 2525 0    35   Output ~ 0
+Aux_01
+Text GLabel 1925 2525 0    35   Output ~ 0
+Aux_00
+Wire Wire Line
+	4425 2375 4525 2375
+Wire Wire Line
+	4525 2375 4525 2525
+Wire Wire Line
+	4525 2525 4500 2525
+Wire Wire Line
+	3925 2375 4025 2375
+Wire Wire Line
+	4025 2375 4025 2525
+Wire Wire Line
+	4025 2525 4000 2525
+Wire Wire Line
+	3425 2375 3525 2375
+Wire Wire Line
+	3525 2375 3525 2525
+Wire Wire Line
+	3525 2525 3500 2525
+Wire Wire Line
+	2925 2375 3025 2375
+Wire Wire Line
+	3025 2375 3025 2525
+Wire Wire Line
+	3025 2525 3000 2525
+Wire Wire Line
+	2425 2375 2525 2375
+Wire Wire Line
+	2525 2375 2525 2525
+Wire Wire Line
+	2525 2525 2500 2525
+Wire Wire Line
+	1925 2375 2025 2375
+Wire Wire Line
+	2025 2375 2025 2525
+Wire Wire Line
+	2025 2525 1925 2525
+Wire Wire Line
+	1425 2375 1525 2375
+Wire Wire Line
+	1525 2375 1525 2525
+Wire Wire Line
+	1525 2525 1425 2525
+Wire Wire Line
+	925  2375 1025 2375
+Wire Wire Line
+	1025 2375 1025 2525
+Wire Wire Line
+	1025 2525 925  2525
+Wire Wire Line
+	4750 2725 4525 2725
+Wire Wire Line
+	4750 4525 4525 4525
+Wire Wire Line
+	4525 5725 4750 5725
+Wire Wire Line
+	4525 5225 4525 5125
+Wire Wire Line
+	4750 5125 4525 5125
+Wire Wire Line
+	4750 3325 4525 3325
+Text GLabel 7575 6625 2    39   Input ~ 0
+Clock
+Text GLabel 7575 6925 2    39   Input ~ 0
+Latch
+Wire Wire Line
+	7575 6925 7525 6925
+Wire Wire Line
+	4750 6325 4525 6325
+Wire Wire Line
+	4750 3925 4525 3925
+$Comp
+L Drum_Machine_V00-rescue:2N3906-transistors Q34
+U 1 1 62EF20CB
+P 4850 5525
+F 0 "Q34" H 4700 5425 39  0000 L CNN
+F 1 "2N3906" H 4825 5225 39  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-92_Molded_Narrow" H 5050 5450 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3906.pdf" H 4850 5525 50  0001 L CNN
+	1    4850 5525
+	-1   0    0    1   
+$EndComp
+$Comp
+L Drum_Machine_V00-rescue:2N3906-transistors Q33
+U 1 1 62F5F6F6
+P 4850 4925
+F 0 "Q33" H 4700 4825 39  0000 L CNN
+F 1 "2N3906" H 4825 4625 39  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-92_Molded_Narrow" H 5050 4850 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3906.pdf" H 4850 4925 50  0001 L CNN
+	1    4850 4925
+	-1   0    0    1   
+$EndComp
+$Comp
+L Drum_Machine_V00-rescue:2N3906-transistors Q32
+U 1 1 62FCCD1B
+P 4850 4325
+F 0 "Q32" H 4700 4225 39  0000 L CNN
+F 1 "2N3906" H 4825 4025 39  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-92_Molded_Narrow" H 5050 4250 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3906.pdf" H 4850 4325 50  0001 L CNN
+	1    4850 4325
+	-1   0    0    1   
+$EndComp
+$Comp
+L Drum_Machine_V00-rescue:2N3906-transistors Q31
+U 1 1 6303A340
+P 4850 3725
+F 0 "Q31" H 4700 3625 39  0000 L CNN
+F 1 "2N3906" H 4825 3425 39  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-92_Molded_Narrow" H 5050 3650 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3906.pdf" H 4850 3725 50  0001 L CNN
+	1    4850 3725
+	-1   0    0    1   
+$EndComp
+$Comp
+L Drum_Machine_V00-rescue:2N3906-transistors Q30
+U 1 1 630A8187
+P 4850 3125
+F 0 "Q30" H 4700 3025 39  0000 L CNN
+F 1 "2N3906" H 4825 2800 39  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-92_Molded_Narrow" H 5050 3050 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3906.pdf" H 4850 3125 50  0001 L CNN
+	1    4850 3125
+	-1   0    0    1   
+$EndComp
+$Comp
+L Drum_Machine_V00-rescue:2N3906-transistors Q29
+U 1 1 631157A6
+P 4850 2525
+F 0 "Q29" H 4700 2425 39  0000 L CNN
+F 1 "2N3906" H 4825 2200 39  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-92_Molded_Narrow" H 5050 2450 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3906.pdf" H 4850 2525 50  0001 L CNN
+	1    4850 2525
+	-1   0    0    1   
+$EndComp
+$Comp
+L Drum_Machine_V00-rescue:2N3906-transistors Q28
+U 1 1 63182DC5
+P 4850 1775
+F 0 "Q28" H 4700 1675 39  0000 L CNN
+F 1 "2N3906" H 4825 1475 39  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-92_Molded_Narrow" H 5050 1700 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3906.pdf" H 4850 1775 50  0001 L CNN
+	1    4850 1775
+	-1   0    0    1   
+$EndComp
+Connection ~ 4525 2725
+Connection ~ 4525 3325
+Connection ~ 4525 3925
+Connection ~ 4525 4525
+Connection ~ 4525 5125
+Connection ~ 4525 5725
+Connection ~ 4525 6325
+Wire Wire Line
+	4975 4075 4975 4675
+Connection ~ 4975 4075
+Connection ~ 4975 4675
+Connection ~ 4425 1975
+Wire Wire Line
+	5475 1500 5475 1400
+Connection ~ 5475 1500
+Wire Wire Line
+	5960 7025 5960 8475
+Wire Wire Line
+	7525 7025 7525 7500
+Connection ~ 7525 7500
+Wire Wire Line
+	7525 7500 7525 7725
+Wire Wire Line
+	6075 5625 5575 5625
+Wire Wire Line
+	5575 5625 5575 6125
+Wire Wire Line
+	5400 6125 5575 6125
+Wire Wire Line
+	5400 1775 6075 1775
+Wire Wire Line
+	6075 1775 6075 4925
+Wire Wire Line
+	5400 2525 5975 2525
+Wire Wire Line
+	5975 2525 5975 5025
+Wire Wire Line
+	5975 5025 6075 5025
+Wire Wire Line
+	6075 5125 5875 5125
+Wire Wire Line
+	5875 5125 5875 3125
+Wire Wire Line
+	5400 3125 5875 3125
+Wire Wire Line
+	6075 5225 5775 5225
+Wire Wire Line
+	5775 5225 5775 3725
+Wire Wire Line
+	5375 4325 5400 4325
+Wire Wire Line
+	5675 4325 5675 5325
+Wire Wire Line
+	5675 5325 6075 5325
+Wire Wire Line
+	5400 4325 5675 4325
+Wire Wire Line
+	5400 4925 5575 4925
+Wire Wire Line
+	5575 4925 5575 5425
+Wire Wire Line
+	5575 5425 6075 5425
+Wire Wire Line
+	5400 5525 6075 5525
+Connection ~ 5400 4325
+Wire Wire Line
+	7700 4925 7850 4925
+Wire Wire Line
+	7850 4700 7850 4925
+Connection ~ 7850 4925
+Wire Wire Line
+	7475 5225 7850 5225
+Wire Wire Line
+	7850 4925 7850 5225
+Connection ~ 7850 5225
+Wire Wire Line
+	7850 5225 7850 6725
+Wire Wire Line
+	4425 1975 4750 1975
+Wire Wire Line
+	625  7275 625  7875
+Wire Wire Line
+	1625 7275 1625 7875
+Connection ~ 1625 7875
+Wire Wire Line
+	1625 7875 1725 7875
+Wire Wire Line
+	1125 7275 1125 7875
+Wire Wire Line
+	2125 7275 2125 7875
+Wire Wire Line
+	2625 7275 2625 7875
+Wire Wire Line
+	3125 7275 3125 7875
+Wire Wire Line
+	3625 7275 3625 7875
+Wire Wire Line
+	4125 7275 4125 7875
+Connection ~ 4125 7875
+Wire Wire Line
+	4125 7875 4225 7875
+Connection ~ 3625 7875
+Wire Wire Line
+	3625 7875 3725 7875
+Connection ~ 3125 7875
+Wire Wire Line
+	3125 7875 3225 7875
+Connection ~ 2625 7875
+Wire Wire Line
+	2625 7875 2725 7875
+Connection ~ 2125 7875
+Wire Wire Line
+	2125 7875 2225 7875
+Connection ~ 1125 7875
+Wire Wire Line
+	1125 7875 1225 7875
+Wire Wire Line
+	1125 7875 1125 7880
+$EndSCHEMATC

@@ -1,0 +1,7 @@
+(sym_lib_table
+  (lib (name Drum_Machine_V00-rescue)(type Legacy)(uri ${KIPRJMOD}/Drum_Machine_V00-rescue.lib)(options "")(descr ""))
+  (lib (name Drum_Machine_V00)(type Legacy)(uri /home/prototype/Element14/SUDO_SERGEANT/sudo_Sergeant_21_Schematic_Design_On_GNU-Linux_System/Schematics/Drum_Machine_V00/Drum_Machine_V00.lib)(options "")(descr ""))
+  (lib (name TOT-5361BR)(type Legacy)(uri /home/prototype/Element14/SUDO_SERGEANT/sudo_Sergeant_21_Schematic_Design_On_GNU-Linux_System/Schematics/Drum_Machine_V00/TOT-5361BR.lib)(options "")(descr ""))
+  (lib (name led_alt)(type Legacy)(uri ${KIPRJMOD}/led_alt.lib)(options "")(descr ""))
+  (lib (name Drum_Machine_V01)(type Legacy)(uri /home/prototype/Element14/SUDO_SERGEANT/sudo_Sergeant_21_Schematic_Design_On_GNU-Linux_System/Schematics/Drum_Machine_V00/Drum_Machine_V01.lib)(options "")(descr ""))
+)

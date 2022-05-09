@@ -1,0 +1,528 @@
+EESchema Schematic File Version 4
+LIBS:Drum_Machine_V00-cache
+EELAYER 26 0
+EELAYER END
+$Descr USLetter 11000 8500
+encoding utf-8
+Sheet 7 7
+Title "Drum Machine"
+Date "2018-06-15"
+Rev "V00"
+Comp "Prototype Engineering Studio LLC"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Drum_Machine_V01:Motorized_Potentiometer 10K?
+U 1 1 669BFD72
+P 3020 2350
+F 0 "10K?" H 3020 2250 39  0000 C CNN
+F 1 "Motorized_Potentiometer" V 2420 2780 39  0000 C CNN
+F 2 "" H 3020 1810 39  0001 C CNN
+F 3 "" H 3020 1810 39  0001 C CNN
+	1    3020 2350
+	0    1    -1   0   
+$EndComp
+$Comp
+L Drum_Machine_V01:Piezo LS3
+U 1 1 669BFF3A
+P 7760 2000
+F 0 "LS3" H 7760 2110 39  0000 C CNN
+F 1 "Piezo" H 7760 2138 39  0001 C CNN
+F 2 "" H 7760 2150 39  0001 C CNN
+F 3 "" H 7760 2150 39  0001 C CNN
+	1    7760 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Drum_Machine_V01:Piezo LS4
+U 1 1 669C0014
+P 7760 2850
+F 0 "LS4" H 7760 2960 39  0000 C CNN
+F 1 "Piezo" H 7760 2988 39  0001 C CNN
+F 2 "" H 7760 3000 39  0001 C CNN
+F 3 "" H 7760 3000 39  0001 C CNN
+	1    7760 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:R R127
+U 1 1 669C0463
+P 7360 2300
+F 0 "R127" V 7510 2220 50  0000 L CNN
+F 1 "1.8MΩ" V 7440 2190 50  0000 L CNN
+F 2 "" V 7290 2300 50  0001 C CNN
+F 3 "" H 7360 2300 50  0001 C CNN
+	1    7360 2300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L device:R R128
+U 1 1 669C0605
+P 7360 2500
+F 0 "R128" V 7270 2420 50  0000 L CNN
+F 1 "1.8MΩ" V 7210 2390 50  0000 L CNN
+F 2 "" V 7290 2500 50  0001 C CNN
+F 3 "" H 7360 2500 50  0001 C CNN
+	1    7360 2500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L device:R R129
+U 1 1 669C0665
+P 7760 2300
+F 0 "R129" V 7910 2220 50  0000 L CNN
+F 1 "1.8MΩ" V 7840 2190 50  0000 L CNN
+F 2 "" V 7690 2300 50  0001 C CNN
+F 3 "" H 7760 2300 50  0001 C CNN
+	1    7760 2300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L device:R R130
+U 1 1 669C069B
+P 7760 2500
+F 0 "R130" V 7670 2430 50  0000 L CNN
+F 1 "1.8MΩ" V 7610 2400 50  0000 L CNN
+F 2 "" V 7690 2500 50  0001 C CNN
+F 3 "" H 7760 2500 50  0001 C CNN
+	1    7760 2500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7960 2000 7960 2300
+Wire Wire Line
+	7910 2500 7960 2500
+Connection ~ 7960 2500
+Wire Wire Line
+	7960 2500 7960 2850
+Wire Wire Line
+	7910 2300 7960 2300
+Connection ~ 7960 2300
+Wire Wire Line
+	7610 2300 7560 2300
+Wire Wire Line
+	7560 2850 7560 2500
+Wire Wire Line
+	7510 2500 7560 2500
+Connection ~ 7560 2500
+Wire Wire Line
+	7560 2500 7610 2500
+Wire Wire Line
+	7560 2000 7560 2300
+Connection ~ 7560 2300
+Wire Wire Line
+	7560 2300 7510 2300
+Wire Wire Line
+	7210 2300 7160 2300
+Wire Wire Line
+	7160 2300 7160 2400
+Wire Wire Line
+	7160 2500 7210 2500
+Wire Wire Line
+	7160 2400 7050 2400
+Connection ~ 7160 2400
+Wire Wire Line
+	7160 2400 7160 2500
+Wire Wire Line
+	7560 2000 7050 2000
+Connection ~ 7560 2000
+Wire Wire Line
+	7560 2850 7050 2850
+Connection ~ 7560 2850
+Wire Wire Line
+	2920 2500 2920 2800
+Wire Wire Line
+	2920 1900 2920 2200
+Wire Wire Line
+	2770 2350 2670 2350
+Wire Wire Line
+	3170 2800 3170 2590
+Wire Wire Line
+	3170 2090 3170 1900
+$Comp
+L device:POT_Dual RV1
+U 1 1 669D2CEB
+P 3650 5200
+F 0 "RV1" V 3450 4950 50  0000 C CNN
+F 1 "Audio Out" V 4200 5100 50  0000 C CNN
+F 2 "" H 3900 5125 50  0001 C CNN
+F 3 "" H 3900 5125 50  0001 C CNN
+	1    3650 5200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3550 5300 3550 5200
+Connection ~ 3550 5200
+Wire Wire Line
+	3550 5200 3550 5100
+Wire Wire Line
+	3550 5600 3550 5650
+Wire Wire Line
+	3550 5650 3250 5650
+Wire Wire Line
+	3550 4750 3250 4750
+Wire Wire Line
+	6550 4750 6550 4850
+$Comp
+L power:GND #PWR0114
+U 1 1 669D8DE2
+P 6550 4850
+F 0 "#PWR0114" H 6550 4600 50  0001 C CNN
+F 1 "GND" H 6555 4677 50  0000 C CNN
+F 2 "" H 6550 4850 50  0001 C CNN
+F 3 "" H 6550 4850 50  0001 C CNN
+	1    6550 4850
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0115
+U 1 1 669D8ECE
+P 7100 4450
+F 0 "#PWR0115" H 7100 4300 50  0001 C CNN
+F 1 "+5V" H 7115 4623 50  0000 C CNN
+F 2 "" H 7100 4450 50  0001 C CNN
+F 3 "" H 7100 4450 50  0001 C CNN
+	1    7100 4450
+	-1   0    0    -1  
+$EndComp
+$Comp
+L device:Speaker LS2
+U 1 1 669D9143
+P 7250 5500
+F 0 "LS2" H 7419 5496 50  0000 L CNN
+F 1 "Speaker Left" H 7419 5405 50  0000 L CNN
+F 2 "" H 7250 5300 50  0001 C CNN
+F 3 "" H 7240 5450 50  0001 C CNN
+	1    7250 5500
+	1    0    0    1   
+$EndComp
+$Comp
+L device:Speaker LS1
+U 1 1 669D91E0
+P 7250 5050
+F 0 "LS1" H 7419 5046 50  0000 L CNN
+F 1 "Speaker Right" H 7419 4955 50  0000 L CNN
+F 2 "" H 7250 4850 50  0001 C CNN
+F 3 "" H 7240 5000 50  0001 C CNN
+	1    7250 5050
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	6900 5050 6900 5300
+Wire Wire Line
+	6800 4950 6800 5200
+Wire Wire Line
+	6550 4750 6350 4750
+$Comp
+L Drum_Machine_V01:Audio-Jack-2 J7
+U 1 1 66A01E06
+P 4150 4600
+F 0 "J7" H 3950 4600 39  0000 R CNN
+F 1 "Audio Out Left" H 3950 4550 39  0000 R CNN
+F 2 "" H 4150 4750 39  0001 C CNN
+F 3 "" H 4150 4750 39  0001 C CNN
+	1    4150 4600
+	0    -1   1    0   
+$EndComp
+$Comp
+L Drum_Machine_V01:Audio-Jack-2 J6
+U 1 1 66A0287E
+P 3900 4600
+F 0 "J6" H 3675 4600 39  0000 C CNN
+F 1 "Audio Out Right" H 3475 4550 39  0000 C CNN
+F 2 "" H 3900 4750 39  0001 C CNN
+F 3 "" H 3900 4750 39  0001 C CNN
+	1    3900 4600
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	3950 4850 3950 5050
+Wire Wire Line
+	4200 5050 4200 4850
+Wire Wire Line
+	4100 4850 4100 5250
+Wire Wire Line
+	3850 4850 3850 4950
+$Comp
+L switches:SW_SPST SW35
+U 1 1 66A06793
+P 6800 4650
+F 0 "SW35" H 6800 4885 50  0000 C CNN
+F 1 "SW_SPST" H 6800 4794 50  0000 C CNN
+F 2 "" H 6800 4650 50  0001 C CNN
+F 3 "" H 6800 4650 50  0001 C CNN
+	1    6800 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7000 4650 7100 4650
+Connection ~ 3950 5050
+Wire Wire Line
+	3950 5050 4200 5050
+$Comp
+L Drum_Machine_V01:Adafruit_Amplifier_Max_98306 U7
+U 1 1 66A32DD0
+P 5550 5100
+F 0 "U7" H 5550 4534 39  0000 C CNN
+F 1 "Adafruit_Amplifier_Max_98306" H 5550 4459 39  0000 C CNN
+F 2 "" H 6100 5700 39  0001 C CNN
+F 3 "" H 6100 5700 39  0001 C CNN
+	1    5550 5100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6350 5500 7050 5500
+Wire Wire Line
+	6350 5400 7050 5400
+Wire Wire Line
+	6350 5300 6900 5300
+Wire Wire Line
+	6350 5200 6800 5200
+Wire Wire Line
+	6800 4950 7050 4950
+Wire Wire Line
+	6900 5050 7050 5050
+Wire Wire Line
+	6350 4650 6600 4650
+Wire Wire Line
+	7100 4450 7100 4650
+Wire Wire Line
+	3950 5050 3850 5050
+Wire Wire Line
+	3550 4800 3550 4750
+$Comp
+L Drum_Machine_V01:Audio-Jack-3 J8
+U 1 1 66A520CF
+P 4400 4600
+F 0 "J8" H 4200 4600 39  0000 R CNN
+F 1 "Audio Out Stereo" H 4200 4550 39  0000 R CNN
+F 2 "" H 4400 4750 39  0001 C CNN
+F 3 "" H 4400 4750 39  0001 C CNN
+	1    4400 4600
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	4550 4450 4550 5050
+Wire Wire Line
+	4450 4850 4450 5250
+Wire Wire Line
+	4750 5150 4550 5150
+Wire Wire Line
+	4750 5050 4550 5050
+Connection ~ 3850 4950
+Wire Wire Line
+	4350 4850 4350 4950
+Text GLabel 3250 5650 0    39   Input ~ 0
+Audio_Out_Right
+Text GLabel 3250 4750 0    39   Input ~ 0
+Audio_Out_Left
+Text GLabel 7050 2400 0    39   Input ~ 0
+VREF
+Text GLabel 7050 2000 0    39   Input ~ 0
+Piezo_00
+Text GLabel 7050 2850 0    39   Input ~ 0
+Piezo_01
+$Comp
+L power:GND #PWR0116
+U 1 1 66A8D498
+P 8150 2500
+F 0 "#PWR0116" H 8150 2250 50  0001 C CNN
+F 1 "GND" H 8155 2327 50  0000 C CNN
+F 2 "" H 8150 2500 50  0001 C CNN
+F 3 "" H 8150 2500 50  0001 C CNN
+	1    8150 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7960 2300 7960 2400
+Wire Wire Line
+	8150 2500 8150 2400
+Wire Wire Line
+	8150 2400 7960 2400
+Connection ~ 7960 2400
+Wire Wire Line
+	7960 2400 7960 2500
+Text GLabel 2670 2350 0    39   Input ~ 0
+Slider
+$Comp
+L power:GND #PWR0117
+U 1 1 66A96545
+P 2920 2800
+F 0 "#PWR0117" H 2920 2550 50  0001 C CNN
+F 1 "GND" H 2925 2627 50  0000 C CNN
+F 2 "" H 2920 2800 50  0001 C CNN
+F 3 "" H 2920 2800 50  0001 C CNN
+	1    2920 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3030 5200 3550 5200
+$Comp
+L power:GNDA #PWR0118
+U 1 1 66A9B58E
+P 3030 5200
+F 0 "#PWR0118" H 3030 4950 50  0001 C CNN
+F 1 "GNDA" H 3035 5027 50  0000 C CNN
+F 2 "" H 3030 5200 50  0001 C CNN
+F 3 "" H 3030 5200 50  0001 C CNN
+	1    3030 5200
+	1    0    0    -1  
+$EndComp
+Text GLabel 2920 1900 1    39   Input ~ 0
+VREF
+Wire Wire Line
+	4100 5250 4450 5250
+Connection ~ 4200 5050
+Wire Wire Line
+	4200 5050 4550 5050
+Connection ~ 4450 5250
+Wire Wire Line
+	4350 4950 3850 4950
+Connection ~ 4550 5050
+Wire Wire Line
+	5900 4450 5900 4000
+Wire Wire Line
+	5900 4000 5850 4000
+Wire Wire Line
+	5800 4450 5800 4150
+Wire Wire Line
+	5800 4150 5350 4150
+Wire Wire Line
+	5350 4150 5350 4000
+Wire Wire Line
+	5700 4450 5700 4400
+Wire Wire Line
+	5700 4400 5950 4400
+Wire Wire Line
+	5950 4400 5950 3900
+Wire Wire Line
+	5950 3900 5850 3900
+$Comp
+L Drum_Machine_V01:DipSwitch_4 SW34
+U 1 1 66ACA297
+P 5600 3850
+F 0 "SW34" H 5600 4243 39  0000 C CNN
+F 1 "Gain Settings" H 5600 4168 39  0000 C CNN
+F 2 "" H 5600 4150 39  0001 C CNN
+F 3 "" H 5600 4150 39  0001 C CNN
+	1    5600 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5600 4450 5600 4200
+Wire Wire Line
+	5600 4200 5300 4200
+Wire Wire Line
+	5300 4200 5300 3900
+Wire Wire Line
+	5300 3900 5350 3900
+Wire Wire Line
+	5500 4450 5500 4350
+Wire Wire Line
+	5500 4350 6000 4350
+Wire Wire Line
+	6000 4350 6000 3800
+Wire Wire Line
+	6000 3800 5850 3800
+Wire Wire Line
+	5400 4450 5400 4250
+Wire Wire Line
+	5400 4250 5250 4250
+Wire Wire Line
+	5250 4250 5250 3800
+Wire Wire Line
+	5250 3800 5350 3800
+Wire Wire Line
+	5300 4450 5300 4300
+Wire Wire Line
+	5300 4300 6050 4300
+Wire Wire Line
+	6050 4300 6050 3700
+Wire Wire Line
+	6050 3700 5850 3700
+Wire Wire Line
+	5200 4450 5200 3700
+Wire Wire Line
+	5200 3700 5350 3700
+Wire Wire Line
+	3350 2800 3170 2800
+Text GLabel 3350 2800 2    39   Input ~ 0
+MDriver_2
+Wire Wire Line
+	3350 1900 3170 1900
+Text GLabel 3350 1900 2    39   Input ~ 0
+MDriver_1
+Wire Wire Line
+	4450 5250 4750 5250
+Wire Wire Line
+	4550 5050 4550 5150
+Connection ~ 4350 4950
+Wire Wire Line
+	4350 4950 4750 4950
+Wire Wire Line
+	3750 4950 3850 4950
+Wire Wire Line
+	3850 5200 3850 5050
+Wire Wire Line
+	3550 5200 3850 5200
+Wire Wire Line
+	3750 5450 3950 5450
+Wire Wire Line
+	3950 5450 3950 5250
+Wire Wire Line
+	3950 5250 4100 5250
+Connection ~ 4100 5250
+$Comp
+L Drum_Machine_V01:Audio-Jack-2 J9
+U 1 1 66B77609
+P 3950 6500
+F 0 "J9" H 3750 6500 39  0000 R CNN
+F 1 "Audio In Left" H 3750 6450 39  0000 R CNN
+F 2 "" H 3950 6650 39  0001 C CNN
+F 3 "" H 3950 6650 39  0001 C CNN
+	1    3950 6500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Drum_Machine_V01:Audio-Jack-2 J10
+U 1 1 66B77610
+P 3950 6750
+F 0 "J10" H 3725 6750 39  0000 C CNN
+F 1 "Audio In Right" H 3525 6700 39  0000 C CNN
+F 2 "" H 3950 6900 39  0001 C CNN
+F 3 "" H 3950 6900 39  0001 C CNN
+	1    3950 6750
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GNDA #PWR0119
+U 1 1 66B83426
+P 3650 6900
+F 0 "#PWR0119" H 3650 6650 50  0001 C CNN
+F 1 "GNDA" H 3655 6727 50  0000 C CNN
+F 2 "" H 3650 6900 50  0001 C CNN
+F 3 "" H 3650 6900 50  0001 C CNN
+	1    3650 6900
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 6550 3650 6550
+Wire Wire Line
+	3650 6550 3650 6800
+Wire Wire Line
+	3650 6800 3700 6800
+Wire Wire Line
+	3650 6800 3650 6900
+Connection ~ 3650 6800
+Wire Wire Line
+	3700 6700 3450 6700
+Wire Wire Line
+	3700 6450 3450 6450
+Text GLabel 3450 6450 0    39   Input ~ 0
+Audio_In_Left
+Text GLabel 3450 6700 0    39   Input ~ 0
+Audio_In_Right
+$EndSCHEMATC

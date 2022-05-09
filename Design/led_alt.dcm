@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LED_ALT
+D LED generic, alternativ symbol
+K led diode
+$ENDCMP
+#
+#End Doc Library
